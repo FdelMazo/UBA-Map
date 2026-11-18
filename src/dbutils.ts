@@ -6,7 +6,7 @@ export const submitBug = async (user: UserType.Info, bug: string) => {
   if (!bug) return;
   const formData = new FormData();
   const padron = user.padron;
-  const carreraid = user.carrera.id;
+  const carreraid = `uba-${user.carrera.id}`;
   const orientacionid = user.orientacion?.nombre;
   const findecarreraid = user.finDeCarrera?.id;
   formData.append(`${C.BUGS_FORM_ENTRIES.padron}`, padron);
