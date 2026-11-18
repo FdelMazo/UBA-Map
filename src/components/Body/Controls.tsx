@@ -60,7 +60,7 @@ const Controls = () => {
         <Box>
           <Link
             isExternal
-            href="https://fede.dm/UBA-Map/"
+            href="https://fede.dm/FIUBA-Map/"
             _hover={{ textDecoration: "none" }}
           >
             <Tag
@@ -75,7 +75,7 @@ const Controls = () => {
               transition="background 0.2s"
               _hover={{ bg: "obligatorias.400" }}
             >
-              <TagLabel>UBA-Map</TagLabel>
+              <TagLabel>FIUBA-Map</TagLabel>
               <TagRightIcon as={FaUniversity} />
             </Tag>
           </Link>
