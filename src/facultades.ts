@@ -1,8 +1,6 @@
 import { PLANES } from "./carreras";
 
 // Agrupa las carreras (`PLANES`) por facultad para el selector de carreras
-// Las carreras de FIUBA vienen de `carreras.ts` (compartido con FIUBA-Map)
-// Las de las demás facultades se suman acá como entradas nuevas
 
 export type Plan = (typeof PLANES)[number];
 
@@ -12,19 +10,14 @@ export interface Facultad {
   planes: Plan[];
 }
 
-// DUMMY: Sistemas movida a otra facultad para ver el dropdown con más de un grupo. Sacar.
-const DUMMY = ["Sistemas"];
+const planes = (...nombrescortos: string[]) =>
+  PLANES.filter((p) => nombrescortos.includes(p.nombrecorto));
 
 export const FACULTADES: Facultad[] = [
   {
-    nombre: "Facultad de Ingeniería",
-    nombrecorto: "FIUBA",
-    planes: PLANES.filter((p) => !DUMMY.includes(p.nombrecorto)),
-  },
-  {
-    nombre: "Facultad de Ciencias Exactas y Naturales",
-    nombrecorto: "FCEN",
-    planes: PLANES.filter((p) => DUMMY.includes(p.nombrecorto)),
+    nombre: "Facultad de Ciencias Económicas",
+    nombrecorto: "FCE",
+    planes: planes("Contador"),
   },
 ];
 

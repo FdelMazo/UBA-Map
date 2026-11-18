@@ -716,7 +716,8 @@ const Graph = (userContext: ReturnType<typeof User>) => {
             {
               id: lastOptativaId + 1,
               nombre: "Materia Optativa",
-              creditos: 4,
+              // Si la carrera cuenta materias, una optativa es una materia
+              creditos: user.carrera.cuentaMaterias ? 1 : 4,
             },
           ];
           break;

@@ -56,6 +56,9 @@ export namespace UserType {
     link: string;
     ano: number;
     beta?: boolean;
+    // La carrera no tiene creditos, solo cantidad de materias: cada materia del json vale 1 credito,
+    // y el front habla de materias en vez de creditos
+    cuentaMaterias?: boolean;
     graph: MateriaJSON[];
     creditos: Creditos;
     finDeCarrera?: FinDeCarrera[];

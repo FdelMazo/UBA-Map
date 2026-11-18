@@ -39,6 +39,7 @@ import { getCreditosTotalesNecesarios } from "../../utils";
 // y en hover setupear creditos por fuera del plan (materias optativas)
 const Creditos = () => {
   const { user } = React.useContext(UserContext);
+  const { cuentaMaterias } = user.carrera;
   const { optativas, optativasDispatch, creditos } =
     React.useContext(GraphContext);
   const [isOpen, setIsOpen] = React.useState(false);
@@ -81,11 +82,15 @@ const Creditos = () => {
           <Box w={{ base: "12ch", md: "16ch" }}>
             <Stat p="0.4em" color="white" size="sm">
               <StatLabel>
-                Créditos
+                {cuentaMaterias ? "Materias" : "Créditos"}
                 <Tooltip
                   placement="right"
                   hasArrow
-                  label="Agregar créditos de optativas"
+                  label={
+                    cuentaMaterias
+                      ? "Agregar materias optativas"
+                      : "Agregar créditos de optativas"
+                  }
                 >
                   <PlusSquareIcon
                     ml={1}
@@ -138,25 +143,28 @@ const Creditos = () => {
                     <Tooltip placement="top" label="Motivo" hasArrow>
                       <EditableInput px={2} width="12rem" noOfLines={1} />
                     </Tooltip>
-                    <Tooltip placement="top" label="Créditos" hasArrow>
-                      <NumberInput
-                        mx={2}
-                        borderRadius={5}
-                        size="sm"
-                        width="4rem"
-                        value={o.creditos}
-                        min={0}
-                        onChange={(_, creditos) => {
-                          handleEditOptativa(o.id, o.nombre, creditos || 0);
-                        }}
-                      >
-                        <NumberInputField />
-                        <NumberInputStepper>
-                          <NumberIncrementStepper />
-                          <NumberDecrementStepper />
-                        </NumberInputStepper>
-                      </NumberInput>
-                    </Tooltip>
+                    {/* Si la carrera cuenta materias, cada optativa vale 1: no hay nada que editar */}
+                    {!cuentaMaterias && (
+                      <Tooltip placement="top" label="Créditos" hasArrow>
+                        <NumberInput
+                          mx={2}
+                          borderRadius={5}
+                          size="sm"
+                          width="4rem"
+                          value={o.creditos}
+                          min={0}
+                          onChange={(_, creditos) => {
+                            handleEditOptativa(o.id, o.nombre, creditos || 0);
+                          }}
+                        >
+                          <NumberInputField />
+                          <NumberInputStepper>
+                            <NumberIncrementStepper />
+                            <NumberDecrementStepper />
+                          </NumberInputStepper>
+                        </NumberInput>
+                      </Tooltip>
+                    )}
                     <Tooltip placement="top" label="Eliminar" hasArrow>
                       <IconButton
                         mx={1}
@@ -186,7 +194,7 @@ const Creditos = () => {
             <Flex justifyContent="space-between">
               <Text mr={4} alignSelf="center">
                 <Text as="span" fontWeight="semibold">
-                  Créditos por fuera del plan:{" "}
+                  {cuentaMaterias ? "Materias" : "Créditos"} por fuera del plan:{" "}
                 </Text>
                 <Text as="span">{creditosOptativas}</Text>
               </Text>
@@ -215,8 +223,9 @@ const Creditos = () => {
                   label={
                     <>
                       <Text>
-                        Los créditos por fuera del plan contabilizan como
-                        materias electivas y no influyen en el promedio.
+                        {cuentaMaterias ? "Las materias" : "Los créditos"} por
+                        fuera del plan contabilizan como materias electivas y no
+                        influyen en el promedio.
                       </Text>
                       <Text>
                         Pueden ser materias optativas (materias dadas en otra

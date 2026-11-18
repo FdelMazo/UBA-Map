@@ -5,19 +5,25 @@
 // - que no haya ciclos en el grafo de correlativas
 //
 // Uso: node scripts/validate-data.mjs [archivos...]
-// (sin argumentos, valida todos los jsons de src/data)
+// (sin argumentos, valida todos los jsons de src/data y sus subcarpetas)
 
 import { readFileSync, readdirSync } from "node:fs";
 import { join, relative } from "node:path";
 
 const DATA_DIR = new URL("../src/data/", import.meta.url).pathname;
 
+// Los jsons estan agrupados en una carpeta por facultad (src/data/<facultad>/*.json)
+const jsonsIn = (dir) =>
+  readdirSync(dir, { withFileTypes: true }).flatMap((e) =>
+    e.isDirectory()
+      ? jsonsIn(join(dir, e.name))
+      : e.name.endsWith(".json")
+        ? [join(dir, e.name)]
+        : [],
+  );
+
 const files =
-  process.argv.length > 2
-    ? process.argv.slice(2)
-    : readdirSync(DATA_DIR)
-        .filter((f) => f.endsWith(".json"))
-        .map((f) => join(DATA_DIR, f));
+  process.argv.length > 2 ? process.argv.slice(2) : jsonsIn(DATA_DIR);
 
 const validate = (materias) => {
   const errors = [];

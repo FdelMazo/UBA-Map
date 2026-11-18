@@ -1,11 +1,12 @@
 import { Badge, Flex, Tooltip, Text } from "@chakra-ui/react";
 import { QuestionIcon } from "@chakra-ui/icons";
 import React from "react";
-import { GraphContext } from "../../MapContext";
+import { GraphContext, UserContext } from "../../MapContext";
 
 // Cuando hay una materia seleccionada, te muestra el codigo, cuantos creditos da, etc
 const MateriaStatus = () => {
   const { getNode, displayedNode } = React.useContext(GraphContext);
+  const { user } = React.useContext(UserContext);
 
   const node = React.useMemo(
     () => (displayedNode ? getNode(displayedNode) : undefined),
@@ -27,11 +28,13 @@ const MateriaStatus = () => {
       </Text>
 
       <Flex gap={1} flexWrap="wrap">
-        <Badge fontSize="2xs" px={1} colorScheme="green" variant="outline">
-          {node?.id === "CBC"
-            ? `Clickealo para ver las materias!`
-            : `Otorga ${node?.creditos} créditos`}
-        </Badge>
+        {(node?.id === "CBC" || !user.carrera.cuentaMaterias) && (
+          <Badge fontSize="2xs" px={1} colorScheme="green" variant="outline">
+            {node?.id === "CBC"
+              ? `Clickealo para ver las materias!`
+              : `Otorga ${node?.creditos} créditos`}
+          </Badge>
+        )}
 
         {node?.requiere && (
           <Tooltip

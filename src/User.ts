@@ -8,10 +8,10 @@ import { GraphType } from "./types/Graph";
 // El padron se setea una vez que el usuario se loguea exitosamente (O sea, logged = padron !== "")
 const initialUser: UserType.Info = {
   padron: "",
-  carrera: CARRERAS.find((c) => c.id === "informatica-2020")!,
+  carrera: CARRERAS.find((c) => c.id === "contador-2019")!,
   orientacion: null,
   finDeCarrera: null,
-  record: { padron: "", ultimaCarrera: "informatica-2020", carreras: {} },
+  record: { padron: "", ultimaCarrera: "contador-2019", carreras: {} },
 };
 
 const Login = () => {
@@ -74,7 +74,7 @@ const Login = () => {
     const { record, binId: foundBinId } = res;
     const carrera =
       CARRERAS.find((c) => c.id === record.ultimaCarrera) ??
-      CARRERAS.find((c) => c.id === "informatica-2020")!;
+      CARRERAS.find((c) => c.id === "contador-2019")!;
     const carreraData = record.carreras[carrera.id];
     const orientacion = getOrientacion(carrera, carreraData?.orientacion);
     const finDeCarrera = carreraData?.finDeCarrera
