@@ -78,40 +78,10 @@ const Sugerencias = () => {
                     <AlertDescription px={5} display="block">
                       <VStack spacing={2}>
                         <Text w="100%">
-                          Por más que algún día
-                          <Link
-                            isExternal
-                            _hover={{
-                              _light: {
-                                color: "electivas.500",
-                              },
-                              _dark: {
-                                color: "electivas.400",
-                              },
-                            }}
-                            href="https://status.fede.dm"
-                          >
-                            {" "}
-                            me voy a recibir{" "}
-                            <ExternalLinkIcon
-                              _light={{
-                                color: "electivas.500",
-                              }}
-                              _dark={{
-                                color: "electivas.400",
-                              }}
-                            />
-                          </Link>{" "}
-                          y dejar de agregar funcionalidades nuevas al proyecto,
-                          los <em>bugs</em> críticos los voy a seguir
-                          arreglando.
+                          Si ves algo mal con tu carrera, o tu carrera todavía
+                          no fue cargada, avisame!
                         </Text>
                         <Text w="100%">
-                          Así que si encontrás algo que no funciona, avisame!
-                        </Text>
-                        <Text w="100%">
-                          Más alla de eso, gracias por usar la herramienta!
-                          Espero que te haya servido.
                           <Link
                             isExternal
                             _hover={{
@@ -199,7 +169,7 @@ const Sugerencias = () => {
                               color: "electivas.400",
                             },
                           }}
-                          href="https://github.com/FdelMazo/FIUBA-Map/issues/new"
+                          href="https://github.com/FdelMazo/UBA-Map/issues/new"
                         >
                           levantando un <em>issue</em> directamente.{" "}
                           <ExternalLinkIcon
