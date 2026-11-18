@@ -12,10 +12,13 @@ import {
   Text,
   Badge,
   MenuItem,
+  MenuGroup,
+  MenuDivider,
   useColorModeValue,
   BadgeProps,
 } from "@chakra-ui/react";
-import { CARRERAS, PLANES } from "../../carreras";
+import { CARRERAS } from "../../carreras";
+import { FACULTADES, Plan, TODOS_LOS_PLANES } from "../../facultades";
 import { GraphContext, UserContext } from "../../MapContext";
 
 const AnoBadge = ({
@@ -31,19 +34,6 @@ const AnoBadge = ({
     colorScheme: "gray",
     ...rest,
   };
-  if (ano === 2020) {
-    return (
-      <Badge
-        {...commonProps}
-        fontSize={{ base: "0.55rem", md: "x-small" }}
-        lineHeight={{ base: 1.1, md: "normal" }}
-        px={{ base: 0.5, md: 1 }}
-        colorScheme="green"
-      >
-        PLAN <br /> 2020
-      </Badge>
-    );
-  }
   return (
     <Badge {...commonProps} fontSize="small">
       {ano}
@@ -51,16 +41,85 @@ const AnoBadge = ({
   );
 };
 
-// Componente para elegir carrera
-const DropdownCarreras = () => {
+// Una carrera del dropdown, con un badge por cada plan
+const CarreraItem = ({
+  plan,
+  active = false,
+}: {
+  plan: Plan;
+  active?: boolean;
+}) => {
   const { user } = React.useContext(UserContext);
   const { changeCarrera } = React.useContext(GraphContext);
 
+  return (
+    <MenuItem
+      display="flex"
+      justifyContent="space-between"
+      gap={4}
+      {...(plan.planes.length === 1
+        ? { onClick: () => changeCarrera(plan.planes[0]!) }
+        : { cursor: "default", closeOnSelect: false })}
+    >
+      <Text fontWeight={active ? "bold" : "normal"}>{plan.nombre}</Text>
+      <Box ml={4} flexShrink={0}>
+        {plan.planes.map((c) => {
+          const p = CARRERAS.find((carrera) => carrera.id === c);
+          if (!p) return null;
+          const isActive = user.carrera.id === c;
+          return (
+            <AnoBadge
+              key={c}
+              ano={p.ano}
+              active={isActive}
+              cursor="pointer"
+              onClick={() => changeCarrera(c)}
+              _hover={
+                !isActive && plan.planes.length > 1 ? { border: "1px" } : {}
+              }
+            />
+          );
+        })}
+      </Box>
+    </MenuItem>
+  );
+};
+
+// Componente para elegir carrera
+const DropdownCarreras = () => {
+  const { user } = React.useContext(UserContext);
+
   const carrera = React.useMemo(() => {
-    const plan = PLANES.find((p) => p.planes.includes(user.carrera.id));
+    const plan = TODOS_LOS_PLANES.find((p) =>
+      p.planes.includes(user.carrera.id),
+    );
     const { nombre = "", nombrecorto = "" } = plan || {};
-    return { nombre, nombrecorto };
+    return { nombre, nombrecorto, plan };
   }, [user.carrera.id]);
+
+  // La facultad de la carrera actual va primera, y la carrera actual primera dentro de ella
+  const facultades = React.useMemo(() => {
+    const esActual = (p: Plan) => p === carrera.plan;
+    return FACULTADES.map((f) => ({
+      ...f,
+      planes: [
+        ...f.planes.filter(esActual),
+        ...f.planes.filter((p) => !esActual(p)),
+      ],
+    })).sort(
+      (a, b) =>
+        Number(b.planes.some(esActual)) - Number(a.planes.some(esActual)),
+    );
+  }, [carrera.plan]);
+
+  const groupTitleProps = {
+    textTransform: "uppercase" as const,
+    letterSpacing: "wider",
+    fontSize: "0.65rem",
+    fontWeight: "semibold",
+    color: useColorModeValue("gray.500", "gray.400"),
+    mb: 1,
+  };
 
   return (
     <Box
@@ -111,45 +170,20 @@ const DropdownCarreras = () => {
             <AnoBadge ano={user.carrera.ano} active={true} />
           </MenuButton>
         </Tooltip>
-        <MenuList overflowY="auto" maxHeight="70vh">
-          {PLANES.map((p) => (
-            <MenuItem
-              key={p.nombrecorto}
-              display="flex"
-              justifyContent="space-between"
-              {...(p.planes.length === 1
-                ? {
-                    onClick: () => {
-                      changeCarrera(p.planes[0]!);
-                    },
-                  }
-                : { cursor: "default", closeOnSelect: false })}
-            >
-              <Text as={p.planes.includes(user.carrera.id) ? "b" : "p"}>
-                {p.nombre}
-              </Text>
-              <Box ml={2}>
-                {p.planes.map((c) => {
-                  const plan = CARRERAS.find((carrera) => carrera.id === c);
-                  if (!plan) return null;
-                  const active = user.carrera.id === c;
-                  return (
-                    <AnoBadge
-                      key={c}
-                      ano={plan.ano}
-                      active={active}
-                      cursor="pointer"
-                      onClick={() => {
-                        changeCarrera(c);
-                      }}
-                      _hover={
-                        !active && p.planes.length > 1 ? { border: "1px" } : {}
-                      }
-                    />
-                  );
-                })}
-              </Box>
-            </MenuItem>
+        <MenuList overflowY="auto" maxHeight="70vh" py={1}>
+          {facultades.map((f, i) => (
+            <React.Fragment key={f.nombrecorto}>
+              {i > 0 && <MenuDivider />}
+              <MenuGroup title={f.nombre} {...groupTitleProps}>
+                {f.planes.map((p) => (
+                  <CarreraItem
+                    key={p.nombrecorto}
+                    plan={p}
+                    active={p === carrera.plan}
+                  />
+                ))}
+              </MenuGroup>
+            </React.Fragment>
           ))}
         </MenuList>
       </Menu>
