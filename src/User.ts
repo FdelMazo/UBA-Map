@@ -19,17 +19,17 @@ const Login = () => {
 
   // Inicializamos el padron (y el binId cacheado, si hay uno) con lo que hay en el storage
   const [padronInput, setPadronInput] = React.useState(
-    window.localStorage.getItem("padron") || "",
+    window.localStorage.getItem("uba:padron") || "",
   );
   const [binId, setBinId] = React.useState<string | undefined>(
-    window.localStorage.getItem("binId") || undefined,
+    window.localStorage.getItem("uba:binId") || undefined,
   );
   const logged = user.padron !== "";
 
   // Loading es para el spinner del input del padron
   // Si tenemos algo en el storage, directo arrancamos con loading
   const [loading, setLoading] = React.useState(
-    !!window.localStorage.getItem("padron"),
+    !!window.localStorage.getItem("uba:padron"),
   );
 
   // loggingIn es para cuando la pagina esta cargando todos los datos del usuario
@@ -83,8 +83,8 @@ const Login = () => {
 
     setUser({ padron, carrera, orientacion, finDeCarrera, record });
     setBinId(foundBinId);
-    window.localStorage.setItem("padron", padron);
-    window.localStorage.setItem("binId", foundBinId);
+    window.localStorage.setItem("uba:padron", padron);
+    window.localStorage.setItem("uba:binId", foundBinId);
     setLoading(false);
     setLoggingIn(false);
     return "ok";
@@ -100,7 +100,7 @@ const Login = () => {
     }
     const created = await dbCreate(padron, record);
     setBinId(created.binId);
-    window.localStorage.setItem("binId", created.binId);
+    window.localStorage.setItem("uba:binId", created.binId);
     return created.binId;
   };
 
@@ -108,8 +108,8 @@ const Login = () => {
   // padron localmente. El bin se crea recien en el primer guardado real (saveUserGraph),
   // asi que una cuenta que nunca hace nada nunca ocupa un bin
   const signup = (padron: string) => {
-    window.localStorage.setItem("padron", padron);
-    window.localStorage.removeItem("binId");
+    window.localStorage.setItem("uba:padron", padron);
+    window.localStorage.removeItem("uba:binId");
     setBinId(undefined);
     setUser({
       ...initialUser,
@@ -123,8 +123,8 @@ const Login = () => {
   const logout = () => {
     setUser({ ...initialUser, carrera: user.carrera });
     setBinId(undefined);
-    window.localStorage.removeItem("padron");
-    window.localStorage.removeItem("binId");
+    window.localStorage.removeItem("uba:padron");
+    window.localStorage.removeItem("uba:binId");
   };
 
   // Aca guardamos el mapa y toda la metadata que tiene, incluyendo ultimaCarrera y
