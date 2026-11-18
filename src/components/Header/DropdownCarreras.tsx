@@ -54,6 +54,7 @@ const CarreraItem = ({
 
   return (
     <MenuItem
+      fontSize="md"
       display="flex"
       justifyContent="space-between"
       gap={4}
