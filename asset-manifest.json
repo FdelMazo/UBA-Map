@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/UBA-Map/static/js/main.a7c1a278.js",
+    "main.js": "/UBA-Map/static/js/main.db69548b.js",
     "index.html": "/UBA-Map/index.html",
-    "main.a7c1a278.js.map": "/UBA-Map/static/js/main.a7c1a278.js.map"
+    "main.db69548b.js.map": "/UBA-Map/static/js/main.db69548b.js.map"
   },
   "entrypoints": [
-    "static/js/main.a7c1a278.js"
+    "static/js/main.db69548b.js"
   ]
 }
