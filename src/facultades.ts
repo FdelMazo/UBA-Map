@@ -17,12 +17,27 @@ export const FACULTADES: Facultad[] = [
   {
     nombre: "Facultad de Ciencias Económicas",
     nombrecorto: "FCE",
-    planes: planes("Contador"),
+    planes: planes("Contador", "Administración"),
   },
   {
     nombre: "Facultad de Psicología",
     nombrecorto: "PSI",
     planes: planes("Psicología"),
+  },
+  {
+    nombre: "Facultad de Medicina",
+    nombrecorto: "FMED",
+    planes: planes("Medicina"),
+  },
+  {
+    nombre: "Facultad de Arquitectura, Diseño y Urbanismo",
+    nombrecorto: "FADU",
+    planes: planes("Arquitectura"),
+  },
+  {
+    nombre: "Facultad de Derecho",
+    nombrecorto: "DERECHO",
+    planes: planes("Abogacía"),
   },
 ];
 

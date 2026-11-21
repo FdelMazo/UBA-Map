@@ -1,0 +1,307 @@
+[
+  {
+    "id": "CBC24",
+    "materia": "Introducción al Conocimiento de la Sociedad y el Estado",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "CBC40",
+    "materia": "Introducción al Pensamiento Científico",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "CBC42",
+    "materia": "Filosofía",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "CBC46",
+    "materia": "Introducción al Conocimiento Proyectual I",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "CBC47",
+    "materia": "Introducción al Conocimiento Proyectual II",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC48",
+    "materia": "Taller de Dibujo",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC51",
+    "materia": "Matemática",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC",
+    "materia": "Ciclo Básico Común",
+    "creditos": 0,
+    "categoria": "CBC",
+    "level": 0,
+    "correlativas": "CBC24-CBC40-CBC42-CBC46-CBC47-CBC48-CBC51"
+  },
+  {
+    "id": "A1",
+    "materia": "Arquitectura I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 1",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "ITE",
+    "materia": "Introducción a los Tipos Estructurales",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 1",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "ITC",
+    "materia": "Introducción a los Tipos Constructivos",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 1",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "IAC",
+    "materia": "Introducción a la Arquitectura Contemporánea",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 1",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "SRG",
+    "materia": "Sistemas de Representación Geométrica",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 1",
+    "level": 2,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "FAA",
+    "materia": "Física Aplicada a la Arquitectura",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 1",
+    "level": 2,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "MAT2",
+    "materia": "Matemática II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 1",
+    "level": 2,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "A2",
+    "materia": "Arquitectura II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 2",
+    "level": 3,
+    "correlativas": "A1-ITC-SRG"
+  },
+  {
+    "id": "E1",
+    "materia": "Estructuras I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 2",
+    "level": 3,
+    "correlativas": "ITE-ITC-MAT2"
+  },
+  {
+    "id": "C1",
+    "materia": "Construcciones I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 2",
+    "level": 3,
+    "correlativas": "ITE-ITC-MAT2"
+  },
+  {
+    "id": "H1",
+    "materia": "Historia I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 2",
+    "level": 3,
+    "correlativas": "IAC"
+  },
+  {
+    "id": "RA",
+    "materia": "Representación Arquitectónica",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 2",
+    "level": 4,
+    "correlativas": "SRG"
+  },
+  {
+    "id": "I1",
+    "materia": "Instalaciones I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 2",
+    "level": 4,
+    "correlativas": "ITC-FAA-MAT2"
+  },
+  {
+    "id": "M1",
+    "materia": "Morfología I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 2",
+    "level": 4,
+    "correlativas": "SRG"
+  },
+  {
+    "id": "A3",
+    "materia": "Arquitectura III",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 3",
+    "level": 5,
+    "correlativas": "IAC-A2-E1-C1-RA-I1-M1"
+  },
+  {
+    "id": "E2",
+    "materia": "Estructuras II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 3",
+    "level": 5,
+    "correlativas": "A1-SRG-E1-C1"
+  },
+  {
+    "id": "C2",
+    "materia": "Construcciones II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 3",
+    "level": 5,
+    "correlativas": "A1-SRG-C1"
+  },
+  {
+    "id": "H2",
+    "materia": "Historia II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 3",
+    "level": 5,
+    "correlativas": "A1-SRG-H1"
+  },
+  {
+    "id": "MP",
+    "materia": "Materialización de Proyectos",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 3",
+    "level": 6,
+    "correlativas": "IAC-A2-E1-C1-RA-I1-M1"
+  },
+  {
+    "id": "I2",
+    "materia": "Instalaciones II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 3",
+    "level": 6,
+    "correlativas": "A1-SRG-C1-I1"
+  },
+  {
+    "id": "M2",
+    "materia": "Morfología II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 3",
+    "level": 6,
+    "correlativas": "A1-RA-M1"
+  },
+  {
+    "id": "A4",
+    "materia": "Arquitectura IV",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 4",
+    "level": 7,
+    "correlativas": "H1-A3-C2-MP-I2-M2"
+  },
+  {
+    "id": "E3",
+    "materia": "Estructuras III",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 4",
+    "level": 7,
+    "correlativas": "IAC-FAA-A2-RA-M1-E2"
+  },
+  {
+    "id": "C3",
+    "materia": "Construcciones III",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 4",
+    "level": 7,
+    "correlativas": "IAC-FAA-A2-RA-M1-C2"
+  },
+  {
+    "id": "H3",
+    "materia": "Historia III",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 4",
+    "level": 7,
+    "correlativas": "ITE-FAA-MAT2-A2-RA-M1-H2"
+  },
+  {
+    "id": "PU",
+    "materia": "Planificación Urbana",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 4",
+    "level": 8,
+    "correlativas": "H1-A3"
+  },
+  {
+    "id": "I3",
+    "materia": "Instalaciones III",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 4",
+    "level": 8,
+    "correlativas": "IAC-A2-RA-M1-C2-I2"
+  },
+  {
+    "id": "T",
+    "materia": "Teoría de la Arquitectura",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 4",
+    "level": 8,
+    "correlativas": "H1-A3-MP-M2"
+  },
+  {
+    "id": "PUR",
+    "materia": "Proyecto Urbano",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 5",
+    "level": 9,
+    "correlativas": "A4-E3-C3-H3-I3-T"
+  },
+  {
+    "id": "DLO",
+    "materia": "Dirección y Legislación de Obra",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 5",
+    "level": 9,
+    "correlativas": "E2-H2-A4"
+  },
+  {
+    "id": "PPA",
+    "materia": "Práctica Profesional Asistida",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 5",
+    "level": 9,
+    "correlativas": "A3-E2-C2-H2-MP-I2-M2"
+  },
+  {
+    "id": "PA",
+    "materia": "Proyecto Arquitectónico",
+    "categoria": "Fin de Carrera",
+    "level": 10,
+    "correlativas": "PUR"
+  }
+]

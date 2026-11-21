@@ -1,0 +1,334 @@
+[
+  {
+    "id": "IPC",
+    "materia": "Introducción al Pensamiento Científico",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "ICSE",
+    "materia": "Introducción al Conocimiento de la Sociedad y el Estado",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "QUIMICA",
+    "materia": "Química",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "BIOFISICA",
+    "materia": "Física e Introducción a la Biofísica",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "BIOLOGIA",
+    "materia": "Biología e Introducción a la Biología Celular",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "MAT",
+    "materia": "Matemática",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC",
+    "materia": "Ciclo Básico Común",
+    "creditos": 0,
+    "categoria": "CBC",
+    "level": 0,
+    "correlativas": "IPC-ICSE-QUIMICA-BIOFISICA-BIOLOGIA-MAT"
+  },
+  {
+    "id": "EMBRIO",
+    "materia": "Embriología",
+    "categoria": "Materias Obligatorias",
+    "level": 1,
+    "grupo": "Ciclo Biomédico",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "BMG",
+    "materia": "Biología Molecular y Genética",
+    "categoria": "Materias Obligatorias",
+    "level": 1,
+    "grupo": "Ciclo Biomédico",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "ANAT",
+    "materia": "Anatomía",
+    "categoria": "Materias Obligatorias",
+    "level": 1,
+    "grupo": "Ciclo Biomédico",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "HISTO",
+    "materia": "Histología",
+    "categoria": "Materias Obligatorias",
+    "level": 2,
+    "grupo": "Ciclo Biomédico",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "SMENTAL",
+    "materia": "Salud Mental",
+    "categoria": "Materias Obligatorias",
+    "level": 2,
+    "grupo": "Transversales",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "SPUBLICA",
+    "materia": "Salud Pública",
+    "categoria": "Materias Obligatorias",
+    "level": 2,
+    "grupo": "Transversales",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "FISIO",
+    "materia": "Fisiología y Biofísica",
+    "categoria": "Materias Obligatorias",
+    "level": 3,
+    "grupo": "Ciclo Biomédico",
+    "correlativas": "EMBRIO-BMG-ANAT-HISTO"
+  },
+  {
+    "id": "BIOQ",
+    "materia": "Bioquímica",
+    "categoria": "Materias Obligatorias",
+    "level": 3,
+    "grupo": "Ciclo Biomédico",
+    "correlativas": "EMBRIO-BMG-ANAT-HISTO"
+  },
+  {
+    "id": "INMUNO",
+    "materia": "Inmunología Humana",
+    "categoria": "Materias Obligatorias",
+    "level": 3,
+    "grupo": "Ciclo Biomédico",
+    "correlativas": "EMBRIO-BMG-ANAT-HISTO"
+  },
+  {
+    "id": "MICRO",
+    "materia": "Microbiología y Parasitología",
+    "categoria": "Materias Obligatorias",
+    "level": 4,
+    "grupo": "Ciclo Biomédico",
+    "correlativas": "INMUNO-BIOQ"
+  },
+  {
+    "id": "138",
+    "materia": "Bioética",
+    "categoria": "Materias Obligatorias",
+    "level": 4,
+    "grupo": "Transversales",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "INGLES",
+    "materia": "Curso de Inglés para Ciencias de la Salud",
+    "categoria": "Materias Obligatorias",
+    "level": 4,
+    "grupo": "Transversales",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "MED1",
+    "materia": "Medicina I",
+    "categoria": "Materias Obligatorias",
+    "level": 5,
+    "grupo": "Ciclo Clínico",
+    "correlativas": "FISIO-MICRO"
+  },
+  {
+    "id": "PATO",
+    "materia": "Patología",
+    "categoria": "Materias Obligatorias",
+    "level": 5,
+    "grupo": "Ciclo Clínico",
+    "correlativas": "FISIO-MICRO"
+  },
+  {
+    "id": "FARMA1",
+    "materia": "Farmacología I",
+    "categoria": "Materias Obligatorias",
+    "level": 5,
+    "grupo": "Ciclo Clínico",
+    "correlativas": "FISIO-MICRO"
+  },
+  {
+    "id": "MEDLEGAL",
+    "materia": "Medicina Legal y Deontología Médica",
+    "categoria": "Materias Obligatorias",
+    "level": 6,
+    "grupo": "Ciclo Clínico",
+    "correlativas": "MED1-PATO"
+  },
+  {
+    "id": "TOXICO",
+    "materia": "Toxicología",
+    "categoria": "Materias Obligatorias",
+    "level": 6,
+    "grupo": "Ciclo Clínico",
+    "correlativas": "MED1-PATO"
+  },
+  {
+    "id": "FARMA2",
+    "materia": "Farmacología II",
+    "categoria": "Materias Obligatorias",
+    "level": 6,
+    "grupo": "Ciclo Clínico",
+    "correlativas": "MED1-FARMA1"
+  },
+  {
+    "id": "MED2",
+    "materia": "Medicina II",
+    "categoria": "Materias Obligatorias",
+    "level": 6,
+    "grupo": "Ciclo Clínico",
+    "correlativas": "MED1-PATO"
+  },
+  {
+    "id": "NUTRI",
+    "materia": "Nutrición",
+    "categoria": "Materias Obligatorias",
+    "level": 7,
+    "grupo": "Ciclo Clínico",
+    "correlativas": "MED1-PATO"
+  },
+  {
+    "id": "DERMATO",
+    "materia": "Dermatología",
+    "categoria": "Materias Obligatorias",
+    "level": 7,
+    "grupo": "Ciclo Clínico",
+    "correlativas": "MED1-PATO"
+  },
+  {
+    "id": "INFECTO",
+    "materia": "Infectología",
+    "categoria": "Materias Obligatorias",
+    "level": 7,
+    "grupo": "Ciclo Clínico",
+    "correlativas": "MED1-PATO"
+  },
+  {
+    "id": "NEUMO",
+    "materia": "Neumonología",
+    "categoria": "Materias Obligatorias",
+    "level": 7,
+    "grupo": "Ciclo Clínico",
+    "correlativas": "MED1-PATO"
+  },
+  {
+    "id": "NEURO",
+    "materia": "Neurología",
+    "categoria": "Materias Obligatorias",
+    "level": 8,
+    "grupo": "Ciclo Clínico",
+    "correlativas": "MED1-PATO"
+  },
+  {
+    "id": "IMAGENES",
+    "materia": "Diagnóstico por Imágenes",
+    "categoria": "Materias Obligatorias",
+    "level": 8,
+    "grupo": "Ciclo Clínico",
+    "correlativas": "MED1-PATO"
+  },
+  {
+    "id": "PSIQUIATRIA",
+    "materia": "Psiquiatría",
+    "categoria": "Materias Obligatorias",
+    "level": 8,
+    "grupo": "Ciclo Clínico",
+    "correlativas": "MED1-PATO-SMENTAL"
+  },
+  {
+    "id": "PEDIATRIA",
+    "materia": "Pediatría",
+    "categoria": "Materias Obligatorias",
+    "level": 8,
+    "grupo": "Ciclo Clínico",
+    "correlativas": "MED1-PATO"
+  },
+  {
+    "id": "OBSTETRICIA",
+    "materia": "Obstetricia",
+    "categoria": "Materias Obligatorias",
+    "level": 9,
+    "grupo": "Ciclo Clínico",
+    "correlativas": "MED1-PATO"
+  },
+  {
+    "id": "GINECO",
+    "materia": "Ginecología",
+    "categoria": "Materias Obligatorias",
+    "level": 9,
+    "grupo": "Ciclo Clínico",
+    "correlativas": "MED1-PATO"
+  },
+  {
+    "id": "CIRUGIA",
+    "materia": "Cirugía General",
+    "categoria": "Materias Obligatorias",
+    "level": 9,
+    "grupo": "Ciclo Clínico",
+    "correlativas": "MED1-PATO"
+  },
+  {
+    "id": "UROLOGIA",
+    "materia": "Urología",
+    "categoria": "Materias Obligatorias",
+    "level": 9,
+    "grupo": "Ciclo Clínico",
+    "correlativas": "MED1-PATO"
+  },
+  {
+    "id": "TRAUMATO",
+    "materia": "Traumatología y Ortopedia",
+    "categoria": "Materias Obligatorias",
+    "level": 10,
+    "grupo": "Ciclo Clínico",
+    "correlativas": "MED1-PATO"
+  },
+  {
+    "id": "OFTALMO",
+    "materia": "Oftalmología",
+    "categoria": "Materias Obligatorias",
+    "level": 10,
+    "grupo": "Ciclo Clínico",
+    "correlativas": "MED1-PATO"
+  },
+  {
+    "id": "ORL",
+    "materia": "Otorrinolaringología",
+    "categoria": "Materias Obligatorias",
+    "level": 10,
+    "grupo": "Ciclo Clínico",
+    "correlativas": "MED1-PATO"
+  },
+  {
+    "id": "NEUROCIRUGIA",
+    "materia": "Neurocirugía",
+    "categoria": "Materias Obligatorias",
+    "level": 10,
+    "grupo": "Ciclo Clínico",
+    "correlativas": "MED1-PATO"
+  },
+  {
+    "id": "PFO",
+    "materia": "Práctica Final Obligatoria",
+    "categoria": "Fin de Carrera",
+    "level": 11,
+    "requiere": 41,
+    "requiereCBC": true
+  }
+]

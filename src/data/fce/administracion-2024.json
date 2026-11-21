@@ -1,0 +1,323 @@
+[
+  {
+    "id": "1241",
+    "materia": "Introducción al Razonamiento Matemático",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "247",
+    "materia": "Teoría Contable",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "242",
+    "materia": "Economía",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "1246",
+    "materia": "Historia Económica Argentina y Mundial",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "252",
+    "materia": "Administración General",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "254",
+    "materia": "Sociología de las Organizaciones",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC",
+    "materia": "Primer Tramo (CBC)",
+    "creditos": 0,
+    "categoria": "CBC",
+    "level": 0,
+    "correlativas": "1241-247-242-1246-252-254"
+  },
+  {
+    "id": "1248",
+    "materia": "Estadística",
+    "categoria": "Materias Obligatorias",
+    "level": 1,
+    "grupo": "Segundo Tramo",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "1276",
+    "materia": "Matemática Financiera",
+    "categoria": "Materias Obligatorias",
+    "level": 1,
+    "grupo": "Segundo Tramo",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "1278",
+    "materia": "Macroeconomía y Mercados",
+    "categoria": "Materias Obligatorias",
+    "level": 1,
+    "grupo": "Segundo Tramo",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "1464",
+    "materia": "Costos para la Gestión Estratégica",
+    "categoria": "Materias Obligatorias",
+    "level": 2,
+    "grupo": "Segundo Tramo",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "1274",
+    "materia": "Diseño de Estructuras y Procesos",
+    "categoria": "Materias Obligatorias",
+    "level": 2,
+    "grupo": "Segundo Tramo",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "462",
+    "materia": "Derecho Empresarial",
+    "categoria": "Materias Obligatorias",
+    "level": 2,
+    "grupo": "Segundo Tramo",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "1200",
+    "materia": "Gestión de Tecnologías Digitales",
+    "categoria": "Materias Obligatorias",
+    "level": 3,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "1274"
+  },
+  {
+    "id": "1279",
+    "materia": "Finanzas Corporativas",
+    "categoria": "Materias Obligatorias",
+    "level": 3,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "1276"
+  },
+  {
+    "id": "467",
+    "materia": "Gestión del Talento",
+    "categoria": "Materias Obligatorias",
+    "level": 3,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "466",
+    "materia": "Administración de Operaciones",
+    "categoria": "Materias Obligatorias",
+    "level": 3,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "1274"
+  },
+  {
+    "id": "465",
+    "materia": "Métodos Predictivos para la Gestión",
+    "categoria": "Materias Obligatorias",
+    "level": 4,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "1248"
+  },
+  {
+    "id": "468",
+    "materia": "Administración Tributaria",
+    "categoria": "Materias Obligatorias",
+    "level": 4,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "1278"
+  },
+  {
+    "id": "471",
+    "materia": "Planeamiento Estratégico",
+    "categoria": "Materias Obligatorias",
+    "level": 4,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "1279"
+  },
+  {
+    "id": "469",
+    "materia": "Marketing",
+    "categoria": "Materias Obligatorias",
+    "level": 4,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "466"
+  },
+  {
+    "id": "1201",
+    "materia": "Laboratorio de Análisis de Datos",
+    "categoria": "Materias Obligatorias",
+    "level": 5,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "1200-465"
+  },
+  {
+    "id": "470",
+    "materia": "Ciencias de la Decisión",
+    "categoria": "Materias Obligatorias",
+    "level": 5,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "465"
+  },
+  {
+    "id": "472",
+    "materia": "Dirección",
+    "categoria": "Materias Obligatorias",
+    "level": 6,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "467-470"
+  },
+  {
+    "id": "473",
+    "materia": "Práctica Profesional",
+    "categoria": "Fin de Carrera",
+    "level": 7,
+    "requiere": 23,
+    "requiereCBC": true
+  },
+  {
+    "id": "719",
+    "materia": "Gestión de Políticas Públicas",
+    "categoria": "Materias Electivas",
+    "grupo": "Gestión Pública",
+    "correlativas": "1278"
+  },
+  {
+    "id": "721",
+    "materia": "Poder Económico y Derechos Humanos",
+    "categoria": "Materias Electivas",
+    "grupo": "Gestión Pública",
+    "correlativas": "1278"
+  },
+  {
+    "id": "1374",
+    "materia": "Contabilidad Gubernamental y Control de Gestión",
+    "categoria": "Materias Electivas",
+    "grupo": "Gestión Pública",
+    "correlativas": "1278"
+  },
+  {
+    "id": "486",
+    "materia": "Dinámica Estratégica Empresarial",
+    "categoria": "Materias Electivas",
+    "grupo": "Empresas y Emprendedores",
+    "correlativas": "1279"
+  },
+  {
+    "id": "490",
+    "materia": "Innovación",
+    "categoria": "Materias Electivas",
+    "grupo": "Empresas y Emprendedores",
+    "correlativas": "1279"
+  },
+  {
+    "id": "733",
+    "materia": "Emprendedor 21",
+    "categoria": "Materias Electivas",
+    "grupo": "Empresas y Emprendedores",
+    "correlativas": "1279"
+  },
+  {
+    "id": "487",
+    "materia": "Perspectivas Globales para Sectores Estratégicos",
+    "categoria": "Materias Electivas",
+    "grupo": "Sectores Estratégicos",
+    "correlativas": "466"
+  },
+  {
+    "id": "732",
+    "materia": "Administración del Turismo",
+    "categoria": "Materias Electivas",
+    "grupo": "Sectores Estratégicos",
+    "correlativas": "466"
+  },
+  {
+    "id": "764",
+    "materia": "Gestión en la Economía Social",
+    "categoria": "Materias Electivas",
+    "grupo": "Sectores Estratégicos",
+    "correlativas": "466"
+  },
+  {
+    "id": "1797",
+    "materia": "Administración de la Cultura",
+    "categoria": "Materias Electivas",
+    "grupo": "Sectores Estratégicos",
+    "correlativas": "466"
+  },
+  {
+    "id": "488",
+    "materia": "Estrategia",
+    "categoria": "Materias Electivas",
+    "grupo": "Competencias de Gestión",
+    "correlativas": "467"
+  },
+  {
+    "id": "489",
+    "materia": "Liderazgo Organizacional",
+    "categoria": "Materias Electivas",
+    "grupo": "Competencias de Gestión",
+    "correlativas": "467"
+  },
+  {
+    "id": "718",
+    "materia": "Calidad y Productividad",
+    "categoria": "Materias Electivas",
+    "grupo": "Competencias de Gestión",
+    "correlativas": "467"
+  },
+  {
+    "id": "791",
+    "materia": "Seminario Ética de las Ocupaciones",
+    "categoria": "Materias Electivas",
+    "grupo": "Competencias de Gestión",
+    "correlativas": "467"
+  },
+  {
+    "id": "1710",
+    "materia": "Psicología Organizacional",
+    "categoria": "Materias Electivas",
+    "grupo": "Competencias de Gestión",
+    "correlativas": "467"
+  },
+  {
+    "id": "491",
+    "materia": "Gestión de Entornos Digitales en las Organizaciones",
+    "categoria": "Materias Electivas",
+    "grupo": "Competencias Digitales",
+    "correlativas": "465"
+  },
+  {
+    "id": "701",
+    "materia": "Analítica de Datos",
+    "categoria": "Materias Electivas",
+    "grupo": "Competencias Digitales",
+    "correlativas": "465"
+  },
+  {
+    "id": "702",
+    "materia": "Auditoría de Sistemas de Información",
+    "categoria": "Materias Electivas",
+    "grupo": "Competencias Digitales",
+    "correlativas": "465"
+  },
+  {
+    "id": "706",
+    "materia": "Marketing Digital",
+    "categoria": "Materias Electivas",
+    "grupo": "Competencias Digitales",
+    "correlativas": "465"
+  }
+]

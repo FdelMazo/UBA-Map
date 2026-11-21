@@ -1,0 +1,229 @@
+[
+  {
+    "id": "CBC40",
+    "materia": "Introducción al Pensamiento Científico",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "CBC24",
+    "materia": "Introducción al Conocimiento de la Sociedad y el Estado",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "CBC14",
+    "materia": "Sociología",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "CBC22",
+    "materia": "Ciencia Política",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "PGDP",
+    "materia": "Principios Generales de Derecho Privado",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "PDHDC",
+    "materia": "Principios de Derechos Humanos y Derecho Constitucional",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC",
+    "materia": "Ciclo Básico Común",
+    "creditos": 0,
+    "categoria": "CBC",
+    "level": 0,
+    "correlativas": "CBC40-CBC24-CBC14-CBC22-PGDP-PDHDC"
+  },
+  {
+    "id": "131",
+    "materia": "Teoría General del Derecho",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo Profesional Común",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "144",
+    "materia": "Elementos de Análisis Económico y Financiero",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo Profesional Común",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "132",
+    "materia": "Teoría del Estado",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo Profesional Común",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "135",
+    "materia": "Elementos de Derecho Civil (Parte General)",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo Profesional Común",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "133",
+    "materia": "Derechos Humanos y Garantías",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo Profesional Común",
+    "level": 2,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "134",
+    "materia": "Elementos de Derecho Constitucional",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo Profesional Común",
+    "level": 2,
+    "correlativas": "132"
+  },
+  {
+    "id": "136",
+    "materia": "Obligaciones Civiles y Comerciales",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo Profesional Común",
+    "level": 2,
+    "correlativas": "135"
+  },
+  {
+    "id": "145",
+    "materia": "Elementos de Derecho Comercial",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo Profesional Común",
+    "level": 2,
+    "correlativas": "135"
+  },
+  {
+    "id": "139",
+    "materia": "Elementos de Derecho Penal y Procesal Penal",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo Profesional Común",
+    "level": 3,
+    "correlativas": "131-133"
+  },
+  {
+    "id": "141",
+    "materia": "Elementos de Derecho Administrativo",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo Profesional Común",
+    "level": 3,
+    "correlativas": "133-134-136"
+  },
+  {
+    "id": "137",
+    "materia": "Contratos Civiles y Comerciales",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo Profesional Común",
+    "level": 3,
+    "correlativas": "136"
+  },
+  {
+    "id": "138",
+    "materia": "Elementos de Derecho Procesal Civil y Comercial",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo Profesional Común",
+    "level": 4,
+    "correlativas": "136"
+  },
+  {
+    "id": "140",
+    "materia": "Elementos de Derechos Reales",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo Profesional Común",
+    "level": 4,
+    "correlativas": "136"
+  },
+  {
+    "id": "142",
+    "materia": "Elementos de Derecho del Trabajo y de la Seguridad Social",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo Profesional Común",
+    "level": 4,
+    "correlativas": "134-137"
+  },
+  {
+    "id": "162",
+    "materia": "Sociedades Civiles y Comerciales",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo Profesional Orientado",
+    "level": 5,
+    "correlativas": "145-137"
+  },
+  {
+    "id": "163",
+    "materia": "Derecho Internacional Público",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo Profesional Orientado",
+    "level": 5,
+    "correlativas": "133-134-137"
+  },
+  {
+    "id": "167",
+    "materia": "Derecho de Familia y Sucesiones",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo Profesional Orientado",
+    "level": 5,
+    "correlativas": "137-140"
+  },
+  {
+    "id": "168",
+    "materia": "Finanzas Públicas y Derecho Tributario",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo Profesional Orientado",
+    "level": 6,
+    "correlativas": "139-141-162"
+  },
+  {
+    "id": "169",
+    "materia": "Derecho Internacional Privado",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo Profesional Orientado",
+    "level": 6,
+    "correlativas": "145-167"
+  },
+  {
+    "id": "DCP",
+    "materia": "Derecho Constitucional Profundizado",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo Profesional Orientado",
+    "level": 6,
+    "correlativas": "141-163"
+  },
+  {
+    "id": "DI",
+    "materia": "Derecho de la Integración",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo Profesional Orientado",
+    "level": 7,
+    "correlativas": "144-138-142-163-168-169"
+  },
+  {
+    "id": "RRNN",
+    "materia": "Derecho de los Recursos Naturales y Protección del Ambiente",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo Profesional Orientado",
+    "level": 7,
+    "correlativas": "168"
+  },
+  {
+    "id": "PP",
+    "materia": "Práctica Profesional",
+    "categoria": "Fin de Carrera",
+    "level": 8,
+    "correlativas": "144-138-142-163-168-169"
+  }
+]

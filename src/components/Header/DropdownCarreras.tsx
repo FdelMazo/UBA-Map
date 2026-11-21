@@ -31,6 +31,8 @@ const AnoBadge = ({
     mx: 1,
     variant: active ? activeVariant : "outline",
     textAlign: "center" as const,
+    // Centrado con el texto (sino queda apoyado en la linea base, mas abajo que el titulo)
+    verticalAlign: "middle",
     colorScheme: "gray",
     ...rest,
   };

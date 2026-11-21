@@ -806,16 +806,18 @@ const Graph = (userContext: ReturnType<typeof User>) => {
       getCorrectCreditos().electivas,
     );
 
-    creditos.push({
-      ...CREDITOS["Electivas"],
-      creditosNecesarios: electivasCreditosNecesarios,
-      nmaterias: electivas.length,
-      creditos:
-        electivas.reduce(accCreditos, 0) + optativas.reduce(accCreditos, 0),
-      helpText:
-        !electivasCreditosNecesarios &&
-        `Elegí ${orientaciones && !user.orientacion ? "orientación" : ""}${orientaciones && !user.orientacion && !user.finDeCarrera ? " y " : ""}${!user.finDeCarrera ? "entre tesis y tpp" : ""} en la configuración de usuario para saber cuantos necesitás.`,
-    });
+    // Si la carrera no tiene electivas, no mostramos la barra
+    if (getCorrectCreditos().electivas !== undefined)
+      creditos.push({
+        ...CREDITOS["Electivas"],
+        creditosNecesarios: electivasCreditosNecesarios,
+        nmaterias: electivas.length,
+        creditos:
+          electivas.reduce(accCreditos, 0) + optativas.reduce(accCreditos, 0),
+        helpText:
+          !electivasCreditosNecesarios &&
+          `Elegí ${orientaciones && !user.orientacion ? "orientación" : ""}${orientaciones && !user.orientacion && !user.finDeCarrera ? " y " : ""}${!user.finDeCarrera ? "entre tesis y tpp" : ""} en la configuración de usuario para saber cuantos necesitás.`,
+      });
 
     // Despues, orientacion obligatoria (si hay)
     const orientacion = getters.OrientacionAprobadas();
