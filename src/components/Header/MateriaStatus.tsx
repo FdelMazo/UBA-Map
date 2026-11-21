@@ -13,7 +13,10 @@ const MateriaStatus = () => {
     [displayedNode, getNode],
   );
 
-  // Mismo layout en todos los tamaños: el nombre en una linea (cortado si es largo)
+  // Para el tooltip nativo (hover) cuando el nombre queda cortado
+  const fullTitle = `[${node?.id}] ${node?.materia}`;
+
+  // Mismo layout en todos los tamaños: "[codigo] nombre" en una linea (cortado si es largo)
   // y abajo los badges de creditos
   return displayedNode ? (
     <Flex direction="column" align="flex-start" flex={1} minW={0} gap={1}>
@@ -22,8 +25,11 @@ const MateriaStatus = () => {
         maxWidth={{ base: "30ch", md: "50ch" }}
         fontSize="sm"
         color="white"
-        title={node?.materia}
+        title={fullTitle}
       >
+        <Text as="span" fontWeight="semibold">
+          [{node?.id}]
+        </Text>{" "}
         {node?.materia}
       </Text>
 
