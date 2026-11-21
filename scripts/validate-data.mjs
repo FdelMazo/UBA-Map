@@ -37,7 +37,7 @@ const validate = (materias) => {
       errors.push(`materia ${where}: falta "id"`);
     if (typeof m.materia !== "string" || !m.materia)
       errors.push(`materia ${where}: falta "materia"`);
-    if (typeof m.creditos !== "number")
+    if (m.creditos !== undefined && typeof m.creditos !== "number")
       errors.push(`materia ${where}: "creditos" no es un número`);
     if (typeof m.categoria !== "string" || !m.categoria)
       errors.push(`materia ${where}: falta "categoria"`);

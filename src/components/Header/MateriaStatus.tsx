@@ -28,7 +28,7 @@ const MateriaStatus = () => {
       </Text>
 
       <Flex gap={1} flexWrap="wrap">
-        {(node?.id === "CBC" || !user.carrera.cuentaMaterias) && (
+        {(node?.id === "CBC" || user.carrera.cuentaCreditos) && (
           <Badge fontSize="2xs" px={1} colorScheme="green" variant="outline">
             {node?.id === "CBC"
               ? `Clickealo para ver las materias!`
@@ -36,7 +36,13 @@ const MateriaStatus = () => {
           </Badge>
         )}
 
-        {node?.requiere && (
+        {node?.requiere && !user.carrera.cuentaCreditos && (
+          <Badge fontSize="2xs" px={1} colorScheme="orange" variant="outline">
+            Requiere {node.requiere} materias aprobadas
+          </Badge>
+        )}
+
+        {node?.requiere && user.carrera.cuentaCreditos && (
           <Tooltip
             placement="bottom"
             label="El plan de estudios no es muy claro de si hay que contabilizar los créditos del CBC para esto, entonces no estoy seguro de que es válido acá. Además, los docentes suelen hacer lo que quieren con esto, así que toma todo con pinzas y asegurate de poder cursar la materia antes de anotarte."

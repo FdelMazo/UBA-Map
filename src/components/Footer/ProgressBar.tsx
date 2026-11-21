@@ -27,7 +27,7 @@ import { GraphContext, UserContext } from "../../MapContext";
 // materias aprobadas
 const ProgressBar = () => {
   const { creditos, toggleCheckbox } = React.useContext(GraphContext);
-  const { cuentaMaterias } = React.useContext(UserContext).user.carrera;
+  const { cuentaCreditos } = React.useContext(UserContext).user.carrera;
 
   return (
     <Grid flexGrow={1} templateColumns="repeat(10, 1fr)">
@@ -105,11 +105,11 @@ const ProgressBar = () => {
                       {c.creditos}
                       {!!c.creditosNecesarios &&
                         ` de ${c.creditosNecesarios} `}{" "}
-                      {cuentaMaterias ? "materias" : "créditos"}
+                      {cuentaCreditos ? "créditos" : "materias"}
                     </StatNumber>
                   )}
-                  {/* Si la carrera cuenta materias, el numero de arriba ya son las materias */}
-                  {!!c.nmaterias && !cuentaMaterias && (
+                  {/* Si la carrera cuenta creditos, aclaramos cuantas materias son (sino el numero de arriba ya son las materias) */}
+                  {!!c.nmaterias && cuentaCreditos && (
                     <StatHelpText fontSize="smaller">
                       ({c.nmaterias}{" "}
                       {c.nmaterias === 1

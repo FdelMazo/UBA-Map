@@ -39,7 +39,7 @@ import { getCreditosTotalesNecesarios } from "../../utils";
 // y en hover setupear creditos por fuera del plan (materias optativas)
 const Creditos = () => {
   const { user } = React.useContext(UserContext);
-  const { cuentaMaterias } = user.carrera;
+  const { cuentaCreditos } = user.carrera;
   const { optativas, optativasDispatch, creditos } =
     React.useContext(GraphContext);
   const [isOpen, setIsOpen] = React.useState(false);
@@ -82,14 +82,14 @@ const Creditos = () => {
           <Box w={{ base: "12ch", md: "16ch" }}>
             <Stat p="0.4em" color="white" size="sm">
               <StatLabel>
-                {cuentaMaterias ? "Materias" : "Créditos"}
+                {cuentaCreditos ? "Créditos" : "Materias"}
                 <Tooltip
                   placement="right"
                   hasArrow
                   label={
-                    cuentaMaterias
-                      ? "Agregar materias optativas"
-                      : "Agregar créditos de optativas"
+                    cuentaCreditos
+                      ? "Agregar créditos de optativas"
+                      : "Agregar materias optativas"
                   }
                 >
                   <PlusSquareIcon
@@ -143,8 +143,7 @@ const Creditos = () => {
                     <Tooltip placement="top" label="Motivo" hasArrow>
                       <EditableInput px={2} width="12rem" noOfLines={1} />
                     </Tooltip>
-                    {/* Si la carrera cuenta materias, cada optativa vale 1: no hay nada que editar */}
-                    {!cuentaMaterias && (
+                    {cuentaCreditos && (
                       <Tooltip placement="top" label="Créditos" hasArrow>
                         <NumberInput
                           mx={2}
@@ -194,7 +193,7 @@ const Creditos = () => {
             <Flex justifyContent="space-between">
               <Text mr={4} alignSelf="center">
                 <Text as="span" fontWeight="semibold">
-                  {cuentaMaterias ? "Materias" : "Créditos"} por fuera del plan:{" "}
+                  {cuentaCreditos ? "Créditos" : "Materias"} por fuera del plan:{" "}
                 </Text>
                 <Text as="span">{creditosOptativas}</Text>
               </Text>
@@ -223,7 +222,7 @@ const Creditos = () => {
                   label={
                     <>
                       <Text>
-                        {cuentaMaterias ? "Las materias" : "Los créditos"} por
+                        {cuentaCreditos ? "Los créditos" : "Las materias"} por
                         fuera del plan contabilizan como materias electivas y no
                         influyen en el promedio.
                       </Text>
