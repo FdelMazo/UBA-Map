@@ -47,6 +47,8 @@ class Node {
   requiereCBC: boolean | undefined;
   materia: string;
   opacity: number | undefined;
+  // Posicion vertical inicial para ordenar cada columna
+  y?: number;
   font: { color: "white" | "black" } | undefined;
   color: string | undefined;
   // Los nodos los creamos en base a lo que hay en los JSON, y arrancan todos desaprobados

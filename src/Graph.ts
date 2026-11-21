@@ -64,6 +64,10 @@ const Graph = (userContext: ReturnType<typeof User>) => {
   // Cuando cambia la key del body, se llama a `createNetwork` que lo que hace es armar una red desde 0
   // Esta red despues se llena con el graph
   const createNetwork = (network: Network) => {
+    // El `y` inicial solo sirve para el primer layout (ver `graph`). Si lo dejamos en los nodos,
+    // cada `nodes.update` los vuelve a poner en esa posicion y quedan todos encimados
+    graph.nodes.forEach((n) => delete n.y);
+
     // Avoid re-rendering the whole graph when the data changes
     // Copied from https://github.com/visjs/vis-network/blob/2c774997ff234fa93555f36ca8040cf4d489e5df/lib/network/modules/NodesHandler.js#L325
     // Removed the last call to body.emit(datachanged)
@@ -270,7 +274,11 @@ const Graph = (userContext: ReturnType<typeof User>) => {
     // pero cuando se actualiza el grafo, por las dudas, limpiamos el nodo que teniamos elegido
     // test: entrar y clickear un nodo rapido, y esperar a que el usuario se loguee solo
     setDisplayedNode("");
-    const nodes = user.carrera.graph.map((n) => new Node(n));
+    const nodes = user.carrera.graph.map((n, i) => {
+      const node = new Node(n);
+      node.y = i;
+      return node;
+    });
     const edges = user.carrera.graph.flatMap((n) => {
       const e: Edge[] = [];
       if (n.correlativas)
@@ -1073,7 +1081,23 @@ const Graph = (userContext: ReturnType<typeof User>) => {
           })
         : [],
     // Los grupos que se pueden abrir/cerrar desde el mapa
+    // Los grupos de obligatorias (ej: los ciclos) se muestran solo como leyenda:
+    // no se pueden apagar, porque ocultarlos deja el mapa desarmado
+    GruposObligatorias: () => [
+      ...new Set(
+        nodes
+          ? nodes
+              .get({ filter: (n) => n.categoria === "Materias Obligatorias" })
+              .map((n) => n.grupo)
+              .filter((g) => g !== "Materias Obligatorias")
+          : [],
+      ),
+    ],
     SelectableGrupos: () => {
+      const obligatorias = new Set([
+        "Materias Obligatorias",
+        ...getters.GruposObligatorias(),
+      ]);
       const grupos = nodes
         ? nodes
             .distinct("grupo")
@@ -1081,8 +1105,8 @@ const Graph = (userContext: ReturnType<typeof User>) => {
               (c) =>
                 c !== "CBC" &&
                 c !== "*CBC" &&
-                c !== "Materias Obligatorias" &&
-                c !== "Fin de Carrera",
+                c !== "Fin de Carrera" &&
+                !obligatorias.has(c),
             )
         : [];
       if (grupos.indexOf("Materias Electivas") > 0) {

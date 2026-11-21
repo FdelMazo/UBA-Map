@@ -1,0 +1,573 @@
+[
+  {
+    "id": "IPC",
+    "materia": "Introducción al Pensamiento Científico",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "ICSE",
+    "materia": "Introducción al Conocimiento de la Sociedad y el Estado",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "BIO",
+    "materia": "Biología",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "PSICO",
+    "materia": "Psicología",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "SEMIO",
+    "materia": "Semiología",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "MAT",
+    "materia": "Matemática",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC",
+    "materia": "Ciclo Básico Común",
+    "creditos": 0,
+    "categoria": "CBC",
+    "level": 0,
+    "correlativas": "IPC-ICSE-BIO-PSICO-SEMIO-MAT"
+  },
+  {
+    "id": "544",
+    "materia": "Procesos Psicológicos Básicos",
+    "categoria": "Materias Obligatorias",
+    "level": 1,
+    "correlativas": "CBC",
+    "grupo": "Ciclo de Formación General"
+  },
+  {
+    "id": "060",
+    "materia": "Estadística",
+    "categoria": "Materias Obligatorias",
+    "level": 1,
+    "correlativas": "CBC",
+    "grupo": "Ciclo de Formación General"
+  },
+  {
+    "id": "035",
+    "materia": "Psicología Social",
+    "categoria": "Materias Obligatorias",
+    "level": 1,
+    "correlativas": "CBC",
+    "grupo": "Ciclo de Formación General"
+  },
+  {
+    "id": "049",
+    "materia": "Psicoanálisis: Freud",
+    "categoria": "Materias Obligatorias",
+    "level": 2,
+    "correlativas": "CBC",
+    "grupo": "Ciclo de Formación General"
+  },
+  {
+    "id": "546",
+    "materia": "Psicología del Aprendizaje",
+    "categoria": "Materias Obligatorias",
+    "level": 2,
+    "correlativas": "CBC",
+    "grupo": "Ciclo de Formación General"
+  },
+  {
+    "id": "048",
+    "materia": "Neurofisiología",
+    "categoria": "Materias Obligatorias",
+    "level": 2,
+    "correlativas": "CBC",
+    "grupo": "Ciclo de Formación General"
+  },
+  {
+    "id": "118",
+    "materia": "Historia de la Psicología",
+    "categoria": "Materias Obligatorias",
+    "level": 3,
+    "correlativas": "544",
+    "grupo": "Ciclo de Formación General"
+  },
+  {
+    "id": "061",
+    "materia": "Metodología de la Investigación",
+    "categoria": "Materias Obligatorias",
+    "level": 3,
+    "correlativas": "544-060",
+    "grupo": "Ciclo de Formación General"
+  },
+  {
+    "id": "065",
+    "materia": "Salud Pública y Salud Mental",
+    "categoria": "Materias Obligatorias",
+    "level": 4,
+    "correlativas": "035-061",
+    "grupo": "Ciclo de Formación General"
+  },
+  {
+    "id": "063",
+    "materia": "Teoría y Técnica de Grupos",
+    "categoria": "Materias Obligatorias",
+    "level": 3,
+    "correlativas": "035-049",
+    "grupo": "Ciclo de Formación General"
+  },
+  {
+    "id": "553",
+    "materia": "Psicología del Desarrollo: Niñez",
+    "categoria": "Materias Obligatorias",
+    "level": 4,
+    "correlativas": "049-546",
+    "grupo": "Ciclo de Formación General"
+  },
+  {
+    "id": "555",
+    "materia": "Psicología del Desarrollo: Adolescencia",
+    "categoria": "Materias Obligatorias",
+    "level": 4,
+    "correlativas": "049-546",
+    "grupo": "Ciclo de Formación General"
+  },
+  {
+    "id": "037",
+    "materia": "Psicopatología",
+    "categoria": "Materias Obligatorias",
+    "level": 5,
+    "correlativas": "555-048",
+    "grupo": "Ciclo de Formación General"
+  },
+  {
+    "id": "059",
+    "materia": "Teoría y Técnica de Exploración y Diagnóstico Psicológico: Módulo I",
+    "categoria": "Materias Obligatorias",
+    "level": 6,
+    "correlativas": "037-061",
+    "grupo": "Ciclo de Formación General"
+  },
+  {
+    "id": "113",
+    "materia": "Teoría y Técnica de Exploración y Diagnóstico Psicológico: Módulo II",
+    "categoria": "Materias Obligatorias",
+    "level": 6,
+    "correlativas": "037-061",
+    "grupo": "Ciclo de Formación General"
+  },
+  {
+    "id": "577",
+    "materia": "Ética, Deontología y Derechos Humanos",
+    "categoria": "Materias Obligatorias",
+    "level": 5,
+    "correlativas": "118-035",
+    "grupo": "Ciclo de Formación Profesional"
+  },
+  {
+    "id": "644",
+    "materia": "Psicología Organizacional e Institucional",
+    "categoria": "Materias Obligatorias",
+    "level": 5,
+    "correlativas": "065-063",
+    "grupo": "Ciclo de Formación Profesional"
+  },
+  {
+    "id": "083",
+    "materia": "Psicología Educacional",
+    "categoria": "Materias Obligatorias",
+    "level": 6,
+    "correlativas": "065-063-555",
+    "grupo": "Ciclo de Formación Profesional"
+  },
+  {
+    "id": "040",
+    "materia": "Psicología del Trabajo",
+    "categoria": "Materias Obligatorias",
+    "level": 7,
+    "correlativas": "063-065-113",
+    "grupo": "Ciclo de Formación Profesional"
+  },
+  {
+    "id": "574",
+    "materia": "Psicología Clínica y Psicoterapias I",
+    "categoria": "Materias Obligatorias",
+    "level": 7,
+    "correlativas": "037-059-113",
+    "grupo": "Ciclo de Formación Profesional"
+  },
+  {
+    "id": "768",
+    "materia": "Psicología Jurídica",
+    "categoria": "Materias Obligatorias",
+    "level": 7,
+    "correlativas": "037-059-113",
+    "grupo": "Ciclo de Formación Profesional"
+  },
+  {
+    "id": "570",
+    "materia": "Psicología Clínica y Psicoterapias II",
+    "categoria": "Materias Obligatorias",
+    "level": 8,
+    "correlativas": "037-059-113",
+    "grupo": "Ciclo de Formación Profesional"
+  },
+  {
+    "id": "PPI",
+    "materia": "Práctica Profesional y de Investigación",
+    "categoria": "Materias Obligatorias",
+    "level": 8,
+    "correlativas": "065",
+    "grupo": "Ciclo de Formación Profesional"
+  },
+  {
+    "id": "TESIS",
+    "materia": "Tesis de Licenciatura",
+    "categoria": "Fin de Carrera",
+    "level": 9,
+    "correlativas": "PPI"
+  },
+  {
+    "id": "051",
+    "materia": "Psicoanálisis: Escuela Inglesa",
+    "categoria": "Materias Electivas",
+    "grupo": "Electivas CFG",
+    "correlativas": "049"
+  },
+  {
+    "id": "057",
+    "materia": "Psicoanálisis: Escuela Francesa",
+    "categoria": "Materias Electivas",
+    "grupo": "Electivas CFG",
+    "correlativas": "049"
+  },
+  {
+    "id": "078",
+    "materia": "Psicología Fenomenológica y Existencial",
+    "categoria": "Materias Electivas",
+    "grupo": "Electivas CFG",
+    "correlativas": "049-118"
+  },
+  {
+    "id": "079",
+    "materia": "Psicoanálisis: Psicología del Yo",
+    "categoria": "Materias Electivas",
+    "grupo": "Electivas CFG",
+    "correlativas": "049"
+  },
+  {
+    "id": "080",
+    "materia": "Psicología de la Tercera Edad y Vejez",
+    "categoria": "Materias Electivas",
+    "grupo": "Electivas CFG",
+    "correlativas": "037"
+  },
+  {
+    "id": "082",
+    "materia": "Psicodiagnóstico: Rorschach",
+    "categoria": "Materias Electivas",
+    "grupo": "Electivas CFG",
+    "correlativas": "113"
+  },
+  {
+    "id": "087",
+    "materia": "Problemas Sociológicos en Psicología",
+    "categoria": "Materias Electivas",
+    "grupo": "Electivas CFG",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "089",
+    "materia": "Problemas Antropológicos en Psicología",
+    "categoria": "Materias Electivas",
+    "grupo": "Electivas CFG",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "090",
+    "materia": "Biología del Comportamiento",
+    "categoria": "Materias Electivas",
+    "grupo": "Electivas CFG",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "096",
+    "materia": "Problemas Filosóficos en Psicología",
+    "categoria": "Materias Electivas",
+    "grupo": "Electivas CFG",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "780",
+    "materia": "Análisis y Modificación de la Conducta",
+    "categoria": "Materias Electivas",
+    "grupo": "Electivas CFG",
+    "correlativas": "113"
+  },
+  {
+    "id": "806",
+    "materia": "Psicoanálisis: Orientación Lacaniana. Clínica y Escritura",
+    "categoria": "Materias Electivas",
+    "grupo": "Electivas CFG",
+    "correlativas": "049"
+  },
+  {
+    "id": "798",
+    "materia": "Construcción de los Conceptos Psicoanalíticos",
+    "categoria": "Materias Electivas",
+    "grupo": "Electivas CFG",
+    "correlativas": "049"
+  },
+  {
+    "id": "810",
+    "materia": "Psicología Política",
+    "categoria": "Materias Electivas",
+    "grupo": "Electivas CFG",
+    "correlativas": "035"
+  },
+  {
+    "id": "860",
+    "materia": "Psicología de la Personalidad",
+    "categoria": "Materias Electivas",
+    "grupo": "Electivas CFG",
+    "correlativas": "544-035"
+  },
+  {
+    "id": "085",
+    "materia": "Psicopedagogía Clínica",
+    "categoria": "Materias Electivas",
+    "grupo": "Área Educacional",
+    "correlativas": "555-065-063"
+  },
+  {
+    "id": "086",
+    "materia": "Orientación Vocacional y Ocupacional",
+    "categoria": "Materias Electivas",
+    "grupo": "Área Educacional",
+    "correlativas": "555-065-063"
+  },
+  {
+    "id": "136",
+    "materia": "Psicología de la Discapacidad",
+    "categoria": "Materias Electivas",
+    "grupo": "Área Educacional",
+    "correlativas": "555-065-063"
+  },
+  {
+    "id": "660",
+    "materia": "Informática, Educación y Sociedad",
+    "categoria": "Materias Electivas",
+    "grupo": "Área Educacional",
+    "correlativas": "555-065-063"
+  },
+  {
+    "id": "043",
+    "materia": "Clínica de Niños y Adolescentes",
+    "categoria": "Materias Electivas",
+    "grupo": "Área Clínica",
+    "correlativas": "113"
+  },
+  {
+    "id": "081",
+    "materia": "Fisiopatología y Enfermedades Psicosomáticas",
+    "categoria": "Materias Electivas",
+    "grupo": "Área Clínica",
+    "correlativas": "113"
+  },
+  {
+    "id": "091",
+    "materia": "Neuropsicología",
+    "categoria": "Materias Electivas",
+    "grupo": "Área Clínica",
+    "correlativas": "048"
+  },
+  {
+    "id": "158",
+    "materia": "Teoría y Técnica de la Clínica Sistémica",
+    "categoria": "Materias Electivas",
+    "grupo": "Área Clínica",
+    "correlativas": "113"
+  },
+  {
+    "id": "616",
+    "materia": "Psicofarmacología",
+    "categoria": "Materias Electivas",
+    "grupo": "Área Clínica",
+    "correlativas": "113"
+  },
+  {
+    "id": "654",
+    "materia": "Clínica Psicoanalítica",
+    "categoria": "Materias Electivas",
+    "grupo": "Área Clínica",
+    "correlativas": "113"
+  },
+  {
+    "id": "770",
+    "materia": "Clínica de las Toxicomanías y el Alcoholismo",
+    "categoria": "Materias Electivas",
+    "grupo": "Área Clínica",
+    "correlativas": "113"
+  },
+  {
+    "id": "771",
+    "materia": "Teoría y Técnica de la Clínica Cognitivo Comportamental",
+    "categoria": "Materias Electivas",
+    "grupo": "Área Clínica",
+    "correlativas": "113"
+  },
+  {
+    "id": "807",
+    "materia": "Usos del Síntoma",
+    "categoria": "Materias Electivas",
+    "grupo": "Área Clínica",
+    "correlativas": "113"
+  },
+  {
+    "id": "808",
+    "materia": "Clínica de la Discapacidad y Problemas en el Desarrollo Infantil",
+    "categoria": "Materias Electivas",
+    "grupo": "Área Clínica",
+    "correlativas": "113"
+  },
+  {
+    "id": "815",
+    "materia": "Clínica de las Anorexias, las Bulimias y la Obesidad. Abordaje Interdisciplinario",
+    "categoria": "Materias Electivas",
+    "grupo": "Área Clínica",
+    "correlativas": "113"
+  },
+  {
+    "id": "662",
+    "materia": "Selección e Incorporación de Personal",
+    "categoria": "Materias Electivas",
+    "grupo": "Área Trabajo",
+    "correlativas": "040"
+  },
+  {
+    "id": "191",
+    "materia": "Intervenciones Psicológico-Forenses en Disfunciones y Patologías Familiares",
+    "categoria": "Materias Electivas",
+    "grupo": "Área Justicia",
+    "correlativas": "113"
+  },
+  {
+    "id": "692",
+    "materia": "Psicología del Delito y del Delincuente",
+    "categoria": "Materias Electivas",
+    "grupo": "Área Justicia",
+    "correlativas": "113"
+  },
+  {
+    "id": "781",
+    "materia": "Victimología",
+    "categoria": "Materias Electivas",
+    "grupo": "Área Justicia",
+    "correlativas": "113"
+  },
+  {
+    "id": "782",
+    "materia": "Técnicas Psicológicas en el Ámbito Jurídico",
+    "categoria": "Materias Electivas",
+    "grupo": "Área Justicia",
+    "correlativas": "113"
+  },
+  {
+    "id": "067",
+    "materia": "Psicología Preventiva",
+    "categoria": "Materias Electivas",
+    "grupo": "Área Social-Comunitaria",
+    "correlativas": "065-063-555"
+  },
+  {
+    "id": "084",
+    "materia": "Estrategias de Intervención Comunitaria",
+    "categoria": "Materias Electivas",
+    "grupo": "Área Social-Comunitaria",
+    "correlativas": "065-063-555"
+  },
+  {
+    "id": "105",
+    "materia": "Introducción a los Estudios del Género",
+    "categoria": "Materias Electivas",
+    "grupo": "Área Social-Comunitaria",
+    "correlativas": "065-063-555"
+  },
+  {
+    "id": "607",
+    "materia": "Psicología Aplicada al Deporte",
+    "categoria": "Materias Electivas",
+    "grupo": "Área Social-Comunitaria",
+    "correlativas": "065-063-555"
+  },
+  {
+    "id": "816",
+    "materia": "El Rol del Psicólogo en el Equipo Interdisciplinario de Salud",
+    "categoria": "Materias Electivas",
+    "grupo": "Área Social-Comunitaria",
+    "correlativas": "555-063-065"
+  },
+  {
+    "id": "102",
+    "materia": "Psicopatología Infanto Juvenil",
+    "categoria": "Materias Electivas",
+    "grupo": "Electivas CFG",
+    "correlativas": "037"
+  },
+  {
+    "id": "635",
+    "materia": "Diagnóstico y Abordaje de las Crisis Infanto Juveniles",
+    "categoria": "Materias Electivas",
+    "grupo": "Área Clínica",
+    "correlativas": "113"
+  },
+  {
+    "id": "658",
+    "materia": "Metodología Psicoanalítica",
+    "categoria": "Materias Electivas",
+    "grupo": "Área Clínica",
+    "correlativas": "113"
+  },
+  {
+    "id": "814",
+    "materia": "Clínica del Autismo y la Psicosis en la Infancia",
+    "categoria": "Materias Electivas",
+    "grupo": "Área Clínica",
+    "correlativas": "113"
+  },
+  {
+    "id": "719",
+    "materia": "Psicología Aplicada a las Organizaciones",
+    "categoria": "Materias Electivas",
+    "grupo": "Área Trabajo",
+    "correlativas": "040"
+  },
+  {
+    "id": "691",
+    "materia": "Niños y Adolescentes en Conflicto con la Ley Penal: Abordaje Integral",
+    "categoria": "Materias Electivas",
+    "grupo": "Área Justicia",
+    "correlativas": "113"
+  },
+  {
+    "id": "803",
+    "materia": "Criminología",
+    "categoria": "Materias Electivas",
+    "grupo": "Área Justicia",
+    "correlativas": "113"
+  },
+  {
+    "id": "189",
+    "materia": "Epidemiología",
+    "categoria": "Materias Electivas",
+    "grupo": "Área Social-Comunitaria",
+    "correlativas": "065-063-555"
+  }
+]

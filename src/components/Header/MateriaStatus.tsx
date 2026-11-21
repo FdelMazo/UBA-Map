@@ -45,6 +45,11 @@ const MateriaStatus = () => {
         {node?.requiere && !user.carrera.cuentaCreditos && (
           <Badge fontSize="2xs" px={1} colorScheme="orange" variant="outline">
             Requiere {node.requiere} materias aprobadas
+            {node.requiereCBC
+              ? " (incluye el CBC)"
+              : node.requiereCBC === false
+                ? " (sin contar el CBC)"
+                : ""}
           </Badge>
         )}
 

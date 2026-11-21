@@ -1,15 +1,31 @@
 import { UserType } from "./types/User";
 
+// En los jsons `creditos` es opcional: si no esta, la materia vale 1 (una materia mas)
+const plan = (
+  materias: (Omit<UserType.MateriaJSON, "creditos"> & { creditos?: number })[],
+): UserType.MateriaJSON[] =>
+  materias.map((m) => ({ ...m, creditos: m.creditos ?? 1 }));
+
 export const CARRERAS: UserType.Carrera[] = [
   {
     id: "contador-2019",
     link: "https://economicas.uba.ar/alumnos/contador/",
     ano: 2019,
-    graph: require("./data/fce/contador-2019.json"),
-    cuentaMaterias: true,
+    graph: plan(require("./data/fce/contador-2019.json")),
     creditos: {
-      // Hay que aprobar 1 electiva u optativa
-      electivas: 1,
+      // 2 optativas: de la lista de electivas, o materias por fuera del plan
+      electivas: 2,
+    },
+  },
+  {
+    id: "psicologia-1985",
+    link: "https://www.psi.uba.ar/academica.php?var=psicologia/index.php",
+    ano: 1985,
+    graph: plan(require("./data/psi/psicologia-1985.json")),
+    creditos: {
+      // 5 electivas: 2 del Ciclo de Formación General y 3 del Profesional
+      // (una de las del CFP puede ser una segunda Práctica Profesional y de Investigación)
+      electivas: 5,
     },
   },
 ];
@@ -25,5 +41,10 @@ export const PLANES: {
     nombre: "Contador Público",
     nombrecorto: "Contador",
     planes: ["contador-2019"],
+  },
+  {
+    nombre: "Licenciatura en Psicología",
+    nombrecorto: "Psicología",
+    planes: ["psicologia-1985"],
   },
 ];

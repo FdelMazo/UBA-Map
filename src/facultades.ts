@@ -19,6 +19,11 @@ export const FACULTADES: Facultad[] = [
     nombrecorto: "FCE",
     planes: planes("Contador"),
   },
+  {
+    nombre: "Facultad de Psicología",
+    nombrecorto: "PSI",
+    planes: planes("Psicología"),
+  },
 ];
 
 export const TODOS_LOS_PLANES: Plan[] = FACULTADES.flatMap((f) => f.planes);
