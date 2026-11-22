@@ -1,0 +1,301 @@
+[
+  {
+    "id": "IPC",
+    "materia": "Introducción al Pensamiento Científico",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "ICSE",
+    "materia": "Introducción al Conocimiento de la Sociedad y el Estado",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "CBCOPT1",
+    "materia": "Asignatura del CBC a elección (1)",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "CBCOPT2",
+    "materia": "Asignatura del CBC a elección (2)",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBCOPT3",
+    "materia": "Asignatura del CBC a elección (3)",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBCOPT4",
+    "materia": "Asignatura del CBC a elección (4)",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC",
+    "materia": "Ciclo Básico Común",
+    "creditos": 0,
+    "categoria": "CBC",
+    "level": 0,
+    "correlativas": "IPC-ICSE-CBCOPT1-CBCOPT2-CBCOPT3-CBCOPT4"
+  },
+  {
+    "id": "601",
+    "materia": "Anatomofisiología",
+    "categoria": "Materias Obligatorias",
+    "level": 1,
+    "grupo": "Enfermería Universitaria",
+    "correlativas": "IPC-ICSE"
+  },
+  {
+    "id": "602",
+    "materia": "Química Biológica",
+    "categoria": "Materias Obligatorias",
+    "level": 1,
+    "grupo": "Enfermería Universitaria",
+    "correlativas": "IPC-ICSE"
+  },
+  {
+    "id": "603",
+    "materia": "Física Biológica",
+    "categoria": "Materias Obligatorias",
+    "level": 1,
+    "grupo": "Enfermería Universitaria",
+    "correlativas": "IPC-ICSE"
+  },
+  {
+    "id": "604",
+    "materia": "Introducción a la Enfermería en Salud Pública",
+    "categoria": "Materias Obligatorias",
+    "level": 1,
+    "grupo": "Enfermería Universitaria",
+    "correlativas": "IPC-ICSE"
+  },
+  {
+    "id": "605",
+    "materia": "Introducción a las Ciencias Psicosociales",
+    "categoria": "Materias Obligatorias",
+    "level": 2,
+    "grupo": "Enfermería Universitaria",
+    "correlativas": "IPC-ICSE"
+  },
+  {
+    "id": "609",
+    "materia": "Nutrición",
+    "categoria": "Materias Obligatorias",
+    "level": 2,
+    "grupo": "Enfermería Universitaria",
+    "correlativas": "IPC-ICSE"
+  },
+  {
+    "id": "606",
+    "materia": "Enfermería Médica I",
+    "categoria": "Materias Obligatorias",
+    "level": 2,
+    "grupo": "Enfermería Universitaria",
+    "correlativas": "IPC-ICSE"
+  },
+  {
+    "id": "607",
+    "materia": "Deontología I",
+    "categoria": "Materias Obligatorias",
+    "level": 3,
+    "grupo": "Enfermería Universitaria",
+    "correlativas": "IPC-ICSE"
+  },
+  {
+    "id": "608",
+    "materia": "Microbiología y Parasitología",
+    "categoria": "Materias Obligatorias",
+    "level": 3,
+    "grupo": "Enfermería Universitaria",
+    "correlativas": "IPC-ICSE"
+  },
+  {
+    "id": "610",
+    "materia": "Enfermería en Salud Pública I",
+    "categoria": "Materias Obligatorias",
+    "level": 3,
+    "grupo": "Enfermería Universitaria",
+    "correlativas": "IPC-ICSE"
+  },
+  {
+    "id": "623",
+    "materia": "Enfermería en Salud Mental",
+    "categoria": "Materias Obligatorias",
+    "level": 4,
+    "grupo": "Enfermería Universitaria",
+    "correlativas": "601-604-605-608-609-606-610"
+  },
+  {
+    "id": "624",
+    "materia": "Enfermería en Salud Pública II",
+    "categoria": "Materias Obligatorias",
+    "level": 4,
+    "grupo": "Enfermería Universitaria",
+    "correlativas": "601-604-605-608-609-606-610"
+  },
+  {
+    "id": "625",
+    "materia": "Enfermería Médica II",
+    "categoria": "Materias Obligatorias",
+    "level": 4,
+    "grupo": "Enfermería Universitaria",
+    "correlativas": "601-604-605-608-609-606-610"
+  },
+  {
+    "id": "627",
+    "materia": "Dietoterapia",
+    "categoria": "Materias Obligatorias",
+    "level": 4,
+    "grupo": "Enfermería Universitaria",
+    "correlativas": "601-604-605-608-609-606-610"
+  },
+  {
+    "id": "621",
+    "materia": "Enfermería en Salud Materno Infantil",
+    "categoria": "Materias Obligatorias",
+    "level": 5,
+    "grupo": "Enfermería Universitaria",
+    "correlativas": "601-604-605-608-609-606-610"
+  },
+  {
+    "id": "626",
+    "materia": "Enfermería Quirúrgica",
+    "categoria": "Materias Obligatorias",
+    "level": 5,
+    "grupo": "Enfermería Universitaria",
+    "correlativas": "625"
+  },
+  {
+    "id": "622",
+    "materia": "Psicología Evolutiva",
+    "categoria": "Materias Obligatorias",
+    "level": 5,
+    "grupo": "Enfermería Universitaria",
+    "correlativas": "601-604-605-608-609-606-610"
+  },
+  {
+    "id": "641",
+    "materia": "Enfermería Psiquiátrica",
+    "categoria": "Materias Obligatorias",
+    "level": 6,
+    "grupo": "Enfermería Universitaria",
+    "correlativas": "602-603-607-621-622-623-624-626-627"
+  },
+  {
+    "id": "642",
+    "materia": "Deontología II",
+    "categoria": "Materias Obligatorias",
+    "level": 6,
+    "grupo": "Enfermería Universitaria",
+    "correlativas": "602-603-607-621-622-623-624-626-627"
+  },
+  {
+    "id": "643",
+    "materia": "Enfermería Obstétrica",
+    "categoria": "Materias Obligatorias",
+    "level": 6,
+    "grupo": "Enfermería Universitaria",
+    "correlativas": "602-603-607-621-622-623-624-626-627"
+  },
+  {
+    "id": "644",
+    "materia": "Enfermería Pediátrica",
+    "categoria": "Materias Obligatorias",
+    "level": 7,
+    "grupo": "Enfermería Universitaria",
+    "correlativas": "602-603-607-621-622-623-624-626-627"
+  },
+  {
+    "id": "645",
+    "materia": "Introducción a la Administración en Enfermería",
+    "categoria": "Materias Obligatorias",
+    "level": 7,
+    "grupo": "Enfermería Universitaria",
+    "correlativas": "602-603-607-621-622-623-624-626-627"
+  },
+  {
+    "id": "681",
+    "materia": "Didáctica en Enfermería",
+    "categoria": "Materias Obligatorias",
+    "level": 8,
+    "grupo": "Licenciatura",
+    "correlativas": "CBC-641-642-643-644-645"
+  },
+  {
+    "id": "682",
+    "materia": "Bioestadística",
+    "categoria": "Materias Obligatorias",
+    "level": 8,
+    "grupo": "Licenciatura",
+    "correlativas": "CBC-641-642-643-644-645"
+  },
+  {
+    "id": "683",
+    "materia": "Investigación I",
+    "categoria": "Materias Obligatorias",
+    "level": 8,
+    "grupo": "Licenciatura",
+    "correlativas": "CBC-641-642-643-644-645"
+  },
+  {
+    "id": "691",
+    "materia": "Dinámica de Grupos",
+    "categoria": "Materias Obligatorias",
+    "level": 9,
+    "grupo": "Licenciatura",
+    "correlativas": "CBC-641-642-643-644-645"
+  },
+  {
+    "id": "692",
+    "materia": "Enfermería Avanzada",
+    "categoria": "Materias Obligatorias",
+    "level": 9,
+    "grupo": "Licenciatura",
+    "correlativas": "CBC-641-642-643-644-645"
+  },
+  {
+    "id": "693",
+    "materia": "Seminario",
+    "categoria": "Materias Obligatorias",
+    "level": 9,
+    "grupo": "Licenciatura",
+    "correlativas": "CBC-641-642-643-644-645"
+  },
+  {
+    "id": "694",
+    "materia": "Administración en Enfermería",
+    "categoria": "Materias Obligatorias",
+    "level": 10,
+    "grupo": "Licenciatura",
+    "correlativas": "693"
+  },
+  {
+    "id": "695",
+    "materia": "Enfermería en Salud Pública III",
+    "categoria": "Materias Obligatorias",
+    "level": 10,
+    "grupo": "Licenciatura",
+    "correlativas": "681-691"
+  },
+  {
+    "id": "696",
+    "materia": "Investigación II",
+    "categoria": "Materias Obligatorias",
+    "level": 10,
+    "grupo": "Licenciatura",
+    "correlativas": "683-682"
+  },
+  {
+    "id": "TC",
+    "materia": "Trabajo Científico",
+    "categoria": "Fin de Carrera",
+    "level": 11,
+    "correlativas": "692-694-695-696"
+  }
+]

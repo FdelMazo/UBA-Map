@@ -1,0 +1,251 @@
+[
+  {
+    "id": "CBC24",
+    "materia": "Introducción al Conocimiento de la Sociedad y el Estado",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "CBC40",
+    "materia": "Introducción al Pensamiento Científico",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "SEMIOLOGIA",
+    "materia": "Semiología",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "CBC46",
+    "materia": "Introducción al Conocimiento Proyectual I",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "CBC47",
+    "materia": "Introducción al Conocimiento Proyectual II",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC48",
+    "materia": "Taller de Dibujo",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC51",
+    "materia": "Matemática",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC",
+    "materia": "Ciclo Básico Común",
+    "creditos": 0,
+    "categoria": "CBC",
+    "level": 0,
+    "correlativas": "CBC24-CBC40-SEMIOLOGIA-CBC46-CBC47-CBC48-CBC51"
+  },
+  {
+    "id": "TDI1",
+    "materia": "Taller de Diseño Industrial I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "2º Año",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "M1",
+    "materia": "Morfología I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "2º Año",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "AP",
+    "materia": "Análisis de Productos",
+    "categoria": "Materias Obligatorias",
+    "grupo": "2º Año",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "T1",
+    "materia": "Tecnología I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "2º Año",
+    "level": 2,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "MAT1",
+    "materia": "Matemática I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "2º Año",
+    "level": 2,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "F1",
+    "materia": "Física I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "2º Año",
+    "level": 2,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "TDI2",
+    "materia": "Taller de Diseño Industrial II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "3º Año",
+    "level": 3,
+    "correlativas": "TDI1-AP-T1"
+  },
+  {
+    "id": "M2",
+    "materia": "Morfología II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "3º Año",
+    "level": 3,
+    "correlativas": "TDI1-M1"
+  },
+  {
+    "id": "HDI1",
+    "materia": "Historia del Diseño Industrial I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "3º Año",
+    "level": 3,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "T2",
+    "materia": "Tecnología II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "3º Año",
+    "level": 4,
+    "correlativas": "T1-F1"
+  },
+  {
+    "id": "EyFH",
+    "materia": "Ergonomía y Factores Humanos",
+    "categoria": "Materias Obligatorias",
+    "grupo": "3º Año",
+    "level": 4,
+    "correlativas": "TDI1-AP-F1"
+  },
+  {
+    "id": "TDI3",
+    "materia": "Taller de Diseño Industrial III",
+    "categoria": "Materias Obligatorias",
+    "grupo": "4º Año",
+    "level": 5,
+    "correlativas": "TDI2-M1-T2-EyFH-MAT1"
+  },
+  {
+    "id": "T3",
+    "materia": "Tecnología III",
+    "categoria": "Materias Obligatorias",
+    "grupo": "4º Año",
+    "level": 5,
+    "correlativas": "TDI1-M1-MAT1-AP-T2"
+  },
+  {
+    "id": "M3",
+    "materia": "Morfología III",
+    "categoria": "Materias Obligatorias",
+    "grupo": "4º Año",
+    "level": 5,
+    "correlativas": "TDI2-M2-MAT1-F1"
+  },
+  {
+    "id": "HDI2",
+    "materia": "Historia del Diseño Industrial II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "4º Año",
+    "level": 6,
+    "correlativas": "TDI1-M1-T1-AP-HDI1-MAT1-F1"
+  },
+  {
+    "id": "F2",
+    "materia": "Física II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "4º Año",
+    "level": 6,
+    "correlativas": "TDI1-M1-T1-MAT1-AP-F1"
+  },
+  {
+    "id": "TDI4",
+    "materia": "Taller de Diseño Industrial IV",
+    "categoria": "Materias Obligatorias",
+    "grupo": "5º Año",
+    "level": 7,
+    "correlativas": "TDI3-M2-T3-F2-HDI1"
+  },
+  {
+    "id": "T4",
+    "materia": "Tecnología IV",
+    "categoria": "Materias Obligatorias",
+    "grupo": "5º Año",
+    "level": 7,
+    "correlativas": "M2-TDI2-EyFH-T3-F2-HDI1"
+  },
+  {
+    "id": "SAD",
+    "materia": "Sociología Aplicada al Diseño",
+    "categoria": "Materias Obligatorias",
+    "grupo": "5º Año",
+    "level": 8,
+    "correlativas": "TDI2-T2-M2-EyFH-HDI2"
+  },
+  {
+    "id": "GI",
+    "materia": "Gestión Industrial",
+    "categoria": "Materias Obligatorias",
+    "grupo": "5º Año",
+    "level": 8,
+    "correlativas": "TDI2-T2-M2-EyFH-HDI2"
+  },
+  {
+    "id": "GP",
+    "materia": "Gestión de Proyecto",
+    "categoria": "Materias Obligatorias",
+    "grupo": "6º Año",
+    "level": 9,
+    "correlativas": "TDI3-T3-F2-HDI2"
+  },
+  {
+    "id": "MID",
+    "materia": "Metodología de la Investigación en Diseño",
+    "categoria": "Materias Obligatorias",
+    "grupo": "6º Año",
+    "level": 9,
+    "correlativas": "TDI3-M3-T3-F2-HDI2"
+  },
+  {
+    "id": "LPP",
+    "materia": "Legislación y Práctica Profesional",
+    "categoria": "Materias Obligatorias",
+    "grupo": "6º Año",
+    "level": 9,
+    "correlativas": "TDI3-M3-T3-HDI2-F2"
+  },
+  {
+    "id": "PP",
+    "materia": "Práctica Profesional",
+    "categoria": "Materias Obligatorias",
+    "grupo": "6º Año",
+    "level": 9,
+    "correlativas": "TDI3-M2-F2-HDI2"
+  },
+  {
+    "id": "PF",
+    "materia": "Proyecto Final",
+    "categoria": "Fin de Carrera",
+    "level": 10,
+    "correlativas": "TDI4-HDI2-T4"
+  }
+]

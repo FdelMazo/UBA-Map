@@ -1,0 +1,275 @@
+[
+  {
+    "id": "CBC24",
+    "materia": "Introducción al Conocimiento de la Sociedad y el Estado",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "CBC40",
+    "materia": "Introducción al Pensamiento Científico",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "SEMIOLOGIA",
+    "materia": "Semiología",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "CBC46",
+    "materia": "Introducción al Conocimiento Proyectual I",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "CBC47",
+    "materia": "Introducción al Conocimiento Proyectual II",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC48",
+    "materia": "Taller de Dibujo",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC51",
+    "materia": "Matemática",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC",
+    "materia": "Ciclo Básico Común",
+    "creditos": 0,
+    "categoria": "CBC",
+    "level": 0,
+    "correlativas": "CBC24-CBC40-SEMIOLOGIA-CBC46-CBC47-CBC48-CBC51"
+  },
+  {
+    "id": "IP",
+    "materia": "Introducción al Proyecto",
+    "categoria": "Materias Obligatorias",
+    "grupo": "2º Año",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "FGDM",
+    "materia": "Fundamentos Geométricos del Modelaje",
+    "categoria": "Materias Obligatorias",
+    "grupo": "2º Año",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "ME1",
+    "materia": "Medios Expresivos I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "2º Año",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "TPIN1",
+    "materia": "Técnicas de Producción e Industria Nacional I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "2º Año",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "HDIT1",
+    "materia": "Historia del Diseño de Indumentaria y Textil I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "2º Año",
+    "level": 2,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "ADIT1",
+    "materia": "Análisis del Diseño de Indumentaria y Textil I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "2º Año",
+    "level": 2,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "TPIN2",
+    "materia": "Técnicas de Producción e Industria Nacional II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "2º Año",
+    "level": 2,
+    "correlativas": "TPIN1"
+  },
+  {
+    "id": "PI1",
+    "materia": "Proyecto de Indumentaria I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "3º Año",
+    "level": 3,
+    "correlativas": "IP-ME1-FGDM-TPIN1"
+  },
+  {
+    "id": "MP",
+    "materia": "Materialización de Proyecto",
+    "categoria": "Materias Obligatorias",
+    "grupo": "3º Año",
+    "level": 3,
+    "correlativas": "IP-ME1-FGDM-TPIN1"
+  },
+  {
+    "id": "TPI1",
+    "materia": "Técnicas de Producción de Indumentaria I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "3º Año",
+    "level": 3,
+    "correlativas": "IP-ME1-TPIN2"
+  },
+  {
+    "id": "HDIT2",
+    "materia": "Historia del Diseño de Indumentaria y Textil II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "3º Año",
+    "level": 3,
+    "correlativas": "HDIT1"
+  },
+  {
+    "id": "ME2",
+    "materia": "Medios Expresivos II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "3º Año",
+    "level": 4,
+    "correlativas": "ME1"
+  },
+  {
+    "id": "ADIT2",
+    "materia": "Análisis del Diseño de Indumentaria y Textil II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "3º Año",
+    "level": 4,
+    "correlativas": "ADIT1"
+  },
+  {
+    "id": "TPI2",
+    "materia": "Técnicas de Producción de Indumentaria II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "3º Año",
+    "level": 4,
+    "correlativas": "TPI1"
+  },
+  {
+    "id": "SOC",
+    "materia": "Sociología",
+    "categoria": "Materias Obligatorias",
+    "grupo": "4º Año",
+    "level": 4,
+    "correlativas": "IP-ME1-TPIN2-ADIT1-HDIT1"
+  },
+  {
+    "id": "PI2",
+    "materia": "Proyecto de Indumentaria II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "4º Año",
+    "level": 5,
+    "correlativas": "PI1-MP-ME2-ADIT1-HDIT1-TPI1"
+  },
+  {
+    "id": "CYM1",
+    "materia": "Comercialización y Mercado I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "4º Año",
+    "level": 5,
+    "correlativas": "FGDM-ADIT1-TPI1-HDIT2"
+  },
+  {
+    "id": "TPI3",
+    "materia": "Técnicas de Producción de Indumentaria III",
+    "categoria": "Materias Obligatorias",
+    "grupo": "4º Año",
+    "level": 5,
+    "correlativas": "FGDM-HDIT1-ADIT1-TPI2"
+  },
+  {
+    "id": "CC",
+    "materia": "Comunicación y Crítica",
+    "categoria": "Materias Obligatorias",
+    "grupo": "4º Año",
+    "level": 5,
+    "correlativas": "PI1-ADIT2"
+  },
+  {
+    "id": "PI3",
+    "materia": "Proyecto de Indumentaria III",
+    "categoria": "Materias Obligatorias",
+    "grupo": "4º Año",
+    "level": 6,
+    "correlativas": "PI2-TPI2"
+  },
+  {
+    "id": "PA1",
+    "materia": "Proyecto de Accesorios I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "4º Año",
+    "level": 6,
+    "correlativas": "PI2"
+  },
+  {
+    "id": "TPI4",
+    "materia": "Técnicas de Producción de Indumentaria IV",
+    "categoria": "Materias Obligatorias",
+    "grupo": "4º Año",
+    "level": 6,
+    "correlativas": "TPI3"
+  },
+  {
+    "id": "CYM2",
+    "materia": "Comercialización y Mercado II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "4º Año",
+    "level": 6,
+    "correlativas": "CYM1"
+  },
+  {
+    "id": "PI4",
+    "materia": "Proyecto de Indumentaria IV",
+    "categoria": "Materias Obligatorias",
+    "grupo": "5º Año",
+    "level": 7,
+    "correlativas": "PI3-TPI3"
+  },
+  {
+    "id": "PA2",
+    "materia": "Proyecto de Accesorios II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "5º Año",
+    "level": 7,
+    "correlativas": "PA1"
+  },
+  {
+    "id": "EP",
+    "materia": "Ética Profesional",
+    "categoria": "Materias Obligatorias",
+    "grupo": "5º Año",
+    "level": 7,
+    "correlativas": "IP-FGDM-ME1-ADIT1-TPIN2-HDIT2"
+  },
+  {
+    "id": "PPA",
+    "materia": "Práctica Profesional Asistida",
+    "categoria": "Materias Obligatorias",
+    "grupo": "5º Año",
+    "level": 7,
+    "correlativas": "SOC-CC-PI3-PA1-TPI4-CYM2"
+  },
+  {
+    "id": "TFC",
+    "materia": "Trabajo Final de Carrera",
+    "categoria": "Fin de Carrera",
+    "level": 8,
+    "correlativas": "SOC-CC-PA1-TPI4-CYM2-PI4"
+  }
+]

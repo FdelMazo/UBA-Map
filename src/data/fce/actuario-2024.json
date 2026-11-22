@@ -1,0 +1,308 @@
+[
+  {
+    "id": "245",
+    "materia": "Álgebra",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "241",
+    "materia": "Análisis Matemático I",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "242",
+    "materia": "Economía",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "246",
+    "materia": "Historia Económica y Social General",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "255",
+    "materia": "Análisis Contable",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "256",
+    "materia": "Instituciones de Gobierno y Economía Política",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC",
+    "materia": "Primer Tramo (CBC)",
+    "creditos": 0,
+    "categoria": "CBC",
+    "level": 0,
+    "correlativas": "245-241-242-246-255-256"
+  },
+  {
+    "id": "540",
+    "materia": "Análisis Estadístico",
+    "categoria": "Materias Obligatorias",
+    "level": 1,
+    "grupo": "Segundo Tramo",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "542",
+    "materia": "Matemática Aplicada",
+    "categoria": "Materias Obligatorias",
+    "level": 1,
+    "grupo": "Segundo Tramo",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "262",
+    "materia": "Macroeconomía I",
+    "categoria": "Materias Obligatorias",
+    "level": 1,
+    "grupo": "Segundo Tramo",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "462",
+    "materia": "Derecho Empresarial",
+    "categoria": "Materias Obligatorias",
+    "level": 1,
+    "grupo": "Segundo Tramo",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "274",
+    "materia": "Sistemas Administrativos",
+    "categoria": "Materias Obligatorias",
+    "level": 2,
+    "grupo": "Segundo Tramo",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "602",
+    "materia": "Análisis Estadístico II",
+    "categoria": "Materias Obligatorias",
+    "level": 2,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "540-542"
+  },
+  {
+    "id": "544",
+    "materia": "Matemática Aplicada II",
+    "categoria": "Materias Obligatorias",
+    "level": 2,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "542"
+  },
+  {
+    "id": "601",
+    "materia": "Matemática Financiera y Actuarial",
+    "categoria": "Materias Obligatorias",
+    "level": 2,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "540-542"
+  },
+  {
+    "id": "291",
+    "materia": "Microeconomía para Economistas",
+    "categoria": "Materias Obligatorias",
+    "level": 3,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "542"
+  },
+  {
+    "id": "603",
+    "materia": "Derecho Financiero, Seguros y Seguridad Social",
+    "categoria": "Materias Obligatorias",
+    "level": 3,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "462"
+  },
+  {
+    "id": "751",
+    "materia": "Estadística Actuarial",
+    "categoria": "Materias Obligatorias",
+    "level": 3,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "544-602"
+  },
+  {
+    "id": "752",
+    "materia": "Análisis Numérico",
+    "categoria": "Materias Obligatorias",
+    "level": 3,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "544"
+  },
+  {
+    "id": "746",
+    "materia": "Computación Científica Actuarial",
+    "categoria": "Materias Obligatorias",
+    "level": 4,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "540-542"
+  },
+  {
+    "id": "279",
+    "materia": "Administración Financiera",
+    "categoria": "Materias Obligatorias",
+    "level": 4,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "601"
+  },
+  {
+    "id": "753",
+    "materia": "Biometría Actuarial",
+    "categoria": "Materias Obligatorias",
+    "level": 4,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "601-751-752"
+  },
+  {
+    "id": "758",
+    "materia": "Bases Actuariales de las Inversiones y Financiaciones (Act. 5)",
+    "categoria": "Materias Obligatorias",
+    "level": 4,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "601-751"
+  },
+  {
+    "id": "548",
+    "materia": "Dinero y Bancos",
+    "categoria": "Materias Obligatorias",
+    "level": 5,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "279-602"
+  },
+  {
+    "id": "754",
+    "materia": "Teoría Actuarial de los Seguros Personales (Act. 1)",
+    "categoria": "Materias Obligatorias",
+    "level": 5,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "753"
+  },
+  {
+    "id": "755",
+    "materia": "Teoría Actuarial de los Seguros Patrimoniales (Act. 2)",
+    "categoria": "Materias Obligatorias",
+    "level": 5,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "601-751-752"
+  },
+  {
+    "id": "756",
+    "materia": "Teoría Actuarial de los Fondos y Planes de Jubilaciones, Pensiones y Salud (Act. 4)",
+    "categoria": "Materias Obligatorias",
+    "level": 6,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "754"
+  },
+  {
+    "id": "757",
+    "materia": "Teoría del Equilibrio Actuarial (Act. 3)",
+    "categoria": "Materias Obligatorias",
+    "level": 6,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "754-755"
+  },
+  {
+    "id": "717",
+    "materia": "Modelos y Proyecciones Actuariales",
+    "categoria": "Materias Obligatorias",
+    "level": 7,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "746-757-758"
+  },
+  {
+    "id": "728",
+    "materia": "Práctica Profesional del Actuario",
+    "categoria": "Fin de Carrera",
+    "level": 7,
+    "correlativas": "755-756",
+    "requiere": 26,
+    "requiereCBC": true
+  },
+  {
+    "id": "283",
+    "materia": "Macroeconomía II",
+    "categoria": "Materias Electivas",
+    "grupo": "Electivas",
+    "correlativas": "262-544"
+  },
+  {
+    "id": "464",
+    "materia": "Gestión de Costos",
+    "categoria": "Materias Electivas",
+    "grupo": "Electivas",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "541",
+    "materia": "Historia de la Economía y las Políticas Económicas en Argentina",
+    "categoria": "Materias Electivas",
+    "grupo": "Electivas",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "543",
+    "materia": "Econometría I",
+    "categoria": "Materias Electivas",
+    "grupo": "Electivas",
+    "correlativas": "540-544"
+  },
+  {
+    "id": "546",
+    "materia": "Econometría II",
+    "categoria": "Materias Electivas",
+    "grupo": "Electivas",
+    "correlativas": "543"
+  },
+  {
+    "id": "720",
+    "materia": "Demografía y Seguridad Social",
+    "categoria": "Materias Electivas",
+    "grupo": "Electivas",
+    "correlativas": "753"
+  },
+  {
+    "id": "721",
+    "materia": "Poder Económico y Derechos Humanos",
+    "categoria": "Materias Electivas",
+    "grupo": "Electivas",
+    "correlativas": "754"
+  },
+  {
+    "id": "784",
+    "materia": "Análisis Numérico Avanzado",
+    "categoria": "Materias Electivas",
+    "grupo": "Electivas",
+    "correlativas": "746-752"
+  },
+  {
+    "id": "741",
+    "materia": "Elementos de Topología para Economía y Gestión",
+    "categoria": "Materias Electivas",
+    "grupo": "Optativas",
+    "correlativas": "544"
+  },
+  {
+    "id": "750",
+    "materia": "Métodos Cuantitativos",
+    "categoria": "Materias Electivas",
+    "grupo": "Optativas",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "763",
+    "materia": "Teoría de los Juegos",
+    "categoria": "Materias Electivas",
+    "grupo": "Optativas",
+    "correlativas": "CBC"
+  }
+]

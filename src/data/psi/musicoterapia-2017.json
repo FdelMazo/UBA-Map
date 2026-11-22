@@ -1,0 +1,339 @@
+[
+  {
+    "id": "IPC",
+    "materia": "Introducción al Pensamiento Científico",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "ICSE",
+    "materia": "Introducción al Conocimiento de la Sociedad y el Estado",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "BIO",
+    "materia": "Biología",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "PSICO",
+    "materia": "Psicología",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "SEMIO",
+    "materia": "Semiología",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "MAT",
+    "materia": "Matemática",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC",
+    "materia": "Ciclo Básico Común",
+    "creditos": 0,
+    "categoria": "CBC",
+    "level": 0,
+    "correlativas": "IPC-ICSE-BIO-PSICO-SEMIO-MAT"
+  },
+  {
+    "id": "293",
+    "materia": "Musicoterapia I",
+    "categoria": "Materias Obligatorias",
+    "level": 1,
+    "grupo": "Segundo Año",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "296",
+    "materia": "Psicología del Ciclo Vital I",
+    "categoria": "Materias Obligatorias",
+    "level": 1,
+    "grupo": "Segundo Año",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "297",
+    "materia": "Sociedad e Instituciones",
+    "categoria": "Materias Obligatorias",
+    "level": 1,
+    "grupo": "Segundo Año",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "298",
+    "materia": "Neurofisiopatología",
+    "categoria": "Materias Obligatorias",
+    "level": 1,
+    "grupo": "Segundo Año",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "328",
+    "materia": "Musicoterapia II",
+    "categoria": "Materias Obligatorias",
+    "level": 2,
+    "grupo": "Tercer Año",
+    "correlativas": "293"
+  },
+  {
+    "id": "302",
+    "materia": "Psicología del Ciclo Vital II",
+    "categoria": "Materias Obligatorias",
+    "level": 2,
+    "grupo": "Segundo Año",
+    "correlativas": "296"
+  },
+  {
+    "id": "301",
+    "materia": "Teoría y Técnica de Grupos",
+    "categoria": "Materias Obligatorias",
+    "level": 2,
+    "grupo": "Segundo Año",
+    "correlativas": "297"
+  },
+  {
+    "id": "300",
+    "materia": "Neuropsicopatología",
+    "categoria": "Materias Obligatorias",
+    "level": 2,
+    "grupo": "Segundo Año",
+    "correlativas": "298"
+  },
+  {
+    "id": "307",
+    "materia": "Audioperceptiva Aplicada I",
+    "categoria": "Materias Obligatorias",
+    "level": 3,
+    "grupo": "Tercer Año",
+    "correlativas": "300"
+  },
+  {
+    "id": "311",
+    "materia": "Escuelas Psicológicas Contemporáneas",
+    "categoria": "Materias Obligatorias",
+    "level": 3,
+    "grupo": "Tercer Año",
+    "correlativas": "328-302-301-300"
+  },
+  {
+    "id": "299",
+    "materia": "Técnica Vocal I",
+    "categoria": "Materias Obligatorias",
+    "level": 3,
+    "grupo": "Segundo Año",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "308",
+    "materia": "Taller de Instrumentos de Percusión",
+    "categoria": "Materias Obligatorias",
+    "level": 3,
+    "grupo": "Tercer Año",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "310",
+    "materia": "Audioperceptiva Aplicada II",
+    "categoria": "Materias Obligatorias",
+    "level": 4,
+    "grupo": "Tercer Año",
+    "correlativas": "302-307"
+  },
+  {
+    "id": "304",
+    "materia": "Psicopatología",
+    "categoria": "Materias Obligatorias",
+    "level": 4,
+    "grupo": "Cuarto Año",
+    "correlativas": "311"
+  },
+  {
+    "id": "306",
+    "materia": "Técnica Vocal II",
+    "categoria": "Materias Obligatorias",
+    "level": 4,
+    "grupo": "Tercer Año",
+    "correlativas": "299"
+  },
+  {
+    "id": "294",
+    "materia": "Taller de Instrumentos Aerófonos",
+    "categoria": "Materias Obligatorias",
+    "level": 4,
+    "grupo": "Segundo Año",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "309",
+    "materia": "Musicoterapia en el Ámbito Educativo",
+    "categoria": "Materias Obligatorias",
+    "level": 5,
+    "grupo": "Tercer Año",
+    "correlativas": "328-301-306-307-308"
+  },
+  {
+    "id": "312",
+    "materia": "Musicoterapia, Comunicación y Discapacidad",
+    "categoria": "Materias Obligatorias",
+    "level": 5,
+    "grupo": "Cuarto Año",
+    "correlativas": "328-310"
+  },
+  {
+    "id": "313",
+    "materia": "Estadística y Metodología de la Investigación",
+    "categoria": "Materias Obligatorias",
+    "level": 5,
+    "grupo": "Cuarto Año",
+    "correlativas": "328-310"
+  },
+  {
+    "id": "314",
+    "materia": "Antropología de la Música",
+    "categoria": "Materias Obligatorias",
+    "level": 5,
+    "grupo": "Cuarto Año",
+    "correlativas": "310"
+  },
+  {
+    "id": "317",
+    "materia": "Grupo de Improvisación en Musicoterapia",
+    "categoria": "Materias Obligatorias",
+    "level": 6,
+    "grupo": "Cuarto Año",
+    "correlativas": "304-314-306-308"
+  },
+  {
+    "id": "315",
+    "materia": "Musicoterapia III",
+    "categoria": "Materias Obligatorias",
+    "level": 6,
+    "grupo": "Cuarto Año",
+    "correlativas": "304-314"
+  },
+  {
+    "id": "316",
+    "materia": "Musicoterapia en Salud Mental",
+    "categoria": "Materias Obligatorias",
+    "level": 6,
+    "grupo": "Cuarto Año",
+    "correlativas": "304-314"
+  },
+  {
+    "id": "295",
+    "materia": "Técnicas Corporales",
+    "categoria": "Materias Obligatorias",
+    "level": 6,
+    "grupo": "Segundo Año",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "318",
+    "materia": "Seminario: Musicoterapia en el Ámbito Hospitalario",
+    "categoria": "Materias Obligatorias",
+    "level": 7,
+    "grupo": "Quinto Año",
+    "correlativas": "312-317"
+  },
+  {
+    "id": "319",
+    "materia": "Seminario: Tecnología e Informática Aplicada a Musicoterapia",
+    "categoria": "Materias Obligatorias",
+    "level": 7,
+    "grupo": "Quinto Año",
+    "correlativas": "317"
+  },
+  {
+    "id": "320",
+    "materia": "Seminario: Gestión y Organización del Equipo Interdisciplinario de Salud",
+    "categoria": "Materias Obligatorias",
+    "level": 7,
+    "grupo": "Quinto Año",
+    "correlativas": "312-315-316-309"
+  },
+  {
+    "id": "303",
+    "materia": "Taller de Guitarra",
+    "categoria": "Materias Obligatorias",
+    "level": 7,
+    "grupo": "Segundo Año",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "321",
+    "materia": "Taller: Ética Profesional y Derechos Humanos",
+    "categoria": "Materias Obligatorias",
+    "level": 8,
+    "grupo": "Quinto Año",
+    "correlativas": "312-315-316-319"
+  },
+  {
+    "id": "330",
+    "materia": "Práctica Profesional. Módulo I: Área Clínica",
+    "categoria": "Materias Obligatorias",
+    "level": 9,
+    "grupo": "Quinto Año",
+    "requiere": 35,
+    "requiereCBC": true
+  },
+  {
+    "id": "332",
+    "materia": "Práctica Profesional. Módulo I: Área Educacional",
+    "categoria": "Materias Obligatorias",
+    "level": 9,
+    "grupo": "Quinto Año",
+    "requiere": 35,
+    "requiereCBC": true
+  },
+  {
+    "id": "334",
+    "materia": "Práctica Profesional. Módulo I: Área Emergente",
+    "categoria": "Materias Obligatorias",
+    "level": 9,
+    "grupo": "Quinto Año",
+    "requiere": 35,
+    "requiereCBC": true
+  },
+  {
+    "id": "331",
+    "materia": "Práctica Profesional. Módulo II: Área Clínica",
+    "categoria": "Materias Obligatorias",
+    "level": 10,
+    "grupo": "Quinto Año",
+    "requiere": 35,
+    "requiereCBC": true
+  },
+  {
+    "id": "333",
+    "materia": "Práctica Profesional. Módulo II: Área Educacional",
+    "categoria": "Materias Obligatorias",
+    "level": 10,
+    "grupo": "Quinto Año",
+    "requiere": 35,
+    "requiereCBC": true
+  },
+  {
+    "id": "335",
+    "materia": "Práctica Profesional. Módulo II: Área Emergente",
+    "categoria": "Materias Obligatorias",
+    "level": 10,
+    "grupo": "Quinto Año",
+    "requiere": 35,
+    "requiereCBC": true
+  },
+  {
+    "id": "TESIS",
+    "materia": "Tesis de Licenciatura",
+    "categoria": "Fin de Carrera",
+    "level": 11,
+    "correlativas": "330-331-332-333-334-335"
+  }
+]

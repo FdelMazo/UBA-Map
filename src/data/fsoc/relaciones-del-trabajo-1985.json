@@ -1,0 +1,238 @@
+[
+  {
+    "id": "CBC40",
+    "materia": "Introducción al Pensamiento Científico",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "CBC24",
+    "materia": "Introducción al Conocimiento de la Sociedad y el Estado",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "CBC14",
+    "materia": "Sociología",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "ECO",
+    "materia": "Economía",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "PSICO",
+    "materia": "Psicología",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC22",
+    "materia": "Ciencia Política",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC",
+    "materia": "Ciclo Básico Común",
+    "creditos": 0,
+    "categoria": "CBC",
+    "level": 0,
+    "correlativas": "CBC40-CBC24-CBC14-ECO-PSICO-CBC22"
+  },
+  {
+    "id": "903",
+    "materia": "Administración de Empresas",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Título Intermedio",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "901",
+    "materia": "Principios de Sociología del Trabajo",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Título Intermedio",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "925",
+    "materia": "Economía Política I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Título Intermedio",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "904",
+    "materia": "Administración de Personal I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Título Intermedio",
+    "level": 2,
+    "correlativas": "903"
+  },
+  {
+    "id": "927",
+    "materia": "Estadística Aplicada I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Título Intermedio",
+    "level": 2,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "905",
+    "materia": "Derecho del Trabajo I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Título Intermedio",
+    "level": 2,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "913",
+    "materia": "Psicología del Trabajo",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Licenciatura",
+    "level": 3,
+    "correlativas": "903"
+  },
+  {
+    "id": "926",
+    "materia": "Economía Política II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Título Intermedio",
+    "level": 3,
+    "correlativas": "925"
+  },
+  {
+    "id": "928",
+    "materia": "Estadística Aplicada II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Título Intermedio",
+    "level": 3,
+    "correlativas": "927"
+  },
+  {
+    "id": "910",
+    "materia": "Administración de Personal II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Título Intermedio",
+    "level": 4,
+    "correlativas": "904-928"
+  },
+  {
+    "id": "918",
+    "materia": "Sociología del Trabajo",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Licenciatura",
+    "level": 4,
+    "correlativas": "901"
+  },
+  {
+    "id": "909",
+    "materia": "Derecho del Trabajo II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Título Intermedio",
+    "level": 4,
+    "correlativas": "905"
+  },
+  {
+    "id": "911",
+    "materia": "Administración de Personal III",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Título Intermedio",
+    "level": 5,
+    "correlativas": "910"
+  },
+  {
+    "id": "907",
+    "materia": "Economía del Trabajo",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Título Intermedio",
+    "level": 5,
+    "correlativas": "926"
+  },
+  {
+    "id": "908",
+    "materia": "Historia Social Contemporánea",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Título Intermedio",
+    "level": 5,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "912",
+    "materia": "Computación y Sistemas de Información",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Título Intermedio",
+    "level": 6,
+    "correlativas": "928"
+  },
+  {
+    "id": "915",
+    "materia": "Estructura Económica y Social Argentina",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Licenciatura",
+    "level": 6,
+    "correlativas": "908-926-928"
+  },
+  {
+    "id": "914",
+    "materia": "Derecho Administrativo y Procesal del Trabajo",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Licenciatura",
+    "level": 6,
+    "correlativas": "909"
+  },
+  {
+    "id": "919",
+    "materia": "Teoría y Comportamiento Organizacional",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Licenciatura",
+    "level": 7,
+    "correlativas": "911-912-913-918"
+  },
+  {
+    "id": "916",
+    "materia": "Relaciones del Trabajo",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Licenciatura",
+    "level": 7,
+    "correlativas": "907-914"
+  },
+  {
+    "id": "920",
+    "materia": "Metodología de la Investigación y la Evaluación",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Licenciatura",
+    "level": 7,
+    "correlativas": "901-913-928"
+  },
+  {
+    "id": "922",
+    "materia": "Historia del Movimiento Obrero Nacional e Internacional",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Licenciatura",
+    "level": 8,
+    "correlativas": "915"
+  },
+  {
+    "id": "917",
+    "materia": "Condiciones y Medio Ambiente del Trabajo",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Licenciatura",
+    "level": 8,
+    "correlativas": "907-909"
+  },
+  {
+    "id": "921",
+    "materia": "Derecho de la Seguridad Social",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Licenciatura",
+    "level": 9,
+    "correlativas": "916"
+  }
+]

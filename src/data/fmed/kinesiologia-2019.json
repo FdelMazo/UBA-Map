@@ -1,0 +1,286 @@
+[
+  {
+    "id": "IPC",
+    "materia": "Introducción al Pensamiento Científico",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "ICSE",
+    "materia": "Introducción al Conocimiento de la Sociedad y el Estado",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "QUIMICA",
+    "materia": "Química",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "BIOFISICA",
+    "materia": "Física e Introducción a la Biofísica",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "BIOLOGIA",
+    "materia": "Biología e Introducción a la Biología Celular",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "MAT",
+    "materia": "Matemática",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC",
+    "materia": "Ciclo Básico Común",
+    "creditos": 0,
+    "categoria": "CBC",
+    "level": 0,
+    "correlativas": "IPC-ICSE-QUIMICA-BIOFISICA-BIOLOGIA-MAT"
+  },
+  {
+    "id": "ANAT",
+    "materia": "Anatomía",
+    "categoria": "Materias Obligatorias",
+    "level": 1,
+    "grupo": "2º Año",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "BIOFIS",
+    "materia": "Biofísica",
+    "categoria": "Materias Obligatorias",
+    "level": 1,
+    "grupo": "2º Año",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "BCHEG",
+    "materia": "Biología Celular, Histología, Embriología y Genética",
+    "categoria": "Materias Obligatorias",
+    "level": 1,
+    "grupo": "2º Año",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "FISIO",
+    "materia": "Fisiología",
+    "categoria": "Materias Obligatorias",
+    "level": 2,
+    "grupo": "2º Año",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "MIKF",
+    "materia": "Módulo de Introducción a la Kinesiología y Fisiatría",
+    "categoria": "Materias Obligatorias",
+    "level": 2,
+    "grupo": "2º Año",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "PSICMED",
+    "materia": "Psicología Médica",
+    "categoria": "Materias Obligatorias",
+    "level": 2,
+    "grupo": "2º Año",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "BIOMEC",
+    "materia": "Biomecánica y Anatomía Funcional",
+    "categoria": "Materias Obligatorias",
+    "level": 3,
+    "grupo": "3º Año",
+    "correlativas": "ANAT-FISIO-MIKF-BCHEG-BIOFIS"
+  },
+  {
+    "id": "TK1",
+    "materia": "Técnicas Kinésicas I",
+    "categoria": "Materias Obligatorias",
+    "level": 3,
+    "grupo": "3º Año",
+    "correlativas": "ANAT-FISIO-MIKF-BCHEG-BIOFIS"
+  },
+  {
+    "id": "SEMIOMED",
+    "materia": "Semiopatología Médica",
+    "categoria": "Materias Obligatorias",
+    "level": 3,
+    "grupo": "3º Año",
+    "correlativas": "ANAT-FISIO-MIKF-BCHEG-PSICMED"
+  },
+  {
+    "id": "EVAL",
+    "materia": "Evaluaciones Kinefisiátricas",
+    "categoria": "Materias Obligatorias",
+    "level": 4,
+    "grupo": "3º Año",
+    "correlativas": "ANAT-FISIO-MIKF-BCHEG-BIOFIS"
+  },
+  {
+    "id": "FISIOT1",
+    "materia": "Fisioterapia I",
+    "categoria": "Materias Obligatorias",
+    "level": 4,
+    "grupo": "3º Año",
+    "correlativas": "ANAT-FISIO-MIKF-BCHEG-BIOFIS"
+  },
+  {
+    "id": "QBIO",
+    "materia": "Química Biológica",
+    "categoria": "Materias Obligatorias",
+    "level": 4,
+    "grupo": "3º Año",
+    "correlativas": "FISIO-MIKF-BCHEG"
+  },
+  {
+    "id": "SEMIOQX",
+    "materia": "Semiopatología Quirúrgica",
+    "categoria": "Materias Obligatorias",
+    "level": 5,
+    "grupo": "4º Año",
+    "correlativas": "BIOMEC-SEMIOMED-EVAL"
+  },
+  {
+    "id": "TK2",
+    "materia": "Técnicas Kinésicas II",
+    "categoria": "Materias Obligatorias",
+    "level": 5,
+    "grupo": "4º Año",
+    "correlativas": "BIOMEC-TK1-SEMIOMED-EVAL"
+  },
+  {
+    "id": "KINEF",
+    "materia": "Kinefilaxia",
+    "categoria": "Materias Obligatorias",
+    "level": 5,
+    "grupo": "4º Año",
+    "correlativas": "PSICMED-BIOMEC-EVAL-TK1"
+  },
+  {
+    "id": "METINV",
+    "materia": "Metodología de la Investigación Científica",
+    "categoria": "Materias Obligatorias",
+    "level": 5,
+    "grupo": "4º Año",
+    "correlativas": "BIOMEC-SEMIOMED-TK1-QBIO"
+  },
+  {
+    "id": "FARMA",
+    "materia": "Farmacología",
+    "categoria": "Materias Obligatorias",
+    "level": 6,
+    "grupo": "4º Año",
+    "correlativas": "BIOFIS-QBIO-SEMIOMED"
+  },
+  {
+    "id": "FISIOT2",
+    "materia": "Fisioterapia II y Climatoterapia",
+    "categoria": "Materias Obligatorias",
+    "level": 6,
+    "grupo": "4º Año",
+    "correlativas": "FISIOT1-SEMIOMED-QBIO"
+  },
+  {
+    "id": "MAP",
+    "materia": "Módulo de Atención Primaria",
+    "categoria": "Materias Obligatorias",
+    "level": 6,
+    "grupo": "4º Año",
+    "correlativas": "BIOMEC-SEMIOMED-TK1-EVAL-FISIOT1"
+  },
+  {
+    "id": "CFM",
+    "materia": "Clínica Fisiátrica Médica",
+    "categoria": "Materias Obligatorias",
+    "level": 7,
+    "grupo": "5º Año",
+    "correlativas": "FISIOT1-TK2-FARMA"
+  },
+  {
+    "id": "PSICOMOT",
+    "materia": "Psicomotricidad y Neurodesarrollo",
+    "categoria": "Materias Obligatorias",
+    "level": 7,
+    "grupo": "5º Año",
+    "correlativas": "FISIOT1-TK2-METINV-SEMIOQX-KINEF"
+  },
+  {
+    "id": "TK3",
+    "materia": "Técnicas Kinésicas III",
+    "categoria": "Materias Obligatorias",
+    "level": 7,
+    "grupo": "5º Año",
+    "correlativas": "FISIOT1-SEMIOQX-METINV-TK2-KINEF"
+  },
+  {
+    "id": "KDEP",
+    "materia": "Kinesiología Deportiva",
+    "categoria": "Materias Obligatorias",
+    "level": 8,
+    "grupo": "5º Año",
+    "correlativas": "FISIOT1-METINV-KINEF-SEMIOQX"
+  },
+  {
+    "id": "ORTESIS",
+    "materia": "Órtesis y Prótesis",
+    "categoria": "Materias Obligatorias",
+    "level": 8,
+    "grupo": "5º Año",
+    "correlativas": "FISIOT1-METINV-SEMIOQX"
+  },
+  {
+    "id": "BIOINF",
+    "materia": "Bioinformática y Rehabilitación Computacional",
+    "categoria": "Materias Obligatorias",
+    "level": 9,
+    "grupo": "6º Año",
+    "correlativas": "TK2-FARMA-FISIOT2-KINEF-MAP-ORTESIS"
+  },
+  {
+    "id": "KESTET",
+    "materia": "Kinefisiatría Estética",
+    "categoria": "Materias Obligatorias",
+    "level": 9,
+    "grupo": "6º Año",
+    "correlativas": "SEMIOQX-FISIOT2-KINEF-METINV-MAP-CFM"
+  },
+  {
+    "id": "KOCUP",
+    "materia": "Kinesiología Ocupacional y Laboral",
+    "categoria": "Materias Obligatorias",
+    "level": 9,
+    "grupo": "6º Año",
+    "correlativas": "FISIOT2-KINEF-MAP-CFM-ORTESIS"
+  },
+  {
+    "id": "KLEGAL",
+    "materia": "Kinefisiatría Legal y Deontología",
+    "categoria": "Materias Obligatorias",
+    "level": 10,
+    "grupo": "6º Año",
+    "correlativas": "SEMIOQX-FISIOT2-KINEF-METINV-MAP-CFM"
+  },
+  {
+    "id": "ORGHOSP",
+    "materia": "Organización Hospitalaria, Institucional y de Centros de Rehabilitación",
+    "categoria": "Materias Obligatorias",
+    "level": 10,
+    "grupo": "6º Año",
+    "correlativas": "SEMIOQX-FISIOT2-KINEF-METINV-MAP-CFM"
+  },
+  {
+    "id": "CKQ",
+    "materia": "Clínica Kinefisiátrica Quirúrgica",
+    "categoria": "Materias Obligatorias",
+    "grupo": "6º Año",
+    "level": 10,
+    "correlativas": "FISIOT2-MAP-CFM-PSICOMOT-TK3"
+  }
+]

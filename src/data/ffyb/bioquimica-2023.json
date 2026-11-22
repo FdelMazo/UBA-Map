@@ -1,0 +1,367 @@
+[
+  {
+    "id": "CBC40",
+    "materia": "Introducción al Pensamiento Científico",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "CBC24",
+    "materia": "Introducción al Conocimiento de la Sociedad y el Estado",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "CBC5",
+    "materia": "Química",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "CBC51",
+    "materia": "Matemática",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC54",
+    "materia": "Biología e Introducción a la Biología Celular",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC53",
+    "materia": "Física e Introducción a la Biofísica",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC",
+    "materia": "Ciclo Básico Común",
+    "creditos": 0,
+    "categoria": "CBC",
+    "level": 0,
+    "correlativas": "CBC40-CBC24-CBC5-CBC51-CBC54-CBC53"
+  },
+  {
+    "id": "7",
+    "materia": "Química General e Inorgánica",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Segundo Año",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "8",
+    "materia": "Matemática",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Segundo Año",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "9",
+    "materia": "Anatomía e Histología",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Segundo Año",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "43",
+    "materia": "Inglés",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Segundo Año",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "10",
+    "materia": "Física",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Segundo Año",
+    "level": 2,
+    "correlativas": "8"
+  },
+  {
+    "id": "11",
+    "materia": "Biología Celular y Molecular",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Segundo Año",
+    "level": 2,
+    "correlativas": "9"
+  },
+  {
+    "id": "12",
+    "materia": "Química Orgánica I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Segundo Año",
+    "level": 2,
+    "correlativas": "7"
+  },
+  {
+    "id": "44",
+    "materia": "Bioestadística",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Segundo Año",
+    "level": 2,
+    "correlativas": "8"
+  },
+  {
+    "id": "13",
+    "materia": "Química Orgánica II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 3,
+    "correlativas": "10-12"
+  },
+  {
+    "id": "14",
+    "materia": "Fisiología",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 3,
+    "correlativas": "11"
+  },
+  {
+    "id": "15",
+    "materia": "Química Analítica",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 3,
+    "correlativas": "7-8"
+  },
+  {
+    "id": "16",
+    "materia": "Fisicoquímica",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 4,
+    "correlativas": "7-10"
+  },
+  {
+    "id": "17",
+    "materia": "Química Analítica Instrumental",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 4,
+    "correlativas": "10-15"
+  },
+  {
+    "id": "18",
+    "materia": "Química Biológica",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 4,
+    "correlativas": "11-13"
+  },
+  {
+    "id": "19",
+    "materia": "Fisiopatología",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 5,
+    "correlativas": "14-43-44"
+  },
+  {
+    "id": "20",
+    "materia": "Microbiología",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 5,
+    "correlativas": "18-43-44"
+  },
+  {
+    "id": "21",
+    "materia": "Química Biológica Superior",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 5,
+    "correlativas": "16-17-18-43-44"
+  },
+  {
+    "id": "22",
+    "materia": "Genética Molecular",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 5,
+    "correlativas": "18-43-44"
+  },
+  {
+    "id": "45",
+    "materia": "Legislación Bioquímica y Derechos Humanos",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 6,
+    "correlativas": "14-16-17-18-43-44"
+  },
+  {
+    "id": "23",
+    "materia": "Inmunología",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 6,
+    "correlativas": "14-20"
+  },
+  {
+    "id": "24",
+    "materia": "Farmacología",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 6,
+    "correlativas": "18-19"
+  },
+  {
+    "id": "25",
+    "materia": "Biotecnología",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 6,
+    "correlativas": "20-22"
+  },
+  {
+    "id": "26",
+    "materia": "Virología",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 7,
+    "correlativas": "20-22"
+  },
+  {
+    "id": "27",
+    "materia": "Nutrición",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 7,
+    "correlativas": "18-19"
+  },
+  {
+    "id": "46",
+    "materia": "Salud Pública",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 7,
+    "correlativas": "20"
+  },
+  {
+    "id": "29",
+    "materia": "Bioquímica Clínica I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Quinto Año",
+    "level": 7,
+    "correlativas": "19-21-23"
+  },
+  {
+    "id": "28",
+    "materia": "Microbiología Clínica",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Quinto Año",
+    "level": 8,
+    "correlativas": "19-23-26"
+  },
+  {
+    "id": "30",
+    "materia": "Práctica Profesional Bioquímica Interna",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Quinto Año",
+    "level": 8,
+    "correlativas": "19-21-23-26"
+  },
+  {
+    "id": "31",
+    "materia": "Toxicología y Química Legal",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Quinto Año",
+    "level": 8,
+    "correlativas": "17-24"
+  },
+  {
+    "id": "32",
+    "materia": "Bromatología",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Quinto Año",
+    "level": 8,
+    "correlativas": "20-27"
+  },
+  {
+    "id": "33",
+    "materia": "Bioquímica de Metabolopatías",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Quinto Año",
+    "level": 9,
+    "correlativas": "18-19"
+  },
+  {
+    "id": "34",
+    "materia": "Genética Forense",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Quinto Año",
+    "level": 9,
+    "correlativas": "22"
+  },
+  {
+    "id": "35",
+    "materia": "Bioquímica Clínica II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Quinto Año",
+    "level": 9,
+    "correlativas": "29"
+  },
+  {
+    "id": "47",
+    "materia": "Práctica Social Educativa",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Quinto Año",
+    "level": 9,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "36",
+    "materia": "Práctica Profesional Bioquímica Externa",
+    "categoria": "Fin de Carrera",
+    "level": 10,
+    "correlativas": "30"
+  },
+  {
+    "id": "BC3",
+    "materia": "Bioquímica Clínica III",
+    "categoria": "Materias Electivas",
+    "grupo": "Asignatura de la orientación",
+    "correlativas": "25-28-30-31-32-33-34-35"
+  },
+  {
+    "id": "AMBSAL",
+    "materia": "Ambiente y Salud",
+    "categoria": "Materias Electivas",
+    "grupo": "Asignatura de la orientación",
+    "correlativas": "25-28-30-31-32-33-34-35"
+  },
+  {
+    "id": "IPI",
+    "materia": "Inmunología de los Procesos Infecciosos",
+    "categoria": "Materias Electivas",
+    "grupo": "Asignatura de la orientación",
+    "correlativas": "25-28-30-31-32-33-34-35"
+  },
+  {
+    "id": "CINENZ",
+    "materia": "Cinética Enzimática",
+    "categoria": "Materias Electivas",
+    "grupo": "Asignatura de la orientación",
+    "correlativas": "25-28-30-31-32-33-34-35"
+  },
+  {
+    "id": "PROCBIO",
+    "materia": "Procesos de Biotecnología",
+    "categoria": "Materias Electivas",
+    "grupo": "Asignatura de la orientación",
+    "correlativas": "25-28-30-31-32-33-34-35"
+  },
+  {
+    "id": "TOXFOR",
+    "materia": "Toxicología Forense",
+    "categoria": "Materias Electivas",
+    "grupo": "Asignatura de la orientación",
+    "correlativas": "25-28-30-31-32-33-34-35"
+  }
+]

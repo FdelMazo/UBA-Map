@@ -1,0 +1,412 @@
+[
+  {
+    "id": "CBC40",
+    "materia": "Introducción al Pensamiento Científico",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "CBC24",
+    "materia": "Introducción al Conocimiento de la Sociedad y el Estado",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "CBC14",
+    "materia": "Sociología",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "ANTRO",
+    "materia": "Antropología",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "ECO",
+    "materia": "Economía",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "PSICO",
+    "materia": "Psicología",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC",
+    "materia": "Ciclo Básico Común",
+    "creditos": 0,
+    "categoria": "CBC",
+    "level": 0,
+    "correlativas": "CBC40-CBC24-CBC14-ANTRO-ECO-PSICO"
+  },
+  {
+    "id": "774",
+    "materia": "Epistemología de las Ciencias Sociales",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Formación General",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "873",
+    "materia": "Historia Social Argentina",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Subtrayecto Socio-histórico-político",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "7703",
+    "materia": "Fundamentos e Historia del Trabajo Social I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Subtrayecto Fundamentos Teóricos, Metodológicos y Operativos",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "794",
+    "materia": "Taller Nivel I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Subtrayecto de Prácticas Pre-profesionales",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "7701",
+    "materia": "Sociología II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Formación General",
+    "level": 2,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "7708",
+    "materia": "Metodología de la Investigación I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Subtrayecto Fundamentos Teóricos, Metodológicos y Operativos",
+    "level": 2,
+    "correlativas": "774"
+  },
+  {
+    "id": "7705",
+    "materia": "Fundamentos e Historia del Trabajo Social II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Subtrayecto Fundamentos Teóricos, Metodológicos y Operativos",
+    "level": 2,
+    "correlativas": "7703"
+  },
+  {
+    "id": "772",
+    "materia": "Estado y Políticas Públicas",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Subtrayecto Socio-histórico-político",
+    "level": 2,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "7700",
+    "materia": "Economía Política",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Subtrayecto Socio-histórico-político",
+    "level": 3,
+    "correlativas": "7701"
+  },
+  {
+    "id": "7801",
+    "materia": "Metodología de la Investigación II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Subtrayecto Fundamentos Teóricos, Metodológicos y Operativos",
+    "level": 3,
+    "correlativas": "7708"
+  },
+  {
+    "id": "795",
+    "materia": "Taller Nivel II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Subtrayecto de Prácticas Pre-profesionales",
+    "level": 3,
+    "correlativas": "794-7703-7708"
+  },
+  {
+    "id": "7802",
+    "materia": "Psicología Institucional",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Formación General",
+    "level": 3,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "776",
+    "materia": "Problemas Sociales Argentinos",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Subtrayecto Socio-histórico-político",
+    "level": 4,
+    "correlativas": "873-7700"
+  },
+  {
+    "id": "7805",
+    "materia": "Trabajo Social, Territorio y Comunidad",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Subtrayecto Fundamentos Teóricos, Metodológicos y Operativos",
+    "level": 4,
+    "correlativas": "7705-772"
+  },
+  {
+    "id": "7808",
+    "materia": "Trabajo Social y Planificación Social",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Subtrayecto Fundamentos Teóricos, Metodológicos y Operativos",
+    "level": 4,
+    "correlativas": "7705-772"
+  },
+  {
+    "id": "7809",
+    "materia": "Trabajo Social, Procesos Grupales e Institucionales",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Subtrayecto Fundamentos Teóricos, Metodológicos y Operativos",
+    "level": 4,
+    "correlativas": "7705-7708"
+  },
+  {
+    "id": "780",
+    "materia": "Antropología Social I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Formación General",
+    "level": 5,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "779",
+    "materia": "Política Social",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Subtrayecto Socio-histórico-político",
+    "level": 5,
+    "correlativas": "772-776"
+  },
+  {
+    "id": "7710",
+    "materia": "Estudios Socio-demográficos",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Subtrayecto Socio-histórico-político",
+    "level": 5,
+    "correlativas": "7801-772"
+  },
+  {
+    "id": "796",
+    "materia": "Taller Nivel III",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Subtrayecto de Prácticas Pre-profesionales",
+    "level": 5,
+    "correlativas": "795-7805-7808"
+  },
+  {
+    "id": "7807",
+    "materia": "Teoría Social Latinoamericana",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Subtrayecto Socio-histórico-político",
+    "level": 6,
+    "correlativas": "776"
+  },
+  {
+    "id": "7903",
+    "materia": "Dimensión Instrumental del Trabajo Social",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Subtrayecto Fundamentos Teóricos, Metodológicos y Operativos",
+    "level": 6,
+    "correlativas": "7705"
+  },
+  {
+    "id": "792",
+    "materia": "Filosofía Social",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Formación General",
+    "level": 6,
+    "correlativas": "7802"
+  },
+  {
+    "id": "7804",
+    "materia": "Planificación en Escenarios Regionales y Nacionales",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Subtrayecto Fundamentos Teóricos, Metodológicos y Operativos",
+    "level": 6,
+    "correlativas": "7710-7808"
+  },
+  {
+    "id": "7707",
+    "materia": "Psicología del Desarrollo y de la Subjetividad",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Formación General",
+    "level": 7,
+    "correlativas": "7703"
+  },
+  {
+    "id": "7901",
+    "materia": "Trabajo Social, Familias y Vida Cotidiana",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Subtrayecto Fundamentos Teóricos, Metodológicos y Operativos",
+    "level": 7,
+    "correlativas": "7705-780"
+  },
+  {
+    "id": "790",
+    "materia": "Derecho",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Formación General",
+    "level": 7,
+    "correlativas": "795"
+  },
+  {
+    "id": "783",
+    "materia": "Antropología Social II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Subtrayecto Socio-histórico-político",
+    "level": 7,
+    "correlativas": "780"
+  },
+  {
+    "id": "797",
+    "materia": "Taller Nivel IV",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Subtrayecto de Prácticas Pre-profesionales",
+    "level": 8,
+    "correlativas": "796-779-7903-7901"
+  },
+  {
+    "id": "7900",
+    "materia": "Seminario de Trabajo de Investigación Final",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Subtrayecto de Prácticas Pre-profesionales",
+    "level": 8,
+    "correlativas": "796-7710-780"
+  },
+  {
+    "id": "7000",
+    "materia": "Tesina de Grado",
+    "categoria": "Fin de Carrera",
+    "level": 9,
+    "correlativas": "7900-797-783"
+  },
+  {
+    "id": "8001",
+    "materia": "Poder y Control Social. Análisis e Intervención desde el Trabajo Social",
+    "categoria": "Materias Electivas",
+    "grupo": "Electivas",
+    "correlativas": "776-795"
+  },
+  {
+    "id": "8706",
+    "materia": "Sociedad y Envejecimiento. Nuevos Desafíos Profesionales",
+    "categoria": "Materias Electivas",
+    "grupo": "Electivas",
+    "correlativas": "776-795"
+  },
+  {
+    "id": "887",
+    "materia": "Problemática de la Salud Mental en la Argentina",
+    "categoria": "Materias Electivas",
+    "grupo": "Electivas",
+    "correlativas": "776-795"
+  },
+  {
+    "id": "9703",
+    "materia": "Introducción a la Problemática de la Violencia Familiar",
+    "categoria": "Materias Electivas",
+    "grupo": "Electivas",
+    "correlativas": "776-795"
+  },
+  {
+    "id": "10819",
+    "materia": "Situaciones Socio Ambientales",
+    "categoria": "Materias Electivas",
+    "grupo": "Electivas",
+    "correlativas": "776-795"
+  },
+  {
+    "id": "8008",
+    "materia": "Cooperativismo, Trabajo Social y Experiencias Asociativas",
+    "categoria": "Materias Electivas",
+    "grupo": "Electivas",
+    "correlativas": "776-795"
+  },
+  {
+    "id": "6608",
+    "materia": "Discapacidad, Políticas y Ciudadanía",
+    "categoria": "Materias Electivas",
+    "grupo": "Electivas",
+    "correlativas": "776-795"
+  },
+  {
+    "id": "8002",
+    "materia": "Política Criminal, Prevención del Delito y Trabajo Social",
+    "categoria": "Materias Electivas",
+    "grupo": "Electivas",
+    "correlativas": "776-795"
+  },
+  {
+    "id": "805",
+    "materia": "Niñez, Familia y Derechos Humanos",
+    "categoria": "Materias Electivas",
+    "grupo": "Electivas",
+    "correlativas": "776-795"
+  },
+  {
+    "id": "894",
+    "materia": "Cultura Popular",
+    "categoria": "Materias Electivas",
+    "grupo": "Electivas",
+    "correlativas": "776-795"
+  },
+  {
+    "id": "947",
+    "materia": "La Educación como Campo de Intervención Profesional",
+    "categoria": "Materias Electivas",
+    "grupo": "Electivas",
+    "correlativas": "776-795"
+  },
+  {
+    "id": "8901",
+    "materia": "Consumo Problemático de Drogas",
+    "categoria": "Materias Electivas",
+    "grupo": "Electivas",
+    "correlativas": "776-795"
+  },
+  {
+    "id": "804",
+    "materia": "Derecho a la Salud",
+    "categoria": "Materias Electivas",
+    "grupo": "Electivas",
+    "correlativas": "776-795"
+  },
+  {
+    "id": "800",
+    "materia": "La Adopción de Niños en Perspectiva Social",
+    "categoria": "Materias Electivas",
+    "grupo": "Electivas",
+    "correlativas": "776-795"
+  },
+  {
+    "id": "7800",
+    "materia": "Migraciones y Derechos Humanos. Abordaje desde el Trabajo Social",
+    "categoria": "Materias Electivas",
+    "grupo": "Electivas",
+    "correlativas": "776-795"
+  },
+  {
+    "id": "7810",
+    "materia": "Problemáticas de las Juventudes",
+    "categoria": "Materias Electivas",
+    "grupo": "Electivas",
+    "correlativas": "776-795"
+  },
+  {
+    "id": "7820",
+    "materia": "Intervenciones en Hábitat y Vivienda",
+    "categoria": "Materias Electivas",
+    "grupo": "Electivas",
+    "correlativas": "776-795"
+  }
+]

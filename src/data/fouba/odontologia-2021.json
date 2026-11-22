@@ -1,0 +1,494 @@
+[
+  {
+    "id": "IPC",
+    "materia": "Introducción al Pensamiento Científico",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "ICSE",
+    "materia": "Introducción al Conocimiento de la Sociedad y el Estado",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "QUIMICA",
+    "materia": "Química",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "BIOFISICA",
+    "materia": "Física e Introducción a la Biofísica",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "BIOLOGIA",
+    "materia": "Biología e Introducción a la Biología Celular",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "MAT",
+    "materia": "Matemática",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC",
+    "materia": "Ciclo Básico Común",
+    "creditos": 0,
+    "categoria": "CBC",
+    "level": 0,
+    "correlativas": "IPC-ICSE-QUIMICA-BIOFISICA-BIOLOGIA-MAT"
+  },
+  {
+    "id": "N101",
+    "materia": "Anatomía General y Estomatológica",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Segundo Año",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "N102",
+    "materia": "Bioquímica General",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Segundo Año",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "N103",
+    "materia": "Histología y Embriología",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Segundo Año",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "N100",
+    "materia": "Inglés Técnico",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Segundo Año",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "N110",
+    "materia": "Inserción Temprana en la Clínica",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Segundo Año",
+    "level": 2,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "N105",
+    "materia": "Inmunología y Microbiología I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Segundo Año",
+    "level": 2,
+    "correlativas": "N102-N103"
+  },
+  {
+    "id": "N106",
+    "materia": "Biología Bucal",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Segundo Año",
+    "level": 2,
+    "correlativas": "N102-N103"
+  },
+  {
+    "id": "N108",
+    "materia": "Biofísica Aplicada a la Práctica Odontológica",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Segundo Año",
+    "level": 2,
+    "correlativas": "N102"
+  },
+  {
+    "id": "N111",
+    "materia": "Diagnóstico por Imágenes con Radiofísica Sanitaria",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Segundo Año",
+    "level": 3,
+    "correlativas": "N103"
+  },
+  {
+    "id": "N201",
+    "materia": "Fisiología",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 3,
+    "correlativas": "N106-N108"
+  },
+  {
+    "id": "N202",
+    "materia": "Patología General",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 3,
+    "correlativas": "N105-N106"
+  },
+  {
+    "id": "N203",
+    "materia": "Materiales Dentales I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 3,
+    "correlativas": "N108"
+  },
+  {
+    "id": "N204",
+    "materia": "Preclínica de Odontología Restauradora I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 4,
+    "correlativas": "N101-N110"
+  },
+  {
+    "id": "N206",
+    "materia": "Odontología Preventiva y Mínimamente Invasiva I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 4,
+    "correlativas": "N105-N106-N110-N111"
+  },
+  {
+    "id": "N211",
+    "materia": "Preclínica Quirúrgica y Anestesia",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 4,
+    "correlativas": "N101-N110"
+  },
+  {
+    "id": "N205",
+    "materia": "Microbiología II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 4,
+    "correlativas": "N105"
+  },
+  {
+    "id": "N207",
+    "materia": "Odontología Preventiva y Mínimamente Invasiva II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 5,
+    "correlativas": "N204-N206-N211"
+  },
+  {
+    "id": "N208",
+    "materia": "Preclínica de Odontología Restauradora II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 5,
+    "correlativas": "N203-N204-N206"
+  },
+  {
+    "id": "N209",
+    "materia": "Endodoncia I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 5,
+    "correlativas": "N204-N206-N211"
+  },
+  {
+    "id": "N210",
+    "materia": "Patología Bucal",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 5,
+    "correlativas": "N202"
+  },
+  {
+    "id": "N212",
+    "materia": "Materiales Dentales II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 6,
+    "correlativas": "N203"
+  },
+  {
+    "id": "N213",
+    "materia": "Bioética y Ejercicio Profesional",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 6,
+    "correlativas": "N110"
+  },
+  {
+    "id": "N214",
+    "materia": "Introducción a la Periodoncia",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 6,
+    "correlativas": "N206"
+  },
+  {
+    "id": "N303",
+    "materia": "Farmacología",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 6,
+    "correlativas": "N201-N205"
+  },
+  {
+    "id": "N302",
+    "materia": "Preclínica de Rehabilitación Protética",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 7,
+    "correlativas": "N208-N212"
+  },
+  {
+    "id": "N304",
+    "materia": "Medicina Interna en la Práctica de la Odontología",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 7,
+    "correlativas": "N201-N210"
+  },
+  {
+    "id": "N308",
+    "materia": "Endodoncia II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 7,
+    "correlativas": "N210-N208-N209"
+  },
+  {
+    "id": "N309",
+    "materia": "Periodoncia",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 7,
+    "correlativas": "N210-N207-N214"
+  },
+  {
+    "id": "N310",
+    "materia": "Odontología Restauradora",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 8,
+    "correlativas": "N207-N208-N212"
+  },
+  {
+    "id": "N311",
+    "materia": "Cirugía y Traumatología Bucomaxilofacial I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 8,
+    "correlativas": "N111-N202-N211"
+  },
+  {
+    "id": "N306",
+    "materia": "Bioestadística y Metodología de la Investigación",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 8,
+    "correlativas": "N100"
+  },
+  {
+    "id": "N305",
+    "materia": "Historia de la Odontología",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 8,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "N401",
+    "materia": "Odontología Rehabilitadora Integral",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Quinto Año",
+    "level": 9,
+    "correlativas": "N302-N308-N309-N310"
+  },
+  {
+    "id": "N402",
+    "materia": "Cirugía y Traumatología Bucomaxilofacial II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Quinto Año",
+    "level": 9,
+    "correlativas": "N303-N304-N311"
+  },
+  {
+    "id": "N403",
+    "materia": "Odontología Integral Niños y Adolescentes",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Quinto Año",
+    "level": 9,
+    "correlativas": "N303-N304-N308-N309-N310-N311"
+  },
+  {
+    "id": "N405",
+    "materia": "Materiales Dentales III",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Quinto Año",
+    "level": 9,
+    "correlativas": "N302"
+  },
+  {
+    "id": "N407",
+    "materia": "Diagnóstico por Imágenes II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Quinto Año",
+    "level": 10,
+    "correlativas": "N311"
+  },
+  {
+    "id": "N408",
+    "materia": "Módulo Asistencial Integrado de Baja Complejidad",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Quinto Año",
+    "level": 10,
+    "correlativas": "N308-N310"
+  },
+  {
+    "id": "N404",
+    "materia": "Medicina Bucal I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Quinto Año",
+    "level": 10,
+    "correlativas": "N304"
+  },
+  {
+    "id": "N409",
+    "materia": "Epidemiología y Salud de las Poblaciones",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Quinto Año",
+    "level": 10,
+    "correlativas": "N207"
+  },
+  {
+    "id": "N406",
+    "materia": "Nuevas Tecnologías en Odontología Rehabilitadora",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Quinto Año",
+    "level": 11,
+    "correlativas": "N302-N407"
+  },
+  {
+    "id": "N503",
+    "materia": "Articulación Docencia-Servicio-Investigación (Práctica Social Educativa)",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Sexto Año",
+    "level": 11,
+    "correlativas": "N403-N408-N409"
+  },
+  {
+    "id": "N502",
+    "materia": "Cirugía y Traumatología Bucomaxilofacial III",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Sexto Año",
+    "level": 11,
+    "correlativas": "N402-N404"
+  },
+  {
+    "id": "N509",
+    "materia": "Odontología Integral para el Adulto Mayor",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Sexto Año",
+    "level": 11,
+    "correlativas": "N401-N404"
+  },
+  {
+    "id": "N506",
+    "materia": "Ortodoncia I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Sexto Año",
+    "level": 12,
+    "correlativas": "N403-N407-N409"
+  },
+  {
+    "id": "N504",
+    "materia": "Medicina Bucal II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Sexto Año",
+    "level": 12,
+    "correlativas": "N404"
+  },
+  {
+    "id": "N507",
+    "materia": "Odontología Legal y Forense",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Sexto Año",
+    "level": 12,
+    "correlativas": "N213-N401"
+  },
+  {
+    "id": "N505",
+    "materia": "Módulo Asistencial de Urgencias Odontológicas",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Sexto Año",
+    "level": 12,
+    "correlativas": "N308-N402"
+  },
+  {
+    "id": "N508",
+    "materia": "Sistema de Salud y Gestión Clínica",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Sexto Año",
+    "level": 13,
+    "correlativas": "N409-N507"
+  },
+  {
+    "id": "N501",
+    "materia": "Odontología Integral Adultos (PPS)",
+    "categoria": "Fin de Carrera",
+    "level": 13,
+    "correlativas": "N401-N402-N404-N405-N406"
+  },
+  {
+    "id": "N601",
+    "materia": "Riesgo Sistémico de la Patología Bucodental",
+    "categoria": "Materias Electivas",
+    "grupo": "Módulo Electivo Asistencial Orientado",
+    "correlativas": "N304"
+  },
+  {
+    "id": "N602",
+    "materia": "Atención Odontológica en Pacientes con Discapacidad",
+    "categoria": "Materias Electivas",
+    "grupo": "Módulo Electivo Asistencial Orientado",
+    "correlativas": "N304"
+  },
+  {
+    "id": "N603",
+    "materia": "Ortodoncia II",
+    "categoria": "Materias Electivas",
+    "grupo": "Módulo Electivo Asistencial Orientado",
+    "correlativas": "N506"
+  },
+  {
+    "id": "N604",
+    "materia": "Programa Rural de Atención Odontológica",
+    "categoria": "Materias Electivas",
+    "grupo": "Módulo Electivo Asistencial Orientado",
+    "correlativas": "N409"
+  },
+  {
+    "id": "N605",
+    "materia": "Traumatismos Dentarios",
+    "categoria": "Materias Electivas",
+    "grupo": "Módulo Electivo Asistencial Orientado",
+    "correlativas": "N308-N309-N402"
+  },
+  {
+    "id": "N606",
+    "materia": "Tomografía Computada en la Práctica Clínica Odontológica",
+    "categoria": "Materias Electivas",
+    "grupo": "Módulo Electivo Asistencial Orientado",
+    "correlativas": "N406"
+  },
+  {
+    "id": "N607",
+    "materia": "Atención Integral de Pacientes con Sequedad Bucal",
+    "categoria": "Materias Electivas",
+    "grupo": "Módulo Electivo Asistencial Orientado",
+    "correlativas": "N404"
+  }
+]

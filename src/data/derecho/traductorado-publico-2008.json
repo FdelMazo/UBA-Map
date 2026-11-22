@@ -1,0 +1,302 @@
+[
+  {
+    "id": "CBC40",
+    "materia": "Introducción al Pensamiento Científico",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "CBC24",
+    "materia": "Introducción al Conocimiento de la Sociedad y el Estado",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "CBC14",
+    "materia": "Sociología",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "SEMIOLOGIA",
+    "materia": "Semiología",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "PGDP",
+    "materia": "Principios Generales de Derecho Privado",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "PDHDC",
+    "materia": "Principios de Derechos Humanos y Derecho Constitucional",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC",
+    "materia": "Ciclo Básico Común",
+    "creditos": 0,
+    "categoria": "CBC",
+    "level": 0,
+    "correlativas": "CBC40-CBC24-CBC14-SEMIOLOGIA-PGDP-PDHDC"
+  },
+  {
+    "id": "L1",
+    "materia": "Lengua I: Gramática",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Asignaturas Específicas",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "CIVIL",
+    "materia": "Elementos de Derecho Civil (Parte General)",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Asignaturas Jurídicas",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "FON1",
+    "materia": "Fonología de la Lengua Extranjera I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Asignaturas Específicas",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "FON2",
+    "materia": "Fonología de la Lengua Extranjera II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Asignaturas Específicas",
+    "level": 2,
+    "correlativas": "FON1"
+  },
+  {
+    "id": "OBLIG",
+    "materia": "Obligaciones Civiles y Comerciales",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Asignaturas Jurídicas",
+    "level": 2,
+    "correlativas": "CIVIL"
+  },
+  {
+    "id": "LE1",
+    "materia": "Lengua Española I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Asignaturas Específicas",
+    "level": 2,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "L2",
+    "materia": "Lengua II: Lingüística",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Asignaturas Específicas",
+    "level": 3,
+    "correlativas": "L1"
+  },
+  {
+    "id": "CONTRATOS",
+    "materia": "Contratos Civiles y Comerciales",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Asignaturas Jurídicas",
+    "level": 3,
+    "correlativas": "OBLIG"
+  },
+  {
+    "id": "COM",
+    "materia": "Elementos de Derecho Comercial",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Asignaturas Jurídicas",
+    "level": 3,
+    "correlativas": "CIVIL"
+  },
+  {
+    "id": "LE2",
+    "materia": "Lengua Española II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Asignaturas Específicas",
+    "level": 3,
+    "correlativas": "LE1"
+  },
+  {
+    "id": "D1",
+    "materia": "Derecho I (en lengua extranjera)",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Asignaturas Específicas",
+    "level": 4,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "CONST",
+    "materia": "Elementos de Derecho Constitucional",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Asignaturas Jurídicas",
+    "level": 4,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "SOC",
+    "materia": "Sociedades Civiles y Comerciales",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Asignaturas Jurídicas",
+    "level": 5,
+    "correlativas": "CONTRATOS-COM"
+  },
+  {
+    "id": "D2",
+    "materia": "Derecho II (en lengua extranjera)",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Asignaturas Específicas",
+    "level": 5,
+    "correlativas": "D1-OBLIG"
+  },
+  {
+    "id": "ELC",
+    "materia": "Estudios Lingüísticos Contrastivos",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Asignaturas Específicas",
+    "level": 5,
+    "correlativas": "L1"
+  },
+  {
+    "id": "REALES",
+    "materia": "Elementos de Derechos Reales",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Asignaturas Jurídicas",
+    "level": 5,
+    "correlativas": "OBLIG"
+  },
+  {
+    "id": "T1",
+    "materia": "Traducción I: Historia de la Traducción y Traducción Técnica",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Asignaturas Específicas",
+    "level": 6,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "PROCCIV",
+    "materia": "Elementos de Derecho Procesal Civil y Comercial",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Asignaturas Jurídicas",
+    "level": 6,
+    "correlativas": "OBLIG"
+  },
+  {
+    "id": "PENAL",
+    "materia": "Elementos de Derecho Penal y Procesal Penal",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Asignaturas Jurídicas",
+    "level": 6,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "LD1",
+    "materia": "Lengua y Derecho I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Asignaturas Específicas",
+    "level": 7,
+    "correlativas": "L2"
+  },
+  {
+    "id": "T2",
+    "materia": "Traducción II: Técnicas de Traducción, Traducción Jurídica Básica",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Asignaturas Específicas",
+    "level": 7,
+    "correlativas": "T1"
+  },
+  {
+    "id": "CEF1",
+    "materia": "Contabilidad, Economía y Finanzas I (en español)",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Asignaturas Específicas",
+    "level": 7,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "CEF2",
+    "materia": "Contabilidad, Economía y Finanzas II (en lengua extranjera)",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Asignaturas Específicas",
+    "level": 8,
+    "correlativas": "CEF1-L1"
+  },
+  {
+    "id": "FAM",
+    "materia": "Derecho de Familia y Sucesiones",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Asignaturas Jurídicas",
+    "level": 8,
+    "correlativas": "REALES-CONTRATOS"
+  },
+  {
+    "id": "REG",
+    "materia": "Régimen Legal de la Traducción y del Traductor Público",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Asignaturas Específicas",
+    "level": 8,
+    "correlativas": "PROCCIV"
+  },
+  {
+    "id": "LD2",
+    "materia": "Lengua y Derecho II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Asignaturas Específicas",
+    "level": 9,
+    "correlativas": "LD1"
+  },
+  {
+    "id": "T3",
+    "materia": "Traducción III: Traducción Jurídica",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Asignaturas Específicas",
+    "level": 9,
+    "correlativas": "T2"
+  },
+  {
+    "id": "INT1",
+    "materia": "Interpretación I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Asignaturas Específicas",
+    "level": 9,
+    "correlativas": "FON2-L2"
+  },
+  {
+    "id": "T4",
+    "materia": "Traducción IV: Traducción Jurídica y Económico-Empresarial",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Asignaturas Específicas",
+    "level": 10,
+    "correlativas": "T3"
+  },
+  {
+    "id": "INT2",
+    "materia": "Interpretación II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Asignaturas Específicas",
+    "level": 10,
+    "correlativas": "INT1"
+  },
+  {
+    "id": "TINV",
+    "materia": "Traducción Inversa",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Asignaturas Específicas",
+    "level": 11,
+    "correlativas": "T4"
+  },
+  {
+    "id": "TALLER",
+    "materia": "Taller de Traducción e Interpretación Consecutiva",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Asignaturas Específicas",
+    "level": 11,
+    "correlativas": "T4"
+  }
+]

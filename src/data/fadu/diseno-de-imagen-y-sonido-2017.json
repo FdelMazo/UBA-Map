@@ -1,0 +1,356 @@
+[
+  {
+    "id": "CBC24",
+    "materia": "Introducción al Conocimiento de la Sociedad y el Estado",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "CBC40",
+    "materia": "Introducción al Pensamiento Científico",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "SEMIOLOGIA",
+    "materia": "Semiología",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "CBC46",
+    "materia": "Introducción al Conocimiento Proyectual I",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "CBC47",
+    "materia": "Introducción al Conocimiento Proyectual II",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC48",
+    "materia": "Taller de Dibujo",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC51",
+    "materia": "Matemática",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC",
+    "materia": "Ciclo Básico Común",
+    "creditos": 0,
+    "categoria": "CBC",
+    "level": 0,
+    "correlativas": "CBC24-CBC40-SEMIOLOGIA-CBC46-CBC47-CBC48-CBC51"
+  },
+  {
+    "id": "PAV1",
+    "materia": "Proyecto Audiovisual 1",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 1",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "NA",
+    "materia": "Narrativas Audiovisuales",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 1",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "EA1",
+    "materia": "Escrituras Audiovisuales 1",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 1",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "DyRA",
+    "materia": "Dibujo y Representación Audiovisual",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 1",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "M1",
+    "materia": "Montaje 1",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 1",
+    "level": 2,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "IyC1",
+    "materia": "Iluminación y Cámara 1",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 1",
+    "level": 2,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "S1",
+    "materia": "Sonido 1",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 1",
+    "level": 2,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "SOC",
+    "materia": "Sociología",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 1",
+    "level": 2,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "PAV2",
+    "materia": "Proyecto Audiovisual 2",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 2",
+    "level": 3,
+    "correlativas": "PAV1-SOC"
+  },
+  {
+    "id": "PyP",
+    "materia": "Producción y Planificación",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 2",
+    "level": 3,
+    "correlativas": "PAV1"
+  },
+  {
+    "id": "EA2",
+    "materia": "Escrituras Audiovisuales 2",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 2",
+    "level": 3,
+    "correlativas": "EA1-NA"
+  },
+  {
+    "id": "E",
+    "materia": "Estética",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 1",
+    "level": 3,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "IyC2",
+    "materia": "Iluminación y Cámara 2",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 2",
+    "level": 4,
+    "correlativas": "IyC1"
+  },
+  {
+    "id": "S2",
+    "materia": "Sonido 2",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 2",
+    "level": 4,
+    "correlativas": "S1"
+  },
+  {
+    "id": "TecAV",
+    "materia": "Técnicas Audiovisuales",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 2",
+    "level": 4,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "HAMA1",
+    "materia": "Historia Analítica de los Medios Audiovisuales 1",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 2",
+    "level": 4,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "PAV3",
+    "materia": "Proyecto Audiovisual 3",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 3",
+    "level": 5,
+    "correlativas": "PAV2-PyP-TecAV"
+  },
+  {
+    "id": "DyC",
+    "materia": "Difusión y Comercialización de los Medios",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 3",
+    "level": 5,
+    "correlativas": "PAV2-PyP"
+  },
+  {
+    "id": "M2",
+    "materia": "Montaje 2",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 3",
+    "level": 5,
+    "correlativas": "PAV2-M1"
+  },
+  {
+    "id": "TAV",
+    "materia": "Teorías Audiovisuales",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 2",
+    "level": 5,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "HAMA2",
+    "materia": "Historia Analítica de los Medios Audiovisuales 2",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 3",
+    "level": 6,
+    "correlativas": "HAMA1"
+  },
+  {
+    "id": "TEM",
+    "materia": "Teoría y Estética de los Medios",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 3",
+    "level": 6,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "PAV4",
+    "materia": "Proyecto Audiovisual 4",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Nivel 3",
+    "level": 7,
+    "correlativas": "PAV3-M2-DyC"
+  },
+  {
+    "id": "EA3",
+    "materia": "Escrituras Audiovisuales 3",
+    "categoria": "Materias Electivas",
+    "correlativas": "PAV2-EA2"
+  },
+  {
+    "id": "EA4",
+    "materia": "Escrituras Audiovisuales 4",
+    "categoria": "Materias Electivas",
+    "correlativas": "EA3"
+  },
+  {
+    "id": "PNyJ",
+    "materia": "Producción Audiovisual en Niñez y Juventud",
+    "categoria": "Materias Electivas",
+    "correlativas": "PAV3-DyC"
+  },
+  {
+    "id": "PSP",
+    "materia": "Producción Audiovisual en el Sector Público",
+    "categoria": "Materias Electivas",
+    "correlativas": "PAV3-DyC"
+  },
+  {
+    "id": "PyMI",
+    "materia": "Producción y Mercados Internacionales",
+    "categoria": "Materias Electivas",
+    "correlativas": "PAV3-DyC"
+  },
+  {
+    "id": "EMDA",
+    "materia": "Economía de los Medios y Derecho Aplicado",
+    "categoria": "Materias Electivas",
+    "correlativas": "PAV3-DyC"
+  },
+  {
+    "id": "MA",
+    "materia": "Morfologías Audiovisuales",
+    "categoria": "Materias Electivas",
+    "correlativas": "PAV2-TecAV"
+  },
+  {
+    "id": "DA",
+    "materia": "Dirección de Actores",
+    "categoria": "Materias Electivas",
+    "correlativas": "PAV2"
+  },
+  {
+    "id": "DAR",
+    "materia": "Dirección de Arte",
+    "categoria": "Materias Electivas",
+    "correlativas": "PAV2"
+  },
+  {
+    "id": "DF",
+    "materia": "Dirección de Fotografía",
+    "categoria": "Materias Electivas",
+    "correlativas": "PAV2-IyC2"
+  },
+  {
+    "id": "S3",
+    "materia": "Sonido 3",
+    "categoria": "Materias Electivas",
+    "correlativas": "PAV2-S2"
+  },
+  {
+    "id": "M3",
+    "materia": "Montaje 3",
+    "categoria": "Materias Electivas",
+    "correlativas": "M2"
+  },
+  {
+    "id": "PBA",
+    "materia": "Principios y Bases de la Animación",
+    "categoria": "Materias Electivas",
+    "correlativas": "PAV2-TecAV"
+  },
+  {
+    "id": "3D",
+    "materia": "Animación 3D",
+    "categoria": "Materias Electivas",
+    "correlativas": "PAV2-TecAV"
+  },
+  {
+    "id": "PAI",
+    "materia": "Proyectos Audiovisuales Interactivos",
+    "categoria": "Materias Electivas",
+    "correlativas": "PAV2-TecAV"
+  },
+  {
+    "id": "IP",
+    "materia": "Introducción a la Programación",
+    "categoria": "Materias Electivas",
+    "correlativas": "PAV2-TecAV"
+  },
+  {
+    "id": "MMA",
+    "materia": "Música en Medios Audiovisuales",
+    "categoria": "Materias Electivas",
+    "correlativas": "PAV2-HAMA1"
+  },
+  {
+    "id": "DyEC",
+    "materia": "Diseño y Estudios Culturales",
+    "categoria": "Materias Electivas",
+    "correlativas": "PAV2-TEM"
+  },
+  {
+    "id": "CDAV",
+    "materia": "Crítica del Diseño Audiovisual",
+    "categoria": "Materias Electivas",
+    "correlativas": "PAV2-HAMA2"
+  },
+  {
+    "id": "LAAV",
+    "materia": "Literatura en las Artes Audiovisuales",
+    "categoria": "Materias Electivas",
+    "correlativas": "PAV2-TAV"
+  }
+]

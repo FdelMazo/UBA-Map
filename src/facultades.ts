@@ -17,7 +17,7 @@ export const FACULTADES: Facultad[] = [
   {
     nombre: "Facultad de Ciencias Económicas",
     nombrecorto: "FCE",
-    planes: planes("Contador", "Administración"),
+    planes: planes("Contador", "Administración", "Economía", "Sistemas", "Actuario"),
   },
   {
     nombre: "Facultad de Psicología",
@@ -27,17 +27,42 @@ export const FACULTADES: Facultad[] = [
   {
     nombre: "Facultad de Medicina",
     nombrecorto: "FMED",
-    planes: planes("Medicina"),
+    planes: planes("Medicina", "Enfermería", "Nutrición", "Kinesiología", "Obstetricia"),
   },
   {
     nombre: "Facultad de Arquitectura, Diseño y Urbanismo",
     nombrecorto: "FADU",
-    planes: planes("Arquitectura"),
+    planes: planes("Arquitectura", "Diseño Gráfico", "Indumentaria", "Textil", "Industrial", "Imagen y Sonido"),
   },
   {
     nombre: "Facultad de Derecho",
     nombrecorto: "DERECHO",
     planes: planes("Abogacía"),
+  },
+  {
+    nombre: "Facultad de Ciencias Sociales",
+    nombrecorto: "FSOC",
+    planes: planes("Trabajo Social", "Relaciones del Trabajo", "Sociología"),
+  },
+  {
+    nombre: "Facultad de Odontología",
+    nombrecorto: "FOUBA",
+    planes: planes("Odontología"),
+  },
+  {
+    nombre: "Facultad de Ciencias Veterinarias",
+    nombrecorto: "FVET",
+    planes: planes("Veterinaria"),
+  },
+  {
+    nombre: "Facultad de Farmacia y Bioquímica",
+    nombrecorto: "FFYB",
+    planes: planes("Farmacia", "Bioquímica"),
+  },
+  {
+    nombre: "Facultad de Agronomía",
+    nombrecorto: "FAUBA",
+    planes: planes("Agronomía"),
   },
 ];
 

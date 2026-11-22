@@ -1,0 +1,408 @@
+[
+  {
+    "id": "245",
+    "materia": "Álgebra",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "241",
+    "materia": "Análisis Matemático",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "242",
+    "materia": "Economía",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "246",
+    "materia": "Historia Económica y Social General",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "255",
+    "materia": "Análisis Contable",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "256",
+    "materia": "Instituciones de Gobierno y Economía Política",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC",
+    "materia": "Primer Tramo (CBC)",
+    "creditos": 0,
+    "categoria": "CBC",
+    "level": 0,
+    "correlativas": "245-241-242-246-255-256"
+  },
+  {
+    "id": "540",
+    "materia": "Análisis Estadístico",
+    "categoria": "Materias Obligatorias",
+    "level": 1,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "542",
+    "materia": "Matemática Aplicada I",
+    "categoria": "Materias Obligatorias",
+    "level": 1,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "262",
+    "materia": "Macroeconomía I",
+    "categoria": "Materias Obligatorias",
+    "level": 1,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "541",
+    "materia": "Historia de la Economía y las Políticas Económicas en Argentina",
+    "categoria": "Materias Obligatorias",
+    "level": 1,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "291",
+    "materia": "Microeconomía para Economistas",
+    "categoria": "Materias Obligatorias",
+    "level": 2,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "542"
+  },
+  {
+    "id": "544",
+    "materia": "Matemática Aplicada II",
+    "categoria": "Materias Obligatorias",
+    "level": 2,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "542"
+  },
+  {
+    "id": "545",
+    "materia": "Epistemología e Historia del Pensamiento Económico",
+    "categoria": "Materias Obligatorias",
+    "level": 2,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "262"
+  },
+  {
+    "id": "543",
+    "materia": "Econometría I",
+    "categoria": "Materias Obligatorias",
+    "level": 3,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "540-544"
+  },
+  {
+    "id": "556",
+    "materia": "Finanzas Públicas",
+    "categoria": "Materias Obligatorias",
+    "level": 3,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "291"
+  },
+  {
+    "id": "549",
+    "materia": "Economía Financiera",
+    "categoria": "Materias Obligatorias",
+    "level": 3,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "262-291"
+  },
+  {
+    "id": "283",
+    "materia": "Macroeconomía II",
+    "categoria": "Materias Obligatorias",
+    "level": 4,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "262-544"
+  },
+  {
+    "id": "286",
+    "materia": "Microeconomía II",
+    "categoria": "Materias Obligatorias",
+    "level": 4,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "291-544"
+  },
+  {
+    "id": "547",
+    "materia": "Estructura y Políticas Económicas y Sociales en Argentina",
+    "categoria": "Materias Obligatorias",
+    "level": 4,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "262-541-543-556"
+  },
+  {
+    "id": "546",
+    "materia": "Econometría II",
+    "categoria": "Materias Obligatorias",
+    "level": 5,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "543"
+  },
+  {
+    "id": "559",
+    "materia": "Desarrollo Económico",
+    "categoria": "Materias Obligatorias",
+    "level": 5,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "262-291-543"
+  },
+  {
+    "id": "554",
+    "materia": "Crecimiento Económico",
+    "categoria": "Materias Obligatorias",
+    "level": 5,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "283-291"
+  },
+  {
+    "id": "555",
+    "materia": "Organización Industrial",
+    "categoria": "Materias Obligatorias",
+    "level": 6,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "286"
+  },
+  {
+    "id": "558",
+    "materia": "Economía Internacional",
+    "categoria": "Materias Obligatorias",
+    "level": 6,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "262-286"
+  },
+  {
+    "id": "548",
+    "materia": "Dinero y Bancos",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo Profesional",
+    "level": 6,
+    "correlativas": "283-546-549"
+  },
+  {
+    "id": "520",
+    "materia": "Ciencias de Datos para Economía y Negocios",
+    "categoria": "Materias Electivas",
+    "grupo": "Empresarial",
+    "correlativas": "540-544"
+  },
+  {
+    "id": "523",
+    "materia": "Economía y Derecho Corporativo",
+    "categoria": "Materias Electivas",
+    "grupo": "Empresarial",
+    "correlativas": "291"
+  },
+  {
+    "id": "524",
+    "materia": "Finanzas Corporativas",
+    "categoria": "Materias Electivas",
+    "grupo": "Empresarial",
+    "correlativas": "549"
+  },
+  {
+    "id": "525",
+    "materia": "Tópicos de Economía Digital",
+    "categoria": "Materias Electivas",
+    "grupo": "Empresarial",
+    "correlativas": "262-291"
+  },
+  {
+    "id": "527",
+    "materia": "Big Data y Machine Learning",
+    "categoria": "Materias Electivas",
+    "grupo": "Empresarial",
+    "correlativas": "543"
+  },
+  {
+    "id": "1725",
+    "materia": "Administración Tributaria para Economistas",
+    "categoria": "Materias Electivas",
+    "grupo": "Empresarial",
+    "correlativas": "556"
+  },
+  {
+    "id": "563",
+    "materia": "Economía de la Innovación",
+    "categoria": "Materias Electivas",
+    "grupo": "Gobierno y Políticas Públicas",
+    "correlativas": "291-543"
+  },
+  {
+    "id": "1718",
+    "materia": "Modelos Económicos de Simulación",
+    "categoria": "Materias Electivas",
+    "grupo": "Gobierno y Políticas Públicas",
+    "correlativas": "262-286"
+  },
+  {
+    "id": "1720",
+    "materia": "Cuentas Nacionales e Indicadores Económicos",
+    "categoria": "Materias Electivas",
+    "grupo": "Gobierno y Políticas Públicas",
+    "correlativas": "262-544"
+  },
+  {
+    "id": "1724",
+    "materia": "Economía de la Protección Social",
+    "categoria": "Materias Electivas",
+    "grupo": "Gobierno y Políticas Públicas",
+    "correlativas": "556"
+  },
+  {
+    "id": "1562",
+    "materia": "Seminario de Integración",
+    "categoria": "Materias Electivas",
+    "grupo": "Análisis e Investigación Económica",
+    "correlativas": "283-286-546"
+  },
+  {
+    "id": "521",
+    "materia": "Economía Austríaca",
+    "categoria": "Materias Electivas",
+    "grupo": "Análisis e Investigación Económica",
+    "correlativas": "545"
+  },
+  {
+    "id": "526",
+    "materia": "Tópicos de Historia del Pensamiento Económico y Epistemología de la Economía",
+    "categoria": "Materias Electivas",
+    "grupo": "Análisis e Investigación Económica",
+    "correlativas": "545"
+  },
+  {
+    "id": "721",
+    "materia": "Poder Económico y Derechos Humanos",
+    "categoria": "Materias Electivas",
+    "grupo": "Análisis e Investigación Económica",
+    "correlativas": "547-559"
+  },
+  {
+    "id": "734",
+    "materia": "Sistemas Económicos Comparados",
+    "categoria": "Materias Electivas",
+    "grupo": "Análisis e Investigación Económica",
+    "correlativas": "262-556"
+  },
+  {
+    "id": "767",
+    "materia": "Economía Marxista",
+    "categoria": "Materias Electivas",
+    "grupo": "Análisis e Investigación Económica",
+    "correlativas": "545"
+  },
+  {
+    "id": "708",
+    "materia": "Economía y Procesamiento de Datos No Tradicionales",
+    "categoria": "Materias Electivas",
+    "grupo": "Generales",
+    "correlativas": "540-544"
+  },
+  {
+    "id": "713",
+    "materia": "Tópicos de Microeconomía",
+    "categoria": "Materias Electivas",
+    "grupo": "Generales",
+    "correlativas": "286"
+  },
+  {
+    "id": "779",
+    "materia": "Tópicos de Macroeconomía",
+    "categoria": "Materias Electivas",
+    "grupo": "Generales",
+    "correlativas": "283-546-549"
+  },
+  {
+    "id": "745",
+    "materia": "Economía de la Energía",
+    "categoria": "Materias Electivas",
+    "grupo": "Generales",
+    "correlativas": "291"
+  },
+  {
+    "id": "748",
+    "materia": "Evaluación de Proyectos",
+    "categoria": "Materias Electivas",
+    "grupo": "Generales",
+    "correlativas": "291"
+  },
+  {
+    "id": "764",
+    "materia": "Gestión en la Economía Social",
+    "categoria": "Materias Electivas",
+    "grupo": "Generales",
+    "correlativas": "559"
+  },
+  {
+    "id": "765",
+    "materia": "Economía Ambiental",
+    "categoria": "Materias Electivas",
+    "grupo": "Generales",
+    "correlativas": "291"
+  },
+  {
+    "id": "780",
+    "materia": "Economía Agropecuaria",
+    "categoria": "Materias Electivas",
+    "grupo": "Generales",
+    "correlativas": "291"
+  },
+  {
+    "id": "782",
+    "materia": "Economía Laboral",
+    "categoria": "Materias Electivas",
+    "grupo": "Generales",
+    "correlativas": "262-291-543"
+  },
+  {
+    "id": "1287",
+    "materia": "Economía Regional y Urbana",
+    "categoria": "Materias Electivas",
+    "grupo": "Generales",
+    "correlativas": "291"
+  },
+  {
+    "id": "1716",
+    "materia": "Economía y Género",
+    "categoria": "Materias Electivas",
+    "grupo": "Generales",
+    "correlativas": "559"
+  },
+  {
+    "id": "1717",
+    "materia": "Evaluación de Impacto",
+    "categoria": "Materias Electivas",
+    "grupo": "Generales",
+    "correlativas": "543"
+  },
+  {
+    "id": "1721",
+    "materia": "Economía del Comportamiento",
+    "categoria": "Materias Electivas",
+    "grupo": "Generales",
+    "correlativas": "286"
+  },
+  {
+    "id": "522",
+    "materia": "Economía Sraffiana",
+    "categoria": "Materias Electivas",
+    "grupo": "Generales",
+    "correlativas": "545"
+  }
+]

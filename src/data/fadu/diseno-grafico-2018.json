@@ -1,0 +1,300 @@
+[
+  {
+    "id": "CBC24",
+    "materia": "Introducción al Conocimiento de la Sociedad y el Estado",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "CBC40",
+    "materia": "Introducción al Pensamiento Científico",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "SEMIOLOGIA",
+    "materia": "Semiología",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "CBC46",
+    "materia": "Introducción al Conocimiento Proyectual I",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "CBC47",
+    "materia": "Introducción al Conocimiento Proyectual II",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC48",
+    "materia": "Taller de Dibujo",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC51",
+    "materia": "Matemática",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC",
+    "materia": "Ciclo Básico Común",
+    "creditos": 0,
+    "categoria": "CBC",
+    "level": 0,
+    "correlativas": "CBC24-CBC40-SEMIOLOGIA-CBC46-CBC47-CBC48-CBC51"
+  },
+  {
+    "id": "DG1",
+    "materia": "Diseño Gráfico I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Formación Inicial",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "H1",
+    "materia": "Historia I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Formación Inicial",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "TEC1",
+    "materia": "Tecnología I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Formación Inicial",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "M1",
+    "materia": "Morfología I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Formación Inicial",
+    "level": 2,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "TIP1",
+    "materia": "Tipografía I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Formación Inicial",
+    "level": 2,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "C1",
+    "materia": "Comunicación I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Formación Inicial",
+    "level": 2,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "DG2",
+    "materia": "Diseño Gráfico II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Formación General",
+    "level": 3,
+    "correlativas": "DG1-M1-TIP1"
+  },
+  {
+    "id": "H2",
+    "materia": "Historia II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Formación General",
+    "level": 3,
+    "correlativas": "H1"
+  },
+  {
+    "id": "TEC2",
+    "materia": "Tecnología II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Formación General",
+    "level": 3,
+    "correlativas": "TEC1"
+  },
+  {
+    "id": "M2",
+    "materia": "Morfología II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Formación General",
+    "level": 4,
+    "correlativas": "M1"
+  },
+  {
+    "id": "C2",
+    "materia": "Comunicación II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Formación General",
+    "level": 4,
+    "correlativas": "C1"
+  },
+  {
+    "id": "ME1",
+    "materia": "Medios Expresivos I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Formación General",
+    "level": 4,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "DG3",
+    "materia": "Diseño Gráfico III",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Formación General",
+    "level": 5,
+    "correlativas": "DG2-M2-C1-H1-TEC1"
+  },
+  {
+    "id": "TIP2",
+    "materia": "Tipografía II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Formación General",
+    "level": 5,
+    "correlativas": "M1-TIP1"
+  },
+  {
+    "id": "ME2",
+    "materia": "Medios Expresivos II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Formación General",
+    "level": 6,
+    "correlativas": "ME1"
+  },
+  {
+    "id": "LPP",
+    "materia": "Legislación y Práctica Profesional",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Formación General",
+    "level": 6,
+    "correlativas": "DG2-M2-TEC1-H2-C2"
+  },
+  {
+    "id": "DG4",
+    "materia": "Diseño Gráfico IV",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Formación General",
+    "level": 7,
+    "correlativas": "DG3-TIP2-ME1-TEC2-H2-C2"
+  },
+  {
+    "id": "FOT",
+    "materia": "Fotografía",
+    "categoria": "Materias Electivas",
+    "grupo": "Electiva de 2º Año",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "ILUS",
+    "materia": "Ilustración",
+    "categoria": "Materias Electivas",
+    "grupo": "Electiva de 2º Año",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "EST",
+    "materia": "Estética",
+    "categoria": "Materias Electivas",
+    "grupo": "Electiva Socio Humanística",
+    "correlativas": "DG2-M2-TEC1-H2-C2"
+  },
+  {
+    "id": "AED",
+    "materia": "Aspectos Económicos del Diseño",
+    "categoria": "Materias Electivas",
+    "grupo": "Electiva Socio Humanística",
+    "correlativas": "DG2-M2-TEC1-H2-C2"
+  },
+  {
+    "id": "TMED",
+    "materia": "Teoría de los Medios",
+    "categoria": "Materias Electivas",
+    "grupo": "Electiva Socio Humanística",
+    "correlativas": "DG2-M2-TEC1-H2-C2"
+  },
+  {
+    "id": "DEC",
+    "materia": "Diseño y Estudios Culturales",
+    "categoria": "Materias Electivas",
+    "grupo": "Electiva Socio Humanística",
+    "correlativas": "DG2-M2-TEC1-H2-C2"
+  },
+  {
+    "id": "EPSI",
+    "materia": "Elementos de Psicología",
+    "categoria": "Materias Electivas",
+    "grupo": "Electiva Socio Humanística",
+    "correlativas": "DG2-M2-TEC1-H2-C2"
+  },
+  {
+    "id": "DEG",
+    "materia": "Diseño y Estudios de Género",
+    "categoria": "Materias Electivas",
+    "grupo": "Electiva Socio Humanística",
+    "correlativas": "DG2-M2-TEC1-H2-C2"
+  },
+  {
+    "id": "ADV",
+    "materia": "Análisis del Discurso Visual",
+    "categoria": "Materias Electivas",
+    "grupo": "Electiva de Formación Orientada",
+    "correlativas": "DG3-TIP2-ME1-TEC2-H2-C2"
+  },
+  {
+    "id": "DII",
+    "materia": "Diseño de Identidad Institucional",
+    "categoria": "Materias Electivas",
+    "grupo": "Electiva de Formación Orientada",
+    "correlativas": "DG3-TIP2-ME1-TEC2-H2-C2"
+  },
+  {
+    "id": "GPRO",
+    "materia": "Gestión de Proyecto",
+    "categoria": "Materias Electivas",
+    "grupo": "Electiva de Formación Orientada",
+    "correlativas": "DG3-TIP2-ME1-TEC2-H2-C2"
+  },
+  {
+    "id": "DGE",
+    "materia": "Diseño Gráfico Editorial",
+    "categoria": "Materias Electivas",
+    "grupo": "Electiva de Formación Orientada",
+    "correlativas": "DG3-TIP2-ME1-TEC2-H2-C2"
+  },
+  {
+    "id": "DINF",
+    "materia": "Diseño de la Información",
+    "categoria": "Materias Electivas",
+    "grupo": "Electiva de Formación Orientada",
+    "correlativas": "DG3-TIP2-ME1-TEC2-H2-C2"
+  },
+  {
+    "id": "DID",
+    "materia": "Diseño de Interfases Digitales",
+    "categoria": "Materias Electivas",
+    "grupo": "Electiva de Formación Orientada",
+    "correlativas": "DG3-TIP2-ME1-TEC2-H2-C2"
+  },
+  {
+    "id": "HEU",
+    "materia": "Heurística",
+    "categoria": "Materias Electivas",
+    "grupo": "Electiva de Formación Orientada",
+    "correlativas": "DG3-TIP2-ME1-TEC2-H2-C2"
+  },
+  {
+    "id": "TH",
+    "materia": "Teoría del Habitar",
+    "categoria": "Materias Electivas",
+    "grupo": "Electiva de Formación Orientada",
+    "correlativas": "DG3-TIP2-ME1-TEC2-H2-C2"
+  }
+]

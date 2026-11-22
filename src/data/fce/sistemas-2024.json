@@ -1,0 +1,264 @@
+[
+  {
+    "id": "1241",
+    "materia": "Introducción al Razonamiento Matemático",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "247",
+    "materia": "Teoría Contable",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "242",
+    "materia": "Economía",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "1246",
+    "materia": "Historia Económica Argentina y Mundial",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "252",
+    "materia": "Administración General",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "254",
+    "materia": "Sociología de las Organizaciones",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC",
+    "materia": "Primer Tramo (CBC)",
+    "creditos": 0,
+    "categoria": "CBC",
+    "level": 0,
+    "correlativas": "1241-247-242-1246-252-254"
+  },
+  {
+    "id": "1248",
+    "materia": "Estadística",
+    "categoria": "Materias Obligatorias",
+    "level": 1,
+    "grupo": "Segundo Tramo",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "1276",
+    "materia": "Matemática Financiera",
+    "categoria": "Materias Obligatorias",
+    "level": 1,
+    "grupo": "Segundo Tramo",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "1278",
+    "materia": "Macroeconomía y Mercados",
+    "categoria": "Materias Obligatorias",
+    "level": 1,
+    "grupo": "Segundo Tramo",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "1275",
+    "materia": "Introducción a la Tecnología de la Información y las Comunicaciones",
+    "categoria": "Materias Obligatorias",
+    "level": 1,
+    "grupo": "Segundo Tramo",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "1464",
+    "materia": "Costos para la Gestión Estratégica",
+    "categoria": "Materias Obligatorias",
+    "level": 2,
+    "grupo": "Segundo Tramo",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "1274",
+    "materia": "Diseño de Estructuras y Procesos",
+    "categoria": "Materias Obligatorias",
+    "level": 2,
+    "grupo": "Segundo Tramo",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "1279",
+    "materia": "Finanzas Corporativas",
+    "categoria": "Materias Obligatorias",
+    "level": 2,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "1276"
+  },
+  {
+    "id": "1603",
+    "materia": "Derecho Informático I",
+    "categoria": "Materias Obligatorias",
+    "level": 2,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "1275"
+  },
+  {
+    "id": "1653",
+    "materia": "Tecnología de los Computadores y Sistemas Operativos",
+    "categoria": "Materias Obligatorias",
+    "level": 3,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "1275"
+  },
+  {
+    "id": "661",
+    "materia": "Lógica Simbólica y Fundamentos de la Decisión",
+    "categoria": "Materias Obligatorias",
+    "level": 3,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "1275"
+  },
+  {
+    "id": "1601",
+    "materia": "Ingeniería de Software",
+    "categoria": "Materias Obligatorias",
+    "level": 3,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "1275"
+  },
+  {
+    "id": "1604",
+    "materia": "Derecho Informático II",
+    "categoria": "Materias Obligatorias",
+    "level": 3,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "1603"
+  },
+  {
+    "id": "655",
+    "materia": "Tecnología de las Comunicaciones",
+    "categoria": "Materias Obligatorias",
+    "level": 4,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "1653"
+  },
+  {
+    "id": "1204",
+    "materia": "Teoría de los Lenguajes y Programación Asistida por IA",
+    "categoria": "Materias Obligatorias",
+    "level": 4,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "661"
+  },
+  {
+    "id": "658",
+    "materia": "Metodología de los Sistemas de Información",
+    "categoria": "Materias Obligatorias",
+    "level": 4,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "1601"
+  },
+  {
+    "id": "663",
+    "materia": "Sistemas de Datos",
+    "categoria": "Materias Obligatorias",
+    "level": 4,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "1248-661"
+  },
+  {
+    "id": "740",
+    "materia": "Redes Informáticas",
+    "categoria": "Materias Obligatorias",
+    "level": 5,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "655"
+  },
+  {
+    "id": "1205",
+    "materia": "Construcción de Aplicaciones con IA",
+    "categoria": "Materias Obligatorias",
+    "level": 5,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "1204"
+  },
+  {
+    "id": "662",
+    "materia": "Seguridad Informática y Principios de Auditoría",
+    "categoria": "Materias Obligatorias",
+    "level": 5,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "663"
+  },
+  {
+    "id": "1799",
+    "materia": "Gestión de los Recursos Informáticos",
+    "categoria": "Materias Obligatorias",
+    "level": 6,
+    "grupo": "Ciclo Profesional",
+    "correlativas": "658-662"
+  },
+  {
+    "id": "1660",
+    "materia": "Actuación Profesional del Lic. en Sistemas",
+    "categoria": "Fin de Carrera",
+    "level": 6,
+    "correlativas": "740-1205",
+    "requiere": 24,
+    "requiereCBC": true
+  },
+  {
+    "id": "470",
+    "materia": "Ciencias de la Decisión",
+    "categoria": "Materias Electivas",
+    "grupo": "Optativas",
+    "correlativas": "661"
+  },
+  {
+    "id": "485",
+    "materia": "Fintech, Pagos Digitales y Criptoactivos",
+    "categoria": "Materias Electivas",
+    "grupo": "Optativas",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "700",
+    "materia": "Economía y Negocios Digitales",
+    "categoria": "Materias Electivas",
+    "grupo": "Optativas",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "701",
+    "materia": "Analítica de Datos",
+    "categoria": "Materias Electivas",
+    "grupo": "Optativas",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "702",
+    "materia": "Auditoría de Sistemas de Información",
+    "categoria": "Materias Electivas",
+    "grupo": "Optativas",
+    "correlativas": "662"
+  },
+  {
+    "id": "716",
+    "materia": "Gestión de la Innovación y Tecnología Informática",
+    "categoria": "Materias Electivas",
+    "grupo": "Optativas",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "1711",
+    "materia": "Gestión de la Inteligencia Artificial",
+    "categoria": "Materias Electivas",
+    "grupo": "Optativas",
+    "correlativas": "CBC"
+  }
+]

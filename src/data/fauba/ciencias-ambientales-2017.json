@@ -1,0 +1,357 @@
+[
+  {
+    "id": "MAT",
+    "materia": "Matemática",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "QUIMICA",
+    "materia": "Química",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "ICSE",
+    "materia": "Introducción al Conocimiento de la Sociedad y el Estado",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "BIOLOGIA",
+    "materia": "Biología",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "BIOFISICA",
+    "materia": "Física e Introducción a la Biofísica",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "IPC",
+    "materia": "Introducción al Pensamiento Científico",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC",
+    "materia": "Ciclo Básico Común",
+    "creditos": 0,
+    "categoria": "CBC",
+    "level": 0,
+    "correlativas": "MAT-QUIMICA-ICSE-BIOLOGIA-BIOFISICA-IPC"
+  },
+  {
+    "id": "QAPL",
+    "materia": "Química Aplicada",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Segundo Año",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "FISAPL",
+    "materia": "Física Aplicada",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Segundo Año",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "ESTAD",
+    "materia": "Estadística General",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Segundo Año",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "BIOMOL",
+    "materia": "Biomoléculas",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Segundo Año",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "BIOQAPL",
+    "materia": "Bioquímica Aplicada",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Segundo Año",
+    "level": 2,
+    "correlativas": "BIOMOL"
+  },
+  {
+    "id": "EDAF",
+    "materia": "Edafología",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Segundo Año",
+    "level": 2,
+    "correlativas": "FISAPL-QAPL"
+  },
+  {
+    "id": "CLIMA",
+    "materia": "Climatología y Agrometeorología",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Segundo Año",
+    "level": 2,
+    "correlativas": "ESTAD"
+  },
+  {
+    "id": "BOT",
+    "materia": "Botánica",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Segundo Año",
+    "level": 2,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "FISIOVEG",
+    "materia": "Fisiología de las Plantas Superiores",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 3,
+    "correlativas": "BIOQAPL-BOT-CLIMA"
+  },
+  {
+    "id": "ZOO",
+    "materia": "Zoología General",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 3,
+    "correlativas": "BIOQAPL"
+  },
+  {
+    "id": "QCT",
+    "materia": "Química de la Contaminación y Toxicología",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 3,
+    "correlativas": "BIOMOL-EDAF"
+  },
+  {
+    "id": "SOCANT",
+    "materia": "Sociología y Antropología General",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 3,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "EVOGEN",
+    "materia": "Evolución y Genética",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 4,
+    "correlativas": "BIOQAPL"
+  },
+  {
+    "id": "ECO",
+    "materia": "Ecología",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 4,
+    "correlativas": "EDAF-FISIOVEG"
+  },
+  {
+    "id": "ECOPOL",
+    "materia": "Economía Política",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 4,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "MICRO",
+    "materia": "Microbiología Ambiental",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 4,
+    "correlativas": "BIOQAPL-EDAF"
+  },
+  {
+    "id": "GEO",
+    "materia": "Nociones de Geología y Geomorfología",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 5,
+    "correlativas": "EDAF-CLIMA"
+  },
+  {
+    "id": "DDHH",
+    "materia": "Derechos Humanos",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 5,
+    "correlativas": "SOCANT"
+  },
+  {
+    "id": "ECOACU",
+    "materia": "Ecología Acuática",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 5,
+    "correlativas": "ECO-ZOO"
+  },
+  {
+    "id": "BIOIND",
+    "materia": "Bioindicadores",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 5,
+    "correlativas": "QCT"
+  },
+  {
+    "id": "HIDRO",
+    "materia": "Hidrología",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 6,
+    "correlativas": "GEO"
+  },
+  {
+    "id": "GEOAMB",
+    "materia": "Geografía Ambiental",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 6,
+    "correlativas": "GEO"
+  },
+  {
+    "id": "ECOAPL",
+    "materia": "Economía Aplicada al Agro y al Ambiente",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 6,
+    "correlativas": "ECOPOL"
+  },
+  {
+    "id": "SIG",
+    "materia": "SIG, Cartografía y Teledetección",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 6,
+    "correlativas": "ECO"
+  },
+  {
+    "id": "AGROECO",
+    "materia": "Agroecosistemas",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 7,
+    "correlativas": "ECO"
+  },
+  {
+    "id": "AMBSOC",
+    "materia": "Ambiente y Sociedad",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 7,
+    "correlativas": "SOCANT-ECOPOL"
+  },
+  {
+    "id": "GESTPROY",
+    "materia": "Gestión de Proyectos",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 7,
+    "correlativas": "ECOAPL"
+  },
+  {
+    "id": "ECOPOLAMB",
+    "materia": "Economía y Política del Ambiente",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 7,
+    "correlativas": "ECOAPL"
+  },
+  {
+    "id": "MODEST",
+    "materia": "Modelos Estadísticos",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 8,
+    "correlativas": "ESTAD"
+  },
+  {
+    "id": "GCRN",
+    "materia": "Gestión y Conservación de los Recursos Naturales",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Quinto Año",
+    "level": 8,
+    "correlativas": "SIG-GEOAMB"
+  },
+  {
+    "id": "BIODIV",
+    "materia": "Biodiversidad",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Quinto Año",
+    "level": 8,
+    "correlativas": "ECOACU"
+  },
+  {
+    "id": "CPUT",
+    "materia": "Conservación y Planificación del Uso de la Tierra",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Quinto Año",
+    "level": 8,
+    "correlativas": "SIG-AGROECO"
+  },
+  {
+    "id": "ORDTERR",
+    "materia": "Ordenamiento Territorial",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Quinto Año",
+    "level": 9,
+    "correlativas": "CPUT-GCRN"
+  },
+  {
+    "id": "ETICA",
+    "materia": "Ética y Legislación Ambiental",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Quinto Año",
+    "level": 9,
+    "correlativas": "ECOPOLAMB-SOCANT"
+  },
+  {
+    "id": "MODSIM",
+    "materia": "Modelos de Simulación",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Quinto Año",
+    "level": 9,
+    "correlativas": "MODEST-SIG"
+  },
+  {
+    "id": "EIA",
+    "materia": "Evaluación de Impacto Ambiental",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Sexto Año",
+    "level": 10,
+    "correlativas": "CPUT-GCRN"
+  },
+  {
+    "id": "CAMBIO",
+    "materia": "Cambio Global",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Sexto Año",
+    "level": 10,
+    "correlativas": "MODSIM-BIODIV"
+  },
+  {
+    "id": "RIESGO",
+    "materia": "Análisis de Riesgo Ambiental",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Sexto Año",
+    "level": 10,
+    "correlativas": "MODSIM"
+  },
+  {
+    "id": "TF",
+    "materia": "Trabajo Final",
+    "categoria": "Fin de Carrera",
+    "level": 11,
+    "correlativas": "EVOGEN-MICRO-DDHH-HIDRO-BIOIND-AMBSOC-GESTPROY-ORDTERR-ETICA-EIA-CAMBIO-RIESGO"
+  }
+]

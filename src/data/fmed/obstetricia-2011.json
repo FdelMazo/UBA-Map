@@ -1,0 +1,366 @@
+[
+  {
+    "id": "IPC",
+    "materia": "Introducción al Pensamiento Científico",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "ICSE",
+    "materia": "Introducción al Conocimiento de la Sociedad y el Estado",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "BIOFISICA",
+    "materia": "Física e Introducción a la Biofísica",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "QUIMICA",
+    "materia": "Química",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "BIOLOGIA",
+    "materia": "Biología e Introducción a la Biología Celular",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "MAT",
+    "materia": "Matemática",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC",
+    "materia": "Ciclo Básico Común",
+    "creditos": 0,
+    "categoria": "CBC",
+    "level": 0,
+    "correlativas": "IPC-ICSE-BIOFISICA-QUIMICA-BIOLOGIA-MAT"
+  },
+  {
+    "id": "ANAT",
+    "materia": "Anatomía",
+    "categoria": "Materias Obligatorias",
+    "level": 1,
+    "grupo": "2º Año",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "FISIO",
+    "materia": "Fisiología",
+    "categoria": "Materias Obligatorias",
+    "level": 1,
+    "grupo": "2º Año",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "HISTO",
+    "materia": "Histología, Biología Celular, Embriología y Genética",
+    "categoria": "Materias Obligatorias",
+    "level": 1,
+    "grupo": "2º Año",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "MICRO",
+    "materia": "Microbiología, Parasitología e Inmunología",
+    "categoria": "Materias Obligatorias",
+    "level": 2,
+    "grupo": "2º Año",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "FISBIO",
+    "materia": "Física Biológica",
+    "categoria": "Materias Obligatorias",
+    "level": 2,
+    "grupo": "2º Año",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "SMENTAL",
+    "materia": "Salud Mental",
+    "categoria": "Materias Obligatorias",
+    "level": 2,
+    "grupo": "2º Año",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "QBIO",
+    "materia": "Química Biológica",
+    "categoria": "Materias Obligatorias",
+    "level": 3,
+    "grupo": "2º Año",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "IDO",
+    "materia": "Introducción a la Disciplina Obstétrica",
+    "categoria": "Materias Obligatorias",
+    "level": 3,
+    "grupo": "2º Año",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "IAH",
+    "materia": "Introducción al Ambiente Hospitalario",
+    "categoria": "Materias Obligatorias",
+    "level": 3,
+    "grupo": "2º Año",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "OBSNOR",
+    "materia": "Obstetricia Normal",
+    "categoria": "Materias Obligatorias",
+    "level": 4,
+    "grupo": "3º Año",
+    "requiere": 15,
+    "requiereCBC": true
+  },
+  {
+    "id": "PSICGEN",
+    "materia": "Psicología General",
+    "categoria": "Materias Obligatorias",
+    "level": 4,
+    "grupo": "3º Año",
+    "requiere": 15,
+    "requiereCBC": true
+  },
+  {
+    "id": "NEONOR",
+    "materia": "Neonatología Normal",
+    "categoria": "Materias Obligatorias",
+    "level": 4,
+    "grupo": "3º Año",
+    "requiere": 15,
+    "requiereCBC": true
+  },
+  {
+    "id": "FARMA",
+    "materia": "Farmacología General y Aplicada a la Salud Reproductiva",
+    "categoria": "Materias Obligatorias",
+    "level": 4,
+    "grupo": "3º Año",
+    "requiere": 15,
+    "requiereCBC": true
+  },
+  {
+    "id": "NUTMI",
+    "materia": "Nutrición Materno Infantil",
+    "categoria": "Materias Obligatorias",
+    "level": 5,
+    "grupo": "3º Año",
+    "requiere": 15,
+    "requiereCBC": true
+  },
+  {
+    "id": "APSO",
+    "materia": "Atención Primaria de la Salud en la Disciplina Obstétrica",
+    "categoria": "Materias Obligatorias",
+    "level": 5,
+    "grupo": "3º Año",
+    "requiere": 15,
+    "requiereCBC": true
+  },
+  {
+    "id": "APREC",
+    "materia": "Atención Preconcepcional y Perinatológica",
+    "categoria": "Materias Obligatorias",
+    "level": 5,
+    "grupo": "3º Año",
+    "requiere": 15,
+    "requiereCBC": true
+  },
+  {
+    "id": "PH1",
+    "materia": "Práctica Hospitalaria I",
+    "categoria": "Materias Obligatorias",
+    "level": 5,
+    "grupo": "3º Año",
+    "requiere": 15,
+    "requiereCBC": true
+  },
+  {
+    "id": "OBSPAT",
+    "materia": "Obstetricia Patológica y Quirúrgica",
+    "categoria": "Materias Obligatorias",
+    "level": 6,
+    "grupo": "4º Año",
+    "correlativas": "OBSNOR",
+    "requiere": 23,
+    "requiereCBC": true
+  },
+  {
+    "id": "NEOPAT",
+    "materia": "Neonatología Patológica",
+    "categoria": "Materias Obligatorias",
+    "level": 6,
+    "grupo": "4º Año",
+    "correlativas": "NEONOR",
+    "requiere": 23,
+    "requiereCBC": true
+  },
+  {
+    "id": "SPO",
+    "materia": "Salud Pública en la Disciplina Obstétrica",
+    "categoria": "Materias Obligatorias",
+    "level": 6,
+    "grupo": "4º Año",
+    "requiere": 23,
+    "requiereCBC": true
+  },
+  {
+    "id": "DEONTO",
+    "materia": "Deontología y Bioética Aplicada a la Obstetricia",
+    "categoria": "Materias Obligatorias",
+    "level": 6,
+    "grupo": "4º Año",
+    "requiere": 23,
+    "requiereCBC": true
+  },
+  {
+    "id": "PSICEV",
+    "materia": "Psicología Evolutiva y del Embarazo",
+    "categoria": "Materias Obligatorias",
+    "level": 7,
+    "grupo": "4º Año",
+    "correlativas": "PSICGEN",
+    "requiere": 23,
+    "requiereCBC": true
+  },
+  {
+    "id": "ANTRO",
+    "materia": "Antropología en la Disciplina Obstétrica",
+    "categoria": "Materias Obligatorias",
+    "level": 7,
+    "grupo": "4º Año",
+    "requiere": 23,
+    "requiereCBC": true
+  },
+  {
+    "id": "EDUSAL",
+    "materia": "Educación para la Salud de la Mujer y el Niño",
+    "categoria": "Materias Obligatorias",
+    "level": 7,
+    "grupo": "4º Año",
+    "requiere": 23,
+    "requiereCBC": true
+  },
+  {
+    "id": "PH2",
+    "materia": "Práctica Hospitalaria II",
+    "categoria": "Materias Obligatorias",
+    "level": 7,
+    "grupo": "4º Año",
+    "correlativas": "PH1",
+    "requiere": 23,
+    "requiereCBC": true
+  },
+  {
+    "id": "CLINOBS",
+    "materia": "Clínica Obstétrica",
+    "categoria": "Materias Obligatorias",
+    "level": 8,
+    "grupo": "5º Año",
+    "correlativas": "OBSPAT",
+    "requiere": 31,
+    "requiereCBC": true
+  },
+  {
+    "id": "SALREP",
+    "materia": "Salud Reproductiva",
+    "categoria": "Materias Obligatorias",
+    "level": 8,
+    "grupo": "5º Año",
+    "requiere": 31,
+    "requiereCBC": true
+  },
+  {
+    "id": "METEST",
+    "materia": "Metodología de la Investigación y Estadística Aplicada a la Obstetricia",
+    "categoria": "Materias Obligatorias",
+    "level": 8,
+    "grupo": "5º Año",
+    "requiere": 31,
+    "requiereCBC": true
+  },
+  {
+    "id": "PSICOPRO",
+    "materia": "Psicoprofilaxis Obstétrica",
+    "categoria": "Materias Obligatorias",
+    "level": 8,
+    "grupo": "5º Año",
+    "requiere": 31,
+    "requiereCBC": true
+  },
+  {
+    "id": "SCSO",
+    "materia": "Salud Comunitaria y Social en la Disciplina Obstétrica",
+    "categoria": "Materias Obligatorias",
+    "level": 9,
+    "grupo": "5º Año",
+    "requiere": 31,
+    "requiereCBC": true
+  },
+  {
+    "id": "EDSEX",
+    "materia": "Educación Sexual",
+    "categoria": "Materias Obligatorias",
+    "level": 9,
+    "grupo": "5º Año",
+    "requiere": 31,
+    "requiereCBC": true
+  },
+  {
+    "id": "ADMHOSP",
+    "materia": "Administración Hospitalaria y Gestión en la Disciplina Obstétrica",
+    "categoria": "Materias Obligatorias",
+    "level": 9,
+    "grupo": "5º Año",
+    "requiere": 31,
+    "requiereCBC": true
+  },
+  {
+    "id": "ECO",
+    "materia": "Tecnología Apropiada en Diagnóstico Ecográfico",
+    "categoria": "Materias Obligatorias",
+    "level": 9,
+    "grupo": "5º Año",
+    "requiere": 31,
+    "requiereCBC": true
+  },
+  {
+    "id": "PH3",
+    "materia": "Práctica Hospitalaria III",
+    "categoria": "Fin de Carrera",
+    "level": 10,
+    "correlativas": "PH2",
+    "requiere": 31,
+    "requiereCBC": true
+  },
+  {
+    "id": "PUERI",
+    "materia": "Puericultura",
+    "categoria": "Materias Electivas",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "DIDAC",
+    "materia": "Didáctica Aplicada a la Obstetricia",
+    "categoria": "Materias Electivas",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "SEMINARIO",
+    "materia": "Seminario",
+    "categoria": "Materias Electivas",
+    "correlativas": "CBC"
+  }
+]

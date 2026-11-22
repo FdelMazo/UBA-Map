@@ -1,0 +1,166 @@
+[
+  {
+    "id": "CBC40",
+    "materia": "Introducción al Pensamiento Científico",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "CBC24",
+    "materia": "Introducción al Conocimiento de la Sociedad y el Estado",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "CBCOPT1",
+    "materia": "Optativa del CBC (Física, Química o Pensamiento Computacional)",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "ANALISIS",
+    "materia": "Análisis Matemático A",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "ALGEBRA",
+    "materia": "Álgebra",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBCOPT2",
+    "materia": "Optativa del CBC (Física, Química o Pensamiento Computacional)",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC",
+    "materia": "Ciclo Básico Común",
+    "creditos": 0,
+    "categoria": "CBC",
+    "level": 0,
+    "correlativas": "CBC40-CBC24-CBCOPT1-ANALISIS-ALGEBRA-CBCOPT2"
+  },
+  {
+    "id": "AL1",
+    "materia": "Álgebra I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Fundamentos",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "AED1",
+    "materia": "Algoritmos y Estructuras de Datos I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Fundamentos",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "AN1",
+    "materia": "Análisis I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Fundamentos",
+    "level": 2,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "AED2",
+    "materia": "Algoritmos y Estructuras de Datos II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Fundamentos",
+    "level": 2,
+    "correlativas": "AED1-AL1"
+  },
+  {
+    "id": "AN2",
+    "materia": "Análisis II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Fundamentos",
+    "level": 3,
+    "correlativas": "AN1"
+  },
+  {
+    "id": "ALC",
+    "materia": "Álgebra Lineal Computacional",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Fundamentos",
+    "level": 3,
+    "correlativas": "AED2"
+  },
+  {
+    "id": "LAB",
+    "materia": "Laboratorio de Datos",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Fundamentos",
+    "level": 3,
+    "correlativas": "AED1"
+  },
+  {
+    "id": "AA",
+    "materia": "Análisis Avanzado",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Fundamentos",
+    "level": 4,
+    "correlativas": "AN2-AL1"
+  },
+  {
+    "id": "ECN",
+    "materia": "Electiva de Introducción a las Ciencias Naturales",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Fundamentos",
+    "level": 4,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "PROB",
+    "materia": "Probabilidad",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Fundamentos",
+    "level": 5,
+    "correlativas": "AA"
+  },
+  {
+    "id": "AED3",
+    "materia": "Algoritmos y Estructuras de Datos III",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Fundamentos",
+    "level": 5,
+    "correlativas": "AED2"
+  },
+  {
+    "id": "IECD",
+    "materia": "Introducción a la Estadística y Ciencia de Datos",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Materias Núcleo",
+    "level": 6,
+    "correlativas": "LAB-PROB-ALC"
+  },
+  {
+    "id": "IIOO",
+    "materia": "Introducción a la Investigación Operativa y Optimización",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Materias Núcleo",
+    "level": 6,
+    "correlativas": "AED3-AN2-ALC"
+  },
+  {
+    "id": "IMC",
+    "materia": "Introducción al Modelado Continuo",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Materias Núcleo",
+    "level": 6,
+    "correlativas": "AA-ALC"
+  },
+  {
+    "id": "TESIS",
+    "materia": "Tesis de Licenciatura o Trabajo Final",
+    "categoria": "Fin de Carrera",
+    "level": 7,
+    "requiere": 14,
+    "requiereCBC": false
+  }
+]

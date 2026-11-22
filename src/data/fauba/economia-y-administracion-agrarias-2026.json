@@ -1,0 +1,277 @@
+[
+  {
+    "id": "CBC72",
+    "materia": "Análisis Matemático",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "CBC86",
+    "materia": "Administración General",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "CBC74",
+    "materia": "Historia Económica y Social General",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "CBC21",
+    "materia": "Economía",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC71",
+    "materia": "Álgebra",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC93",
+    "materia": "Instituciones de Gobierno y Economía Política o Sociología de las Organizaciones",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC",
+    "materia": "Ciclo Básico Común",
+    "creditos": 0,
+    "categoria": "CBC",
+    "level": 0,
+    "correlativas": "CBC72-CBC86-CBC74-CBC21-CBC71-CBC93"
+  },
+  {
+    "id": "MACRO",
+    "materia": "Macroeconomía",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Segundo Año",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "MICRO",
+    "materia": "Microeconomía",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Segundo Año",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "BBSA",
+    "materia": "Bases Biológicas de los Sistemas Agropecuarios",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Segundo Año",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "ESTAD",
+    "materia": "Estadística General",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Segundo Año",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "SOCEXT",
+    "materia": "Sociología y Extensión Agrarias",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Segundo Año",
+    "level": 2,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "ISP",
+    "materia": "Introducción a los Sistemas Productivos",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Segundo Año",
+    "level": 2,
+    "correlativas": "BBSA"
+  },
+  {
+    "id": "ICDF",
+    "materia": "Interpretación Contable y Diagnóstico Financiero",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Segundo Año",
+    "level": 2,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "GENBIO",
+    "materia": "Aplicaciones de la Genética a la Bioeconomía",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Segundo Año",
+    "level": 2,
+    "correlativas": "BBSA"
+  },
+  {
+    "id": "PRODVEG",
+    "materia": "Producción Vegetal",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 3,
+    "correlativas": "ISP"
+  },
+  {
+    "id": "GEOECO",
+    "materia": "Geografía Económica",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 3,
+    "correlativas": "SOCEXT"
+  },
+  {
+    "id": "MACROAPL",
+    "materia": "Macroeconomía Aplicada",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 3,
+    "correlativas": "MACRO-ISP"
+  },
+  {
+    "id": "ECONOMETRIA",
+    "materia": "Econometría",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 3,
+    "correlativas": "ESTAD"
+  },
+  {
+    "id": "BOVINA",
+    "materia": "Sistemas de Producción Bovina de Carne y Leche",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 4,
+    "correlativas": "ISP-GENBIO"
+  },
+  {
+    "id": "EXTENSIVOS",
+    "materia": "Sistemas de Producción de Cultivos Extensivos",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 4,
+    "correlativas": "PRODVEG-GENBIO"
+  },
+  {
+    "id": "COSTOS",
+    "materia": "Costos Agrarios y Análisis de Proyectos",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 4,
+    "correlativas": "MICRO-ICDF"
+  },
+  {
+    "id": "ECOSIS",
+    "materia": "Ecología de los Ecosistemas",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 4,
+    "correlativas": "PRODVEG"
+  },
+  {
+    "id": "POLAGR",
+    "materia": "Política Agraria",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 5,
+    "correlativas": "MACROAPL"
+  },
+  {
+    "id": "METTF",
+    "materia": "Aspectos Metodológicos para la Elaboración del Proyecto de Trabajo Final",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 5,
+    "correlativas": "MACROAPL-ECONOMETRIA-BOVINA-EXTENSIVOS-COSTOS-ECOSIS"
+  },
+  {
+    "id": "AVES",
+    "materia": "Sistemas de Producción de Aves",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 5,
+    "correlativas": "ISP-GENBIO"
+  },
+  {
+    "id": "PORCINA",
+    "materia": "Sistemas de Producción Porcina",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 5,
+    "correlativas": "ISP-GENBIO"
+  },
+  {
+    "id": "ECOPROD",
+    "materia": "Economía de la Producción y Complejos Agroindustriales",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 6,
+    "correlativas": "MACROAPL-COSTOS-EXTENSIVOS-BOVINA"
+  },
+  {
+    "id": "ECORRNN",
+    "materia": "Economía y Política de los Recursos Naturales y Sustentabilidad",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 6,
+    "correlativas": "COSTOS-MACROAPL-ECOSIS"
+  },
+  {
+    "id": "INTENSIVOS",
+    "materia": "Sistemas de Producción de Cultivos Intensivos",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 6,
+    "correlativas": "PRODVEG-GENBIO"
+  },
+  {
+    "id": "LEGIS",
+    "materia": "Legislación Agraria",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 6,
+    "correlativas": "SOCEXT"
+  },
+  {
+    "id": "ADMEMP",
+    "materia": "Administración de la Empresa Agropecuaria",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 7,
+    "correlativas": "BOVINA-AVES-PORCINA-COSTOS-EXTENSIVOS-INTENSIVOS"
+  },
+  {
+    "id": "COMERCIO",
+    "materia": "Comercio Interno y Externo de Productos Agropecuarios",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 7,
+    "correlativas": "BOVINA-AVES-PORCINA-MACROAPL-EXTENSIVOS-INTENSIVOS"
+  },
+  {
+    "id": "IMPUESTOS",
+    "materia": "Introducción a los Impuestos Agropecuarios",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 7,
+    "correlativas": "COSTOS"
+  },
+  {
+    "id": "DDHH",
+    "materia": "Derechos Humanos",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 7,
+    "correlativas": "SOCEXT"
+  },
+  {
+    "id": "TF",
+    "materia": "Trabajo Final",
+    "categoria": "Fin de Carrera",
+    "level": 8,
+    "correlativas": "GEOECO-POLAGR-METTF-ECOPROD-ECORRNN-ADMEMP-COMERCIO-LEGIS-IMPUESTOS-DDHH"
+  }
+]

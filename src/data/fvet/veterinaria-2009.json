@@ -1,0 +1,487 @@
+[
+  {
+    "id": "IPC",
+    "materia": "Introducción al Pensamiento Científico",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "ICSE",
+    "materia": "Introducción al Conocimiento de la Sociedad y el Estado",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "BIOLOGIA",
+    "materia": "Biología",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "BIOFISICA",
+    "materia": "Física e Introducción a la Biofísica",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "QUIMICA",
+    "materia": "Química",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "MAT",
+    "materia": "Matemática",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC",
+    "materia": "Ciclo Básico Común",
+    "creditos": 0,
+    "categoria": "CBC",
+    "level": 0,
+    "correlativas": "IPC-ICSE-BIOLOGIA-BIOFISICA-QUIMICA-MAT"
+  },
+  {
+    "id": "201",
+    "materia": "Anatomía I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Módulo Común",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "203",
+    "materia": "Química Orgánica de Biomoléculas",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Módulo Común",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "603",
+    "materia": "Elementos de Estadística",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Módulo Común",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "206",
+    "materia": "Anatomía II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Módulo Común",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "814",
+    "materia": "Sociología",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Módulo Común",
+    "level": 2,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "208",
+    "materia": "Inglés Técnico",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Módulo Común",
+    "level": 2,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "701",
+    "materia": "Actividades de Orientación",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Módulo Común",
+    "level": 2,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "202",
+    "materia": "Física Biológica",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Módulo Común",
+    "level": 2,
+    "correlativas": "203-603"
+  },
+  {
+    "id": "604",
+    "materia": "Estadística Analítica",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Módulo Común",
+    "level": 3,
+    "correlativas": "603"
+  },
+  {
+    "id": "205",
+    "materia": "Histología y Embriología",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Módulo Común",
+    "level": 3,
+    "correlativas": "201-202"
+  },
+  {
+    "id": "204",
+    "materia": "Química Biológica",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Módulo Común",
+    "level": 3,
+    "correlativas": "202"
+  },
+  {
+    "id": "401",
+    "materia": "Bases Agrícolas para la Producción Animal",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Módulo Común",
+    "level": 3,
+    "correlativas": "203"
+  },
+  {
+    "id": "405",
+    "materia": "Economía",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Módulo Común",
+    "level": 4,
+    "correlativas": "603"
+  },
+  {
+    "id": "209",
+    "materia": "Taller de Sociología Rural y Urbana y Prácticas Solidarias",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Módulo Común",
+    "level": 4,
+    "correlativas": "814"
+  },
+  {
+    "id": "207",
+    "materia": "Fisiología Animal y Bioquímica Fisiológica",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Módulo Común",
+    "level": 4,
+    "correlativas": "204-205-206"
+  },
+  {
+    "id": "602",
+    "materia": "Parasitología",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Módulo Común",
+    "level": 4,
+    "correlativas": "204-205"
+  },
+  {
+    "id": "301",
+    "materia": "Microbiología",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Módulo Común",
+    "level": 5,
+    "correlativas": "204-205"
+  },
+  {
+    "id": "403",
+    "materia": "Genética Básica",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Módulo Común",
+    "level": 5,
+    "correlativas": "204-205"
+  },
+  {
+    "id": "402",
+    "materia": "Principios de Nutrición y Alimentación",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Módulo Común",
+    "level": 5,
+    "correlativas": "207-401"
+  },
+  {
+    "id": "302",
+    "materia": "Farmacología y Bases de la Terapéutica",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Módulo Común",
+    "level": 6,
+    "correlativas": "207-301-602"
+  },
+  {
+    "id": "503",
+    "materia": "Medicina I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Módulo Común",
+    "level": 6,
+    "correlativas": "301-602-207"
+  },
+  {
+    "id": "303",
+    "materia": "Inmunología Básica",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Módulo Común",
+    "level": 6,
+    "correlativas": "207-301-602"
+  },
+  {
+    "id": "605",
+    "materia": "Principios de la Epidemiología",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Módulo Común",
+    "level": 6,
+    "correlativas": "604-301-602"
+  },
+  {
+    "id": "406",
+    "materia": "Genética de Poblaciones",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Módulo Común",
+    "level": 7,
+    "correlativas": "604-403"
+  },
+  {
+    "id": "304",
+    "materia": "Patología Básica",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Módulo Común",
+    "level": 7,
+    "correlativas": "303"
+  },
+  {
+    "id": "501",
+    "materia": "Principios de la Anestesiología",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Módulo Común",
+    "level": 7,
+    "correlativas": "302"
+  },
+  {
+    "id": "502",
+    "materia": "Cirugía",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Módulo Común",
+    "level": 7,
+    "correlativas": "302"
+  },
+  {
+    "id": "607",
+    "materia": "Enfermedades Infecciosas",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Módulo Común",
+    "level": 8,
+    "correlativas": "503-302-304-605"
+  },
+  {
+    "id": "606",
+    "materia": "Enfermedades Parasitarias",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Módulo Común",
+    "level": 8,
+    "correlativas": "304-302-503-605"
+  },
+  {
+    "id": "505",
+    "materia": "Medicina III",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Módulo Común",
+    "level": 8,
+    "correlativas": "304-503-302-402-403"
+  },
+  {
+    "id": "504",
+    "materia": "Medicina II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Módulo Común",
+    "level": 8,
+    "correlativas": "304-503-302-402-403"
+  },
+  {
+    "id": "506",
+    "materia": "Medicina IV",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Módulo Común",
+    "level": 9,
+    "correlativas": "304-503-302-403"
+  },
+  {
+    "id": "507",
+    "materia": "Medicina V",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Módulo Común",
+    "level": 9,
+    "correlativas": "304-503-302-403"
+  },
+  {
+    "id": "305",
+    "materia": "Virología Animal",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Módulo Común",
+    "level": 9,
+    "correlativas": "607"
+  },
+  {
+    "id": "608",
+    "materia": "Salud Pública I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Módulo Común",
+    "level": 9,
+    "correlativas": "607-606"
+  },
+  {
+    "id": "609",
+    "materia": "Tecnología, Protección e Inspección Veterinaria de Alimentos",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Módulo Común",
+    "level": 10,
+    "correlativas": "607-606"
+  },
+  {
+    "id": "407",
+    "materia": "Producción de Ovinos",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Módulo Común",
+    "level": 10,
+    "correlativas": "402-607-606-406-405"
+  },
+  {
+    "id": "408",
+    "materia": "Producción de Bovinos de Carne",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Módulo Común",
+    "level": 10,
+    "correlativas": "402-607-606-406-405"
+  },
+  {
+    "id": "409",
+    "materia": "Producción de Porcinos",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Módulo Común",
+    "level": 10,
+    "correlativas": "402-607-606-406-405"
+  },
+  {
+    "id": "410",
+    "materia": "Producción de Bovinos Lecheros",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Módulo Común",
+    "level": 11,
+    "correlativas": "402-607-606-406-405"
+  },
+  {
+    "id": "411",
+    "materia": "Producción de Aves",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Módulo Común",
+    "level": 11,
+    "correlativas": "402-607-606-406-405"
+  },
+  {
+    "id": "412",
+    "materia": "Producción de Equinos",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Módulo Común",
+    "level": 11,
+    "correlativas": "402-607-606-406-405"
+  },
+  {
+    "id": "508",
+    "materia": "Práctica Hospitalaria en Pequeños Animales I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Módulo Común",
+    "level": 11,
+    "correlativas": "504-505-506-507-607-606-502-501"
+  },
+  {
+    "id": "509",
+    "materia": "Práctica Hospitalaria en Grandes Animales I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Módulo Común",
+    "level": 12,
+    "correlativas": "504-505-506-507-607-606-502-501"
+  },
+  {
+    "id": "668",
+    "materia": "Eje 1: Salud Animal en Pequeños Animales",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo Superior",
+    "level": 12,
+    "correlativas": "209-508"
+  },
+  {
+    "id": "670",
+    "materia": "Eje 3: Medicina Preventiva y Salud Pública",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo Superior",
+    "level": 12,
+    "correlativas": "209-608"
+  },
+  {
+    "id": "671",
+    "materia": "Eje 4: Inocuidad y Calidad de Alimentos",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo Superior",
+    "level": 12,
+    "correlativas": "209-609"
+  },
+  {
+    "id": "669",
+    "materia": "Eje 2: Salud Animal en Grandes Animales",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo Superior",
+    "level": 13,
+    "correlativas": "209-509"
+  },
+  {
+    "id": "672",
+    "materia": "Eje 5: Producciones Animales",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo Superior",
+    "level": 13,
+    "correlativas": "209-407-408-409-410-411-412-505"
+  },
+  {
+    "id": "PPS",
+    "materia": "Práctica Profesional Supervisada",
+    "categoria": "Fin de Carrera",
+    "level": 14,
+    "correlativas": "668-669-670-671-672"
+  },
+  {
+    "id": "673",
+    "materia": "Acuicultura e Ictiopatología",
+    "categoria": "Materias Electivas",
+    "grupo": "Eje 6: Producción de Especies no Tradicionales y/o Alternativas",
+    "correlativas": "209-606-607-406-402"
+  },
+  {
+    "id": "674",
+    "materia": "Animales de Laboratorio",
+    "categoria": "Materias Electivas",
+    "grupo": "Eje 6: Producción de Especies no Tradicionales y/o Alternativas",
+    "correlativas": "209-606-607-406-402"
+  },
+  {
+    "id": "675",
+    "materia": "Animales de Granja y Apicultura",
+    "categoria": "Materias Electivas",
+    "grupo": "Eje 6: Producción de Especies no Tradicionales y/o Alternativas",
+    "correlativas": "209-606-607-406-402"
+  },
+  {
+    "id": "676",
+    "materia": "Producción de Pelíferos",
+    "categoria": "Materias Electivas",
+    "grupo": "Eje 6: Producción de Especies no Tradicionales y/o Alternativas",
+    "correlativas": "209-606-607-406-402"
+  },
+  {
+    "id": "677",
+    "materia": "Producción de Caprinos y Camélidos Sudamericanos",
+    "categoria": "Materias Electivas",
+    "grupo": "Eje 6: Producción de Especies no Tradicionales y/o Alternativas",
+    "correlativas": "209-606-607-406-402"
+  },
+  {
+    "id": "678",
+    "materia": "Producción de Caninos",
+    "categoria": "Materias Electivas",
+    "grupo": "Eje 6: Producción de Especies no Tradicionales y/o Alternativas",
+    "correlativas": "209-606-607-406-402"
+  }
+]

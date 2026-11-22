@@ -1,0 +1,405 @@
+[
+  {
+    "id": "MAT",
+    "materia": "Matemática",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "QUIMICA",
+    "materia": "Química",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "ICSE",
+    "materia": "Introducción al Conocimiento de la Sociedad y el Estado",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "BIOLOGIA",
+    "materia": "Biología",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "BIOFISICA",
+    "materia": "Física e Introducción a la Biofísica",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "IPC",
+    "materia": "Introducción al Pensamiento Científico",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC",
+    "materia": "Ciclo Básico Común",
+    "creditos": 0,
+    "categoria": "CBC",
+    "level": 0,
+    "correlativas": "MAT-QUIMICA-ICSE-BIOLOGIA-BIOFISICA-IPC"
+  },
+  {
+    "id": "QAPL",
+    "materia": "Química Aplicada",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Segundo Año",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "BIOMOL",
+    "materia": "Biomoléculas",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Segundo Año",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "FISAPL",
+    "materia": "Física Aplicada",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Segundo Año",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "ESTAD",
+    "materia": "Estadística General",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Segundo Año",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "BOTMORF",
+    "materia": "Botánica Morfológica",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Segundo Año",
+    "level": 2,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "BIOQAPL",
+    "materia": "Bioquímica Aplicada",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Segundo Año",
+    "level": 2,
+    "correlativas": "BIOMOL"
+  },
+  {
+    "id": "EDAF",
+    "materia": "Edafología",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Segundo Año",
+    "level": 2,
+    "correlativas": "QAPL-FISAPL"
+  },
+  {
+    "id": "CLIMA",
+    "materia": "Climatología y Agrometeorología",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Segundo Año",
+    "level": 2,
+    "correlativas": "ESTAD"
+  },
+  {
+    "id": "BOTSIS",
+    "materia": "Botánica Sistemática",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Segundo Año",
+    "level": 3,
+    "correlativas": "BOTMORF"
+  },
+  {
+    "id": "INGLES",
+    "materia": "Inglés",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Segundo Año",
+    "level": 3,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "INFO",
+    "materia": "Informática",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Segundo Año",
+    "level": 3,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "FISIOVEG",
+    "materia": "Fisiología de las Plantas Superiores",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 3,
+    "correlativas": "BIOQAPL-BOTMORF-CLIMA"
+  },
+  {
+    "id": "GEN",
+    "materia": "Genética",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 4,
+    "correlativas": "BIOQAPL-BOTMORF-ESTAD-INGLES"
+  },
+  {
+    "id": "MICRO",
+    "materia": "Microbiología Agrícola y Ambiental",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 4,
+    "correlativas": "BIOQAPL-EDAF"
+  },
+  {
+    "id": "BBPA",
+    "materia": "Bases Biológicas de la Producción Animal",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 4,
+    "correlativas": "BIOQAPL"
+  },
+  {
+    "id": "TOPO",
+    "materia": "Topografía Agrícola",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 4,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "PRODVEG",
+    "materia": "Producción Vegetal",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 5,
+    "correlativas": "FISIOVEG-BOTSIS"
+  },
+  {
+    "id": "ECO",
+    "materia": "Ecología",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 5,
+    "correlativas": "BOTSIS-EDAF-FISIOVEG"
+  },
+  {
+    "id": "NUTRI",
+    "materia": "Nutrición y Alimentación Animal",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 5,
+    "correlativas": "BBPA-MICRO"
+  },
+  {
+    "id": "ECOPOL",
+    "materia": "Economía Política",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 5,
+    "correlativas": "INFO-ESTAD"
+  },
+  {
+    "id": "MODEST",
+    "materia": "Modelos Estadísticos",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Tercer Año",
+    "level": 6,
+    "correlativas": "ESTAD-INFO"
+  },
+  {
+    "id": "FORRAJES",
+    "materia": "Producción y Utilización de Forrajes",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 6,
+    "correlativas": "PRODVEG-NUTRI"
+  },
+  {
+    "id": "ECOAGR",
+    "materia": "Economía Agrícola",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 6,
+    "correlativas": "ECOPOL"
+  },
+  {
+    "id": "MALEZAS",
+    "materia": "Malezas",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 6,
+    "correlativas": "PRODVEG-ECO"
+  },
+  {
+    "id": "MEJGEN",
+    "materia": "Mejoramiento Genético",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 7,
+    "correlativas": "MODEST-GEN"
+  },
+  {
+    "id": "TELEDET",
+    "materia": "Teledetección y Sistemas de Información Geográfica",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 7,
+    "correlativas": "ECO-TOPO-INFO"
+  },
+  {
+    "id": "FITOPAT",
+    "materia": "Fitopatología",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 7,
+    "correlativas": "PRODVEG-MICRO"
+  },
+  {
+    "id": "ZOO",
+    "materia": "Zoología Agrícola",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 7,
+    "correlativas": "PRODVEG-ECO"
+  },
+  {
+    "id": "FERT",
+    "materia": "Fertilidad de Suelos y Fertilización",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 8,
+    "correlativas": "ECO-MICRO"
+  },
+  {
+    "id": "MAQ",
+    "materia": "Máquinas Agrícolas",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 8,
+    "correlativas": "EDAF-TOPO"
+  },
+  {
+    "id": "TTF",
+    "materia": "Taller de Trabajo Final",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Cuarto Año",
+    "level": 8,
+    "correlativas": "GEN-TOPO-PRODVEG-ECO-NUTRI-ECOPOL-MODEST"
+  },
+  {
+    "id": "SOCEXT",
+    "materia": "Sociología y Extensión Agrarias",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Quinto Año",
+    "level": 8,
+    "correlativas": "ECOAGR"
+  },
+  {
+    "id": "LECHE",
+    "materia": "Producción Lechera",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Quinto Año",
+    "level": 9,
+    "correlativas": "NUTRI-MEJGEN"
+  },
+  {
+    "id": "CARNE",
+    "materia": "Producción de Carne Bovina",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Quinto Año",
+    "level": 9,
+    "correlativas": "NUTRI-MEJGEN"
+  },
+  {
+    "id": "PROTVEG",
+    "materia": "Protección Vegetal",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Quinto Año",
+    "level": 9,
+    "correlativas": "FITOPAT-ZOO-MALEZAS"
+  },
+  {
+    "id": "DDHH",
+    "materia": "Derechos Humanos",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Quinto Año",
+    "level": 9,
+    "correlativas": "ECOAGR"
+  },
+  {
+    "id": "GRANOS",
+    "materia": "Producción de Granos",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Quinto Año",
+    "level": 10,
+    "correlativas": "PROTVEG-MAQ-FERT"
+  },
+  {
+    "id": "CONSERV",
+    "materia": "Conservación y Planificación del Uso de la Tierra",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Quinto Año",
+    "level": 10,
+    "correlativas": "FORRAJES-MAQ-FERT"
+  },
+  {
+    "id": "HORTI",
+    "materia": "Horticultura",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Quinto Año",
+    "level": 10,
+    "correlativas": "PROTVEG-FERT"
+  },
+  {
+    "id": "RIEGO",
+    "materia": "Sistemas de Riego y Drenaje",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Quinto Año",
+    "level": 10,
+    "correlativas": "MAQ-PRODVEG-FERT"
+  },
+  {
+    "id": "ADMIN",
+    "materia": "Administración Rural",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Sexto Año",
+    "level": 11,
+    "correlativas": "ECOAGR-GRANOS-CONSERV"
+  },
+  {
+    "id": "FORESTAL",
+    "materia": "Producción Forestal",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Sexto Año",
+    "level": 11,
+    "correlativas": "PROTVEG-FERT"
+  },
+  {
+    "id": "MERCADOS",
+    "materia": "Mercados Agropecuarios",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Sexto Año",
+    "level": 11,
+    "correlativas": "ECOAGR-GRANOS"
+  },
+  {
+    "id": "FRUTI",
+    "materia": "Fruticultura",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Sexto Año",
+    "level": 11,
+    "correlativas": "PROTVEG-RIEGO"
+  },
+  {
+    "id": "TF",
+    "materia": "Trabajo Final",
+    "categoria": "Fin de Carrera",
+    "level": 12,
+    "correlativas": "TELEDET-TTF-SOCEXT-LECHE-CARNE-DDHH-HORTI-ADMIN-FORESTAL-MERCADOS-FRUTI"
+  }
+]

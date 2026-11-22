@@ -1,0 +1,230 @@
+[
+  {
+    "id": "IPC",
+    "materia": "Introducción al Pensamiento Científico",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "ICSE",
+    "materia": "Introducción al Conocimiento de la Sociedad y el Estado",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "BIO",
+    "materia": "Biología",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "PSICO",
+    "materia": "Psicología",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "SOC",
+    "materia": "Sociología",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "MAT",
+    "materia": "Matemática",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC",
+    "materia": "Ciclo Básico Común",
+    "creditos": 0,
+    "categoria": "CBC",
+    "level": 0,
+    "correlativas": "IPC-ICSE-BIO-PSICO-SOC-MAT"
+  },
+  {
+    "id": "401",
+    "materia": "Teoría y Técnica de Terapia Ocupacional I",
+    "categoria": "Materias Obligatorias",
+    "level": 1,
+    "grupo": "Teoría y Técnica de T.O.",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "402",
+    "materia": "La Ocupación y su Proceso I",
+    "categoria": "Materias Obligatorias",
+    "level": 1,
+    "grupo": "Teoría y Técnica de T.O.",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "403",
+    "materia": "Anatomía",
+    "categoria": "Materias Obligatorias",
+    "level": 1,
+    "grupo": "Eje Biomédico",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "404",
+    "materia": "Fisiología",
+    "categoria": "Materias Obligatorias",
+    "level": 2,
+    "grupo": "Eje Biomédico",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "405",
+    "materia": "Psicología de los Ciclos Vitales I",
+    "categoria": "Materias Obligatorias",
+    "level": 2,
+    "grupo": "Eje Psicosocial",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "407",
+    "materia": "La Ocupación y su Proceso II",
+    "categoria": "Materias Obligatorias",
+    "level": 2,
+    "grupo": "Teoría y Técnica de T.O.",
+    "correlativas": "402"
+  },
+  {
+    "id": "423",
+    "materia": "Biomecánica",
+    "categoria": "Materias Obligatorias",
+    "level": 2,
+    "grupo": "Eje Biomédico",
+    "correlativas": "403"
+  },
+  {
+    "id": "406",
+    "materia": "Teoría y Técnica de Terapia Ocupacional II",
+    "categoria": "Materias Obligatorias",
+    "level": 3,
+    "grupo": "Teoría y Técnica de T.O.",
+    "correlativas": "402-401-404-405"
+  },
+  {
+    "id": "409",
+    "materia": "Clínica Médica y Neurología",
+    "categoria": "Materias Obligatorias",
+    "level": 3,
+    "grupo": "Eje Biomédico",
+    "correlativas": "403-404"
+  },
+  {
+    "id": "408",
+    "materia": "Psicología de los Ciclos Vitales II",
+    "categoria": "Materias Obligatorias",
+    "level": 3,
+    "grupo": "Eje Psicosocial",
+    "correlativas": "405"
+  },
+  {
+    "id": "410",
+    "materia": "Ortopedia",
+    "categoria": "Materias Obligatorias",
+    "level": 4,
+    "grupo": "Eje Biomédico",
+    "correlativas": "409-423"
+  },
+  {
+    "id": "411",
+    "materia": "Psicopatología",
+    "categoria": "Materias Obligatorias",
+    "level": 4,
+    "grupo": "Eje Psicosocial",
+    "correlativas": "408"
+  },
+  {
+    "id": "412",
+    "materia": "Práctica Profesional I",
+    "categoria": "Materias Obligatorias",
+    "level": 4,
+    "grupo": "Práctica Profesional",
+    "correlativas": "408-406-407-409"
+  },
+  {
+    "id": "413",
+    "materia": "Teoría y Técnica de Terapia Ocupacional III",
+    "categoria": "Materias Obligatorias",
+    "level": 5,
+    "grupo": "Teoría y Técnica de T.O.",
+    "correlativas": "406-409-423-407"
+  },
+  {
+    "id": "414",
+    "materia": "Psicología Social de las Instituciones y de los Grupos",
+    "categoria": "Materias Obligatorias",
+    "level": 5,
+    "grupo": "Eje Psicosocial",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "420",
+    "materia": "Metodología de la Investigación y Estadística",
+    "categoria": "Materias Obligatorias",
+    "level": 5,
+    "grupo": "Eje Psicosocial",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "416",
+    "materia": "Teoría y Técnica de Terapia Ocupacional IV",
+    "categoria": "Materias Obligatorias",
+    "level": 6,
+    "grupo": "Teoría y Técnica de T.O.",
+    "correlativas": "411-413"
+  },
+  {
+    "id": "419",
+    "materia": "La Ocupación y su Proceso III",
+    "categoria": "Materias Obligatorias",
+    "level": 6,
+    "grupo": "Teoría y Técnica de T.O.",
+    "correlativas": "413"
+  },
+  {
+    "id": "415",
+    "materia": "Práctica Profesional II",
+    "categoria": "Materias Obligatorias",
+    "level": 6,
+    "grupo": "Práctica Profesional",
+    "correlativas": "410-412-413"
+  },
+  {
+    "id": "418",
+    "materia": "Teoría y Técnica de Terapia Ocupacional V",
+    "categoria": "Materias Obligatorias",
+    "level": 7,
+    "grupo": "Teoría y Técnica de T.O.",
+    "correlativas": "416"
+  },
+  {
+    "id": "417",
+    "materia": "Práctica Profesional III",
+    "categoria": "Materias Obligatorias",
+    "level": 7,
+    "grupo": "Práctica Profesional",
+    "correlativas": "414-416-415"
+  },
+  {
+    "id": "421",
+    "materia": "Orientación para el Ejercicio Profesional",
+    "categoria": "Materias Obligatorias",
+    "level": 8,
+    "grupo": "Teoría y Técnica de T.O.",
+    "correlativas": "418"
+  },
+  {
+    "id": "422",
+    "materia": "Práctica Profesional IV",
+    "categoria": "Materias Obligatorias",
+    "level": 8,
+    "grupo": "Práctica Profesional",
+    "correlativas": "419-417-418"
+  }
+]

@@ -1,0 +1,174 @@
+[
+  {
+    "id": "CBC40",
+    "materia": "Introducción al Pensamiento Científico",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "CBC24",
+    "materia": "Introducción al Conocimiento de la Sociedad y el Estado",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "CBC14",
+    "materia": "Sociología",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "ECO",
+    "materia": "Economía",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "ANTRO",
+    "materia": "Antropología",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC22",
+    "materia": "Ciencia Política",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC",
+    "materia": "Ciclo Básico Común",
+    "creditos": 0,
+    "categoria": "CBC",
+    "level": 0,
+    "correlativas": "CBC40-CBC24-CBC14-ECO-ANTRO-CBC22"
+  },
+  {
+    "id": "251",
+    "materia": "Sociología General",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Materias Obligatorias",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "252",
+    "materia": "Filosofía",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Materias Obligatorias",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "253",
+    "materia": "Historia Social Moderna y Contemporánea",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Materias Obligatorias",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "256",
+    "materia": "Economía II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Materias Obligatorias",
+    "level": 2,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "254",
+    "materia": "Historia del Conocimiento Sociológico I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Materias Obligatorias",
+    "level": 2,
+    "correlativas": "251-252"
+  },
+  {
+    "id": "255",
+    "materia": "Epistemología de las Ciencias Sociales",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Materias Obligatorias",
+    "level": 2,
+    "correlativas": "252"
+  },
+  {
+    "id": "257",
+    "materia": "Historia del Conocimiento Sociológico II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Materias Obligatorias",
+    "level": 3,
+    "correlativas": "254"
+  },
+  {
+    "id": "259",
+    "materia": "Historia Social Latinoamericana",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Materias Obligatorias",
+    "level": 3,
+    "correlativas": "253-256"
+  },
+  {
+    "id": "258",
+    "materia": "Metodología I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Materias Obligatorias",
+    "level": 3,
+    "correlativas": "251-255-256"
+  },
+  {
+    "id": "260",
+    "materia": "Sociología Sistemática",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Materias Obligatorias",
+    "level": 4,
+    "correlativas": "257"
+  },
+  {
+    "id": "262",
+    "materia": "Historia Social Argentina",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Materias Obligatorias",
+    "level": 4,
+    "correlativas": "259"
+  },
+  {
+    "id": "261",
+    "materia": "Metodología II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Materias Obligatorias",
+    "level": 4,
+    "correlativas": "258"
+  },
+  {
+    "id": "263",
+    "materia": "Sociología Política",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Materias Obligatorias",
+    "level": 5,
+    "correlativas": "260-253-256"
+  },
+  {
+    "id": "266",
+    "materia": "Psicología Social",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Materias Obligatorias",
+    "level": 5,
+    "correlativas": "260"
+  },
+  {
+    "id": "265",
+    "materia": "Análisis de la Sociedad Argentina",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Materias Obligatorias",
+    "level": 5,
+    "correlativas": "262-254"
+  },
+  {
+    "id": "264",
+    "materia": "Metodología III",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Materias Obligatorias",
+    "level": 6,
+    "correlativas": "261"
+  }
+]

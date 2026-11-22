@@ -1,0 +1,359 @@
+[
+  {
+    "id": "IPC",
+    "materia": "Introducción al Pensamiento Científico",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "ICSE",
+    "materia": "Introducción al Conocimiento de la Sociedad y el Estado",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "QUIMICA",
+    "materia": "Química",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "BIOFISICA",
+    "materia": "Física e Introducción a la Biofísica",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "BIOLOGIA",
+    "materia": "Biología e Introducción a la Biología Celular",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "MAT",
+    "materia": "Matemática",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC",
+    "materia": "Ciclo Básico Común",
+    "creditos": 0,
+    "categoria": "CBC",
+    "level": 0,
+    "correlativas": "IPC-ICSE-QUIMICA-BIOFISICA-BIOLOGIA-MAT"
+  },
+  {
+    "id": "BIOQNUT",
+    "materia": "Bioquímica de la Nutrición",
+    "categoria": "Materias Obligatorias",
+    "level": 1,
+    "grupo": "Segundo Año",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "NUTNOR",
+    "materia": "Nutrición Normal",
+    "categoria": "Materias Obligatorias",
+    "level": 1,
+    "grupo": "Segundo Año",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "ESTAD",
+    "materia": "Estadística",
+    "categoria": "Materias Obligatorias",
+    "level": 1,
+    "grupo": "Segundo Año",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "ISP",
+    "materia": "Introducción a la Salud Pública",
+    "categoria": "Materias Obligatorias",
+    "level": 1,
+    "grupo": "Segundo Año",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "ANAT",
+    "materia": "Anatomía",
+    "categoria": "Materias Obligatorias",
+    "level": 2,
+    "grupo": "Segundo Año",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "FISIO",
+    "materia": "Fisiología",
+    "categoria": "Materias Obligatorias",
+    "level": 2,
+    "grupo": "Segundo Año",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "SOCIO",
+    "materia": "Socioantropología",
+    "categoria": "Materias Obligatorias",
+    "level": 2,
+    "grupo": "Segundo Año",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "BIOEST",
+    "materia": "Bioestadística",
+    "categoria": "Materias Obligatorias",
+    "level": 3,
+    "grupo": "Tercer Año",
+    "correlativas": "ESTAD"
+  },
+  {
+    "id": "ECON",
+    "materia": "Economía General y Familiar",
+    "categoria": "Materias Obligatorias",
+    "level": 3,
+    "grupo": "Tercer Año",
+    "correlativas": "NUTNOR"
+  },
+  {
+    "id": "SANEAM",
+    "materia": "Saneamiento Ambiental e Higiene de los Alimentos",
+    "categoria": "Materias Obligatorias",
+    "level": 3,
+    "grupo": "Tercer Año",
+    "correlativas": "ISP"
+  },
+  {
+    "id": "DESCOM",
+    "materia": "Desarrollo de la Comunidad",
+    "categoria": "Materias Obligatorias",
+    "level": 3,
+    "grupo": "Tercer Año",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "FISIOPAT",
+    "materia": "Fisiopatología",
+    "categoria": "Materias Obligatorias",
+    "level": 4,
+    "grupo": "Tercer Año",
+    "correlativas": "ANAT-FISIO-BIOQNUT-NUTNOR"
+  },
+  {
+    "id": "TECDIET",
+    "materia": "Técnica Dietética",
+    "categoria": "Materias Obligatorias",
+    "level": 4,
+    "grupo": "Tercer Año",
+    "correlativas": "BIOQNUT-NUTNOR"
+  },
+  {
+    "id": "BROMA",
+    "materia": "Bromatología y Tecnología Alimentaria",
+    "categoria": "Materias Obligatorias",
+    "level": 4,
+    "grupo": "Tercer Año",
+    "correlativas": "BIOQNUT-NUTNOR"
+  },
+  {
+    "id": "MICRO",
+    "materia": "Microbiología y Parasitología",
+    "categoria": "Materias Obligatorias",
+    "level": 4,
+    "grupo": "Tercer Año",
+    "correlativas": "BIOQNUT-ANAT-FISIO"
+  },
+  {
+    "id": "ANS",
+    "materia": "Alimentación del Niño Sano",
+    "categoria": "Materias Obligatorias",
+    "level": 5,
+    "grupo": "Tercer Año",
+    "correlativas": "ANAT-FISIO-BIOQNUT-NUTNOR"
+  },
+  {
+    "id": "PROD",
+    "materia": "Producción y Mercadeo de Alimentos",
+    "categoria": "Materias Obligatorias",
+    "level": 5,
+    "grupo": "Tercer Año",
+    "correlativas": "ECON"
+  },
+  {
+    "id": "METOD",
+    "materia": "Metodología de la Investigación en Nutrición",
+    "categoria": "Materias Obligatorias",
+    "level": 5,
+    "grupo": "Tercer Año",
+    "correlativas": "BIOEST"
+  },
+  {
+    "id": "RHE",
+    "materia": "Relaciones Humanas y Ética",
+    "categoria": "Materias Obligatorias",
+    "level": 5,
+    "grupo": "Tercer Año",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "EPI",
+    "materia": "Epidemiología en Nutrición",
+    "categoria": "Materias Obligatorias",
+    "level": 6,
+    "grupo": "Cuarto Año",
+    "correlativas": "METOD"
+  },
+  {
+    "id": "EVAL",
+    "materia": "Evaluación Nutricional",
+    "categoria": "Materias Obligatorias",
+    "level": 6,
+    "grupo": "Cuarto Año",
+    "correlativas": "BIOEST-ANS"
+  },
+  {
+    "id": "TECDTER",
+    "materia": "Técnica Dietoterápica",
+    "categoria": "Materias Obligatorias",
+    "level": 6,
+    "grupo": "Cuarto Año",
+    "correlativas": "FISIOPAT-TECDIET-BROMA"
+  },
+  {
+    "id": "DTA",
+    "materia": "Dietoterapia del Adulto",
+    "categoria": "Materias Obligatorias",
+    "level": 6,
+    "grupo": "Cuarto Año",
+    "correlativas": "FISIOPAT-TECDIET-BROMA"
+  },
+  {
+    "id": "NSP",
+    "materia": "Nutrición en Salud Pública",
+    "categoria": "Materias Obligatorias",
+    "level": 7,
+    "grupo": "Cuarto Año",
+    "correlativas": "ISP-EPI-EVAL"
+  },
+  {
+    "id": "PSICNUT",
+    "materia": "Psicología de la Nutrición",
+    "categoria": "Materias Obligatorias",
+    "level": 7,
+    "grupo": "Cuarto Año",
+    "correlativas": "SOCIO-ANS"
+  },
+  {
+    "id": "EDUNUT",
+    "materia": "Educación en Nutrición",
+    "categoria": "Materias Obligatorias",
+    "level": 7,
+    "grupo": "Cuarto Año",
+    "correlativas": "ANS-DESCOM-TECDIET-BROMA"
+  },
+  {
+    "id": "ADMSERV",
+    "materia": "Administración de Servicios de Alimentación",
+    "categoria": "Materias Obligatorias",
+    "level": 8,
+    "grupo": "Cuarto Año",
+    "correlativas": "PROD-TECDIET-BROMA"
+  },
+  {
+    "id": "FDN",
+    "materia": "Fisiopatología y Dietoterapia del Niño",
+    "categoria": "Materias Obligatorias",
+    "level": 8,
+    "grupo": "Cuarto Año",
+    "correlativas": "ANS-FISIOPAT-TECDIET-BROMA"
+  },
+  {
+    "id": "PLANIF",
+    "materia": "Planificación y Administración General y Sanitaria",
+    "categoria": "Materias Obligatorias",
+    "level": 8,
+    "grupo": "Cuarto Año",
+    "correlativas": "ISP-ECON"
+  },
+  {
+    "id": "PRACSP",
+    "materia": "Prácticas de Nutrición en Salud Pública",
+    "categoria": "Materias Obligatorias",
+    "level": 9,
+    "grupo": "Quinto Año",
+    "correlativas": "MICRO-RHE-SANEAM-PSICNUT-EDUNUT-ADMSERV-PLANIF-TECDTER-FDN-NSP-DTA"
+  },
+  {
+    "id": "PRACDT",
+    "materia": "Prácticas de Dietoterapia y Administración de Servicios de Alimentación",
+    "categoria": "Materias Obligatorias",
+    "level": 9,
+    "grupo": "Quinto Año",
+    "correlativas": "MICRO-RHE-SANEAM-PSICNUT-EDUNUT-ADMSERV-PLANIF-TECDTER-FDN-NSP-DTA"
+  },
+  {
+    "id": "SEMIN",
+    "materia": "Seminarios",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Quinto Año",
+    "level": 9,
+    "correlativas": "MICRO-RHE-SANEAM-PSICNUT-EDUNUT-ADMSERV-PLANIF-TECDTER-FDN-NSP-DTA"
+  },
+  {
+    "id": "POLALIM",
+    "materia": "Política Alimentaria",
+    "categoria": "Materias Electivas",
+    "requiere": 31,
+    "requiereCBC": true
+  },
+  {
+    "id": "INFORM",
+    "materia": "Informática",
+    "categoria": "Materias Electivas",
+    "requiere": 31,
+    "requiereCBC": true
+  },
+  {
+    "id": "COMAUD",
+    "materia": "Comunicación y Audiovisuales",
+    "categoria": "Materias Electivas",
+    "requiere": 31,
+    "requiereCBC": true
+  },
+  {
+    "id": "EXTRUR",
+    "materia": "Extensión Rural",
+    "categoria": "Materias Electivas",
+    "requiere": 31,
+    "requiereCBC": true
+  },
+  {
+    "id": "TDEXP",
+    "materia": "Técnica Dietética Experimental",
+    "categoria": "Materias Electivas",
+    "requiere": 31,
+    "requiereCBC": true
+  },
+  {
+    "id": "INTERDA",
+    "materia": "Interacción Droga-Alimentos en Enfermedades de la Nutrición",
+    "categoria": "Materias Electivas",
+    "correlativas": "DTA-FDN",
+    "requiere": 29,
+    "requiereCBC": true
+  },
+  {
+    "id": "NUTDEP",
+    "materia": "Nutrición y Deporte",
+    "categoria": "Materias Electivas",
+    "requiere": 31,
+    "requiereCBC": true
+  },
+  {
+    "id": "NUTCRIT",
+    "materia": "Nutrición en el Paciente Crítico",
+    "categoria": "Materias Electivas",
+    "requiere": 31,
+    "requiereCBC": true
+  }
+]
