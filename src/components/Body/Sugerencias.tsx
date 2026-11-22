@@ -81,37 +81,6 @@ const Sugerencias = () => {
                           Si ves algo mal con tu carrera, o tu carrera todavía
                           no fue cargada, avisame!
                         </Text>
-                        <Text w="100%">
-                          <Link
-                            isExternal
-                            _hover={{
-                              _light: {
-                                color: "electivas.500",
-                              },
-                              _dark: {
-                                color: "electivas.400",
-                              },
-                            }}
-                            href="https://cafecito.app/FdelMazo"
-                          >
-                            {" "}
-                            Si me querés tirar un cafecito{" "}
-                            <ExternalLinkIcon
-                              _light={{
-                                color: "electivas.500",
-                              }}
-                              _dark={{
-                                color: "electivas.400",
-                              }}
-                            />
-                          </Link>{" "}
-                          , te lo agradezco mucho!
-                          <br />
-                          <Text fontSize="xs">
-                            (Aunque para ser sincero, aprecio más los mensajes
-                            que los cafecitos...)
-                          </Text>
-                        </Text>
                       </VStack>
                       <form
                         onSubmit={async (t) => {
