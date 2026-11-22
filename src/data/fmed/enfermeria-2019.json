@@ -13,25 +13,25 @@
   },
   {
     "id": "CBCOPT1",
-    "materia": "Asignatura del CBC a elección (1)",
+    "materia": "Optativa del CBC",
     "categoria": "*CBC",
     "level": -2
   },
   {
     "id": "CBCOPT2",
-    "materia": "Asignatura del CBC a elección (2)",
+    "materia": "Optativa del CBC",
     "categoria": "*CBC",
     "level": -1
   },
   {
     "id": "CBCOPT3",
-    "materia": "Asignatura del CBC a elección (3)",
+    "materia": "Optativa del CBC",
     "categoria": "*CBC",
     "level": -1
   },
   {
     "id": "CBCOPT4",
-    "materia": "Asignatura del CBC a elección (4)",
+    "materia": "Optativa del CBC",
     "categoria": "*CBC",
     "level": -1
   },

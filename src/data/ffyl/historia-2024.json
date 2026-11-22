@@ -1,0 +1,278 @@
+[
+  {
+    "id": "CBC24",
+    "materia": "Introducción al Conocimiento de la Sociedad y el Estado",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "CBC40",
+    "materia": "Introducción al Pensamiento Científico",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "SEMIOLOGIA",
+    "materia": "Semiología",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "PSICO",
+    "materia": "Psicología",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBCOPT1",
+    "materia": "Optativa del CBC",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBCOPT2",
+    "materia": "Optativa del CBC",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC",
+    "materia": "Ciclo Básico Común",
+    "creditos": 0,
+    "categoria": "CBC",
+    "level": 0,
+    "correlativas": "CBC24-CBC40-SEMIOLOGIA-PSICO-CBCOPT1-CBCOPT2"
+  },
+  {
+    "id": "14008",
+    "materia": "Historia Antigua I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Formación Específica",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "14013",
+    "materia": "Historia de América I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Formación Específica",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "14001",
+    "materia": "Historia Social General",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Formación General",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "14009",
+    "materia": "Historia Antigua II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Formación Específica",
+    "level": 2,
+    "correlativas": "14008"
+  },
+  {
+    "id": "14014",
+    "materia": "Historia de América II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Formación Específica",
+    "level": 2,
+    "correlativas": "14013"
+  },
+  {
+    "id": "14010",
+    "materia": "Historia Medieval",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Formación Específica",
+    "level": 3,
+    "correlativas": "14009"
+  },
+  {
+    "id": "14015",
+    "materia": "Historia de América III",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Formación Específica",
+    "level": 3,
+    "correlativas": "14014"
+  },
+  {
+    "id": "14019",
+    "materia": "Teoría e Historia de la Historiografía",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Formación Específica",
+    "level": 3,
+    "correlativas": "14001"
+  },
+  {
+    "id": "14011",
+    "materia": "Historia Moderna",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Formación Específica",
+    "level": 4,
+    "correlativas": "14010"
+  },
+  {
+    "id": "14016",
+    "materia": "Historia Argentina I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Formación Específica",
+    "level": 4,
+    "correlativas": "14015"
+  },
+  {
+    "id": "14012",
+    "materia": "Historia Contemporánea",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Formación Específica",
+    "level": 5,
+    "correlativas": "14011"
+  },
+  {
+    "id": "14017",
+    "materia": "Historia Argentina II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Formación Específica",
+    "level": 5,
+    "correlativas": "14016"
+  },
+  {
+    "id": "SINV",
+    "materia": "Seminario de Investigación",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Formación Específica",
+    "level": 6,
+    "correlativas": "14012"
+  },
+  {
+    "id": "14018",
+    "materia": "Historia Argentina III",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Formación Específica",
+    "level": 6,
+    "correlativas": "14017"
+  },
+  {
+    "id": "PST",
+    "materia": "Seminario PST",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo de Formación Específica",
+    "level": 6,
+    "correlativas": "14019"
+  },
+  {
+    "id": "TESIS",
+    "materia": "Tesis de Licenciatura",
+    "categoria": "Fin de Carrera",
+    "level": 7,
+    "correlativas": "SINV"
+  },
+  {
+    "id": "14002",
+    "materia": "Historia Social de la Ciencia y la Técnica",
+    "categoria": "Materias Electivas",
+    "grupo": "Ciclo de Formación General",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "14003",
+    "materia": "Historia de los Sistemas Económicos",
+    "categoria": "Materias Electivas",
+    "grupo": "Ciclo de Formación General",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "14004",
+    "materia": "Historia del Pensamiento Político",
+    "categoria": "Materias Electivas",
+    "grupo": "Ciclo de Formación General",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "14005",
+    "materia": "Historia del Pensamiento Económico",
+    "categoria": "Materias Electivas",
+    "grupo": "Ciclo de Formación General",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "14006",
+    "materia": "Historia del Pensamiento Sociológico",
+    "categoria": "Materias Electivas",
+    "grupo": "Ciclo de Formación General",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "14007",
+    "materia": "Historia de la Colonización y Descolonización",
+    "categoria": "Materias Electivas",
+    "grupo": "Ciclo de Formación General",
+    "correlativas": "CBC"
+  },
+  {
+    "id": "14020",
+    "materia": "Historia de España",
+    "categoria": "Materias Electivas",
+    "grupo": "Ciclo de Formación Específica",
+    "correlativas": "14001"
+  },
+  {
+    "id": "14021",
+    "materia": "Historia de los Estados Unidos de América",
+    "categoria": "Materias Electivas",
+    "grupo": "Ciclo de Formación Específica",
+    "correlativas": "14001"
+  },
+  {
+    "id": "14022",
+    "materia": "Historia de Rusia",
+    "categoria": "Materias Electivas",
+    "grupo": "Ciclo de Formación Específica",
+    "correlativas": "14001"
+  },
+  {
+    "id": "14023",
+    "materia": "Problemas Latinoamericanos Contemporáneos",
+    "categoria": "Materias Electivas",
+    "grupo": "Ciclo de Formación Específica",
+    "correlativas": "14001"
+  },
+  {
+    "id": "14024",
+    "materia": "Geografía y Demografía Histórica",
+    "categoria": "Materias Electivas",
+    "grupo": "Ciclo de Formación Específica",
+    "correlativas": "14001"
+  },
+  {
+    "id": "14025",
+    "materia": "Métodos Cuantitativos e Informática Aplicada a la Historia",
+    "categoria": "Materias Electivas",
+    "grupo": "Ciclo de Formación Específica",
+    "correlativas": "14001"
+  },
+  {
+    "id": "14026",
+    "materia": "Historia de Asia y África Contemporáneas",
+    "categoria": "Materias Electivas",
+    "grupo": "Ciclo de Formación Específica",
+    "correlativas": "14001"
+  },
+  {
+    "id": "14027",
+    "materia": "Elementos de Prehistoria y Arqueología Americana",
+    "categoria": "Materias Electivas",
+    "grupo": "Ciclo de Formación Específica",
+    "correlativas": "14001"
+  },
+  {
+    "id": "14028",
+    "materia": "Problemas Mundiales Contemporáneos",
+    "categoria": "Materias Electivas",
+    "grupo": "Ciclo de Formación Específica",
+    "correlativas": "14001"
+  }
+]

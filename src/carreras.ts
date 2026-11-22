@@ -254,6 +254,83 @@ export const CARRERAS: UserType.Carrera[] = [
       electivas: 2,
     },
   },
+  {
+    id: "computacion-2023",
+    link: "https://exactas.uba.ar/ensenanza/carreras-de-grado/ciencias-de-la-computacion/",
+    ano: 2023,
+    graph: plan(require("./data/fcen/computacion-2023.json")),
+    // Las optativas se cuentan en créditos (16), no en materias: por ahora no las contamos
+    creditos: {},
+  },
+  {
+    id: "datos-2020",
+    link: "https://exactas.uba.ar/ensenanza/carreras-de-grado/ciencias-de-datos/",
+    ano: 2020,
+    graph: plan(require("./data/fcen/datos-2020.json")),
+    // Las optativas se cuentan en horas (640 hs), no en materias: por ahora no las contamos
+    creditos: {},
+  },
+  {
+    id: "historia-2024",
+    link: "https://historia.filo.uba.ar/content/plan-de-estudios",
+    ano: 2024,
+    graph: plan(require("./data/ffyl/historia-2024.json")),
+    creditos: {
+      // 6 electivas: 3 del Ciclo de Formación General y 3 del Específico
+      // Las obligatorias no tienen correlativas entre sí: las cadenas (cronológicas) son nuestras, para que se lea el mapa
+      electivas: 6,
+    },
+  },
+  {
+    id: "traductorado-publico-2008",
+    link: "https://www.derecho.uba.ar/academica/carreras_grado/traductorado.php",
+    ano: 2008,
+    graph: plan(require("./data/derecho/traductorado-publico-2008.json")),
+    // No tiene electivas
+    creditos: {},
+  },
+  {
+    id: "ciencias-ambientales-2017",
+    link: "https://www.agro.uba.ar/carreras/ambientales",
+    ano: 2017,
+    graph: plan(require("./data/fauba/ciencias-ambientales-2017.json")),
+    // Electivas y optativas se cuentan en créditos, no en materias: por ahora no las contamos
+    creditos: {},
+  },
+  {
+    id: "economia-y-administracion-agrarias-2026",
+    link: "https://www.agro.uba.ar/carreras/leaa",
+    ano: 2026,
+    graph: plan(require("./data/fauba/economia-y-administracion-agrarias-2026.json")),
+    // Electivas y optativas se cuentan en horas, no en materias: por ahora no las contamos
+    creditos: {},
+  },
+  {
+    id: "planificacion-y-diseno-del-paisaje-2005",
+    link: "https://www.fadu.uba.ar/lic-en-planificacion-y-diseno-del-paisaje/",
+    ano: 2005,
+    graph: plan(require("./data/fadu/planificacion-y-diseno-del-paisaje-2005.json")),
+    creditos: {
+      // 3 electivas (sin lista)
+      electivas: 3,
+    },
+  },
+  {
+    id: "terapia-ocupacional-1994",
+    link: "https://www.psi.uba.ar/academica.php?var=terapiaocupacional/index.php",
+    ano: 1994,
+    graph: plan(require("./data/psi/terapia-ocupacional-1994.json")),
+    // No tiene electivas
+    creditos: {},
+  },
+  {
+    id: "musicoterapia-2017",
+    link: "https://www.psi.uba.ar/academica.php?var=musicoterapia/index.php",
+    ano: 2017,
+    graph: plan(require("./data/psi/musicoterapia-2017.json")),
+    // No tiene electivas
+    creditos: {},
+  },
 ];
 
 // Acá se define como se le presentan al usuario la lista de planes/carreras
@@ -392,5 +469,50 @@ export const PLANES: {
     nombre: "Licenciatura en Obstetricia",
     nombrecorto: "Obstetricia",
     planes: ["obstetricia-2011"],
+  },
+  {
+    nombre: "Licenciatura en Ciencias de la Computación",
+    nombrecorto: "Computación",
+    planes: ["computacion-2023"],
+  },
+  {
+    nombre: "Licenciatura en Ciencias de Datos",
+    nombrecorto: "Ciencias de Datos",
+    planes: ["datos-2020"],
+  },
+  {
+    nombre: "Licenciatura en Historia",
+    nombrecorto: "Historia",
+    planes: ["historia-2024"],
+  },
+  {
+    nombre: "Traductorado Público",
+    nombrecorto: "Traductorado",
+    planes: ["traductorado-publico-2008"],
+  },
+  {
+    nombre: "Licenciatura en Ciencias Ambientales",
+    nombrecorto: "Ciencias Ambientales",
+    planes: ["ciencias-ambientales-2017"],
+  },
+  {
+    nombre: "Licenciatura en Economía y Administración Agrarias",
+    nombrecorto: "Economía y Adm. Agrarias",
+    planes: ["economia-y-administracion-agrarias-2026"],
+  },
+  {
+    nombre: "Licenciatura en Planificación y Diseño del Paisaje",
+    nombrecorto: "Diseño del Paisaje",
+    planes: ["planificacion-y-diseno-del-paisaje-2005"],
+  },
+  {
+    nombre: "Licenciatura en Terapia Ocupacional",
+    nombrecorto: "Terapia Ocupacional",
+    planes: ["terapia-ocupacional-1994"],
+  },
+  {
+    nombre: "Licenciatura en Musicoterapia",
+    nombrecorto: "Musicoterapia",
+    planes: ["musicoterapia-2017"],
   },
 ];

@@ -13,7 +13,7 @@
   },
   {
     "id": "CBCOPT1",
-    "materia": "Optativa del CBC (Física, Química o Pensamiento Computacional)",
+    "materia": "Optativa del CBC",
     "categoria": "*CBC",
     "level": -2
   },
@@ -31,7 +31,7 @@
   },
   {
     "id": "CBCOPT2",
-    "materia": "Optativa del CBC (Física, Química o Pensamiento Computacional)",
+    "materia": "Optativa del CBC",
     "categoria": "*CBC",
     "level": -1
   },
@@ -197,7 +197,7 @@
   },
   {
     "id": "TESIS",
-    "materia": "Trabajo Final - Tesis de Licenciatura",
+    "materia": "Tesis de Licenciatura",
     "categoria": "Fin de Carrera",
     "level": 8,
     "requiere": 14,

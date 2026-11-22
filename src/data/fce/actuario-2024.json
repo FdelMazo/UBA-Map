@@ -165,7 +165,7 @@
   },
   {
     "id": "758",
-    "materia": "Bases Actuariales de las Inversiones y Financiaciones (Act. 5)",
+    "materia": "Bases Actuariales de las Inversiones y Financiaciones",
     "categoria": "Materias Obligatorias",
     "level": 4,
     "grupo": "Ciclo Profesional",
@@ -181,7 +181,7 @@
   },
   {
     "id": "754",
-    "materia": "Teoría Actuarial de los Seguros Personales (Act. 1)",
+    "materia": "Teoría Actuarial de los Seguros Personales",
     "categoria": "Materias Obligatorias",
     "level": 5,
     "grupo": "Ciclo Profesional",
@@ -189,7 +189,7 @@
   },
   {
     "id": "755",
-    "materia": "Teoría Actuarial de los Seguros Patrimoniales (Act. 2)",
+    "materia": "Teoría Actuarial de los Seguros Patrimoniales",
     "categoria": "Materias Obligatorias",
     "level": 5,
     "grupo": "Ciclo Profesional",
@@ -197,7 +197,7 @@
   },
   {
     "id": "756",
-    "materia": "Teoría Actuarial de los Fondos y Planes de Jubilaciones, Pensiones y Salud (Act. 4)",
+    "materia": "Teoría Actuarial de los Fondos y Planes de Jubilaciones, Pensiones y Salud",
     "categoria": "Materias Obligatorias",
     "level": 6,
     "grupo": "Ciclo Profesional",
@@ -205,7 +205,7 @@
   },
   {
     "id": "757",
-    "materia": "Teoría del Equilibrio Actuarial (Act. 3)",
+    "materia": "Teoría del Equilibrio Actuarial",
     "categoria": "Materias Obligatorias",
     "level": 6,
     "grupo": "Ciclo Profesional",

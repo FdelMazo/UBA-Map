@@ -13,7 +13,7 @@
   },
   {
     "id": "CBCOPT1",
-    "materia": "Optativa del CBC (Física, Química o Pensamiento Computacional)",
+    "materia": "Optativa del CBC",
     "categoria": "*CBC",
     "level": -2
   },
@@ -31,7 +31,7 @@
   },
   {
     "id": "CBCOPT2",
-    "materia": "Optativa del CBC (Física, Química o Pensamiento Computacional)",
+    "materia": "Optativa del CBC",
     "categoria": "*CBC",
     "level": -1
   },
@@ -109,7 +109,7 @@
   },
   {
     "id": "ECN",
-    "materia": "Electiva de Introducción a las Ciencias Naturales",
+    "materia": "Introducción a las Ciencias Naturales",
     "categoria": "Materias Obligatorias",
     "grupo": "Fundamentos",
     "level": 4,
@@ -157,7 +157,7 @@
   },
   {
     "id": "TESIS",
-    "materia": "Tesis de Licenciatura o Trabajo Final",
+    "materia": "Tesis de Licenciatura",
     "categoria": "Fin de Carrera",
     "level": 7,
     "requiere": 14,

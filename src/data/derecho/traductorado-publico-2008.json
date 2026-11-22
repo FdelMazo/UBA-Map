@@ -53,7 +53,7 @@
   },
   {
     "id": "CIVIL",
-    "materia": "Elementos de Derecho Civil (Parte General)",
+    "materia": "Elementos de Derecho Civil",
     "categoria": "Materias Obligatorias",
     "grupo": "Asignaturas Jurídicas",
     "level": 1,
@@ -125,7 +125,7 @@
   },
   {
     "id": "D1",
-    "materia": "Derecho I (en lengua extranjera)",
+    "materia": "Derecho I",
     "categoria": "Materias Obligatorias",
     "grupo": "Asignaturas Específicas",
     "level": 4,
@@ -149,7 +149,7 @@
   },
   {
     "id": "D2",
-    "materia": "Derecho II (en lengua extranjera)",
+    "materia": "Derecho II",
     "categoria": "Materias Obligatorias",
     "grupo": "Asignaturas Específicas",
     "level": 5,
@@ -213,7 +213,7 @@
   },
   {
     "id": "CEF1",
-    "materia": "Contabilidad, Economía y Finanzas I (en español)",
+    "materia": "Contabilidad, Economía y Finanzas I",
     "categoria": "Materias Obligatorias",
     "grupo": "Asignaturas Específicas",
     "level": 7,
@@ -221,7 +221,7 @@
   },
   {
     "id": "CEF2",
-    "materia": "Contabilidad, Economía y Finanzas II (en lengua extranjera)",
+    "materia": "Contabilidad, Economía y Finanzas II",
     "categoria": "Materias Obligatorias",
     "grupo": "Asignaturas Específicas",
     "level": 8,

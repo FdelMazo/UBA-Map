@@ -373,7 +373,7 @@
   },
   {
     "id": "N503",
-    "materia": "Articulación Docencia-Servicio-Investigación (Práctica Social Educativa)",
+    "materia": "Articulación Docencia-Servicio-Investigación",
     "categoria": "Materias Obligatorias",
     "grupo": "Sexto Año",
     "level": 11,
@@ -437,7 +437,7 @@
   },
   {
     "id": "N501",
-    "materia": "Odontología Integral Adultos (PPS)",
+    "materia": "Odontología Integral Adultos",
     "categoria": "Fin de Carrera",
     "level": 13,
     "correlativas": "N401-N402-N404-N405-N406"
