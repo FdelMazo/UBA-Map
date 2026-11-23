@@ -140,7 +140,7 @@ const Sugerencias = () => {
                           }}
                           href="https://github.com/FdelMazo/UBA-Map/issues/new"
                         >
-                          levantando un <em>issue</em> directamente.{" "}
+                          levantando un issue directamente.{" "}
                           <ExternalLinkIcon
                             _light={{
                               color: "electivas.500",
