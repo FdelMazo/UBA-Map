@@ -67,7 +67,7 @@ export const FACULTADES: Facultad[] = [
   {
     nombre: "Facultad de Ciencias Exactas y Naturales",
     nombrecorto: "FCEN",
-    planes: planes("Computación", "Ciencias de Datos"),
+    planes: planes("Computación", "Ciencias de Datos", "Biología"),
   },
   {
     nombre: "Facultad de Filosofía y Letras",

@@ -271,6 +271,14 @@ export const CARRERAS: UserType.Carrera[] = [
     creditos: {},
   },
   {
+    id: "biologia-2019",
+    link: "https://exactas.uba.ar/ensenanza/carreras-de-grado/ciencias-biologicas/",
+    ano: 2019,
+    graph: plan(require("./data/fcen/biologia-2019.json")),
+    // El Ciclo Superior (plan individual de 1120 hs de electivas) se cuenta en horas, no en materias: por ahora no lo contamos
+    creditos: {},
+  },
+  {
     id: "historia-2024",
     link: "https://historia.filo.uba.ar/content/plan-de-estudios",
     ano: 2024,
@@ -479,6 +487,11 @@ export const PLANES: {
     nombre: "Licenciatura en Ciencias de Datos",
     nombrecorto: "Ciencias de Datos",
     planes: ["datos-2020"],
+  },
+  {
+    nombre: "Licenciatura en Ciencias Biológicas",
+    nombrecorto: "Biología",
+    planes: ["biologia-2019"],
   },
   {
     nombre: "Licenciatura en Historia",

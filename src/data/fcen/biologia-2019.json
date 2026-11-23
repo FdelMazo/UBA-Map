@@ -1,0 +1,165 @@
+[
+  {
+    "id": "CBC40",
+    "materia": "Introducción al Pensamiento Científico",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "CBC24",
+    "materia": "Introducción al Conocimiento de la Sociedad y el Estado",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "BIOLOGIA",
+    "materia": "Biología",
+    "categoria": "*CBC",
+    "level": -2
+  },
+  {
+    "id": "FISICA",
+    "materia": "Física",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "QUIMICA",
+    "materia": "Química",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "MATEMATICA",
+    "materia": "Matemática",
+    "categoria": "*CBC",
+    "level": -1
+  },
+  {
+    "id": "CBC",
+    "materia": "Ciclo Básico Común",
+    "creditos": 0,
+    "categoria": "CBC",
+    "level": 0,
+    "correlativas": "CBC40-CBC24-BIOLOGIA-FISICA-QUIMICA-MATEMATICA"
+  },
+  {
+    "id": "IBMC",
+    "materia": "Introducción a la Biología Molecular y Celular",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo Troncal",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "BOT",
+    "materia": "Introducción a la Botánica",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo Troncal",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "MAT1",
+    "materia": "Matemática I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo Troncal",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "QGI",
+    "materia": "Química General e Inorgánica I",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo Troncal",
+    "level": 1,
+    "correlativas": "CBC"
+  },
+  {
+    "id": "ZOO",
+    "materia": "Introducción a la Zoología",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo Troncal",
+    "level": 2,
+    "correlativas": "IBMC"
+  },
+  {
+    "id": "MAT2",
+    "materia": "Matemática II",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo Troncal",
+    "level": 2,
+    "correlativas": "MAT1"
+  },
+  {
+    "id": "MYT",
+    "materia": "Mecánica y Termodinámica",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo Troncal",
+    "level": 2,
+    "correlativas": "MAT1"
+  },
+  {
+    "id": "QO",
+    "materia": "Química Orgánica",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo Troncal",
+    "level": 2,
+    "correlativas": "QGI"
+  },
+  {
+    "id": "BIOM",
+    "materia": "Biometría",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo Troncal",
+    "level": 3,
+    "correlativas": "ZOO-MAT1"
+  },
+  {
+    "id": "EYO",
+    "materia": "Electromagnetismo y Óptica",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo Troncal",
+    "level": 3,
+    "correlativas": "MYT"
+  },
+  {
+    "id": "QB",
+    "materia": "Química Biológica",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo Troncal",
+    "level": 3,
+    "correlativas": "QO"
+  },
+  {
+    "id": "ECO",
+    "materia": "Ecología General",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo Troncal",
+    "level": 4,
+    "correlativas": "BOT-BIOM"
+  },
+  {
+    "id": "GEN",
+    "materia": "Genética",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo Troncal",
+    "level": 4,
+    "correlativas": "BOT-BIOM-QB"
+  },
+  {
+    "id": "EVO",
+    "materia": "Evolución",
+    "categoria": "Materias Obligatorias",
+    "grupo": "Ciclo Troncal",
+    "level": 5,
+    "correlativas": "GEN"
+  },
+  {
+    "id": "TESIS",
+    "materia": "Tesis de Licenciatura",
+    "categoria": "Fin de Carrera",
+    "level": 6,
+    "correlativas": "MAT2-EYO-ECO-EVO"
+  }
+]
