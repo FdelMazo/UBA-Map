@@ -8,7 +8,7 @@ const plan = (
 
 export const CARRERAS: UserType.Carrera[] = [
   {
-    id: "contador-2019",
+    id: "fce-contador-2019",
     link: "https://economicas.uba.ar/alumnos/contador/",
     ano: 2019,
     graph: plan(require("./data/fce/contador-2019.json")),
@@ -18,7 +18,7 @@ export const CARRERAS: UserType.Carrera[] = [
     },
   },
   {
-    id: "administracion-2024",
+    id: "fce-administracion-2024",
     link: "https://www.economicas.uba.ar/alumnos/administracion",
     ano: 2024,
     graph: plan(require("./data/fce/administracion-2024.json")),
@@ -28,7 +28,7 @@ export const CARRERAS: UserType.Carrera[] = [
     },
   },
   {
-    id: "psicologia-1985",
+    id: "psi-psicologia-1985",
     link: "https://www.psi.uba.ar/academica.php?var=psicologia/index.php",
     ano: 1985,
     graph: plan(require("./data/psi/psicologia-1985.json")),
@@ -39,7 +39,7 @@ export const CARRERAS: UserType.Carrera[] = [
     },
   },
   {
-    id: "medicina-2024",
+    id: "fmed-medicina-2024",
     link: "https://www.fmed.uba.ar/carreras/medicina/plan-de-estudios-24-rescs-2023-1217-uba-rec",
     ano: 2024,
     graph: plan(require("./data/fmed/medicina-2024.json")),
@@ -47,7 +47,7 @@ export const CARRERAS: UserType.Carrera[] = [
     creditos: {},
   },
   {
-    id: "arquitectura-2014",
+    id: "fadu-arquitectura-2014",
     link: "https://www.fadu.uba.ar/carrera/arquitectura/",
     ano: 2014,
     graph: plan(require("./data/fadu/arquitectura-2014.json")),
@@ -55,7 +55,7 @@ export const CARRERAS: UserType.Carrera[] = [
     creditos: {},
   },
   {
-    id: "abogacia-2004",
+    id: "derecho-abogacia-2004",
     link: "https://www.derecho.uba.ar/academica/carreras_grado/abogacia.php",
     ano: 2004,
     graph: plan(require("./data/derecho/abogacia-2004.json")),
@@ -63,7 +63,7 @@ export const CARRERAS: UserType.Carrera[] = [
     creditos: {},
   },
   {
-    id: "economia-2024",
+    id: "fce-economia-2024",
     link: "https://www.economicas.uba.ar/alumnos/economia",
     ano: 2024,
     graph: plan(require("./data/fce/economia-2024.json")),
@@ -73,7 +73,7 @@ export const CARRERAS: UserType.Carrera[] = [
     },
   },
   {
-    id: "sistemas-2024",
+    id: "fce-sistemas-2024",
     link: "https://www.economicas.uba.ar/alumnos/sistemas",
     ano: 2024,
     graph: plan(require("./data/fce/sistemas-2024.json")),
@@ -83,7 +83,7 @@ export const CARRERAS: UserType.Carrera[] = [
     },
   },
   {
-    id: "actuario-2024",
+    id: "fce-actuario-2024",
     link: "https://www.economicas.uba.ar/alumnos/actuario",
     ano: 2024,
     graph: plan(require("./data/fce/actuario-2024.json")),
@@ -93,7 +93,7 @@ export const CARRERAS: UserType.Carrera[] = [
     },
   },
   {
-    id: "trabajo-social-2012",
+    id: "fsoc-trabajo-social-2012",
     link: "https://trabajosocial.sociales.uba.ar/plan-de-estudios/",
     ano: 2012,
     graph: plan(require("./data/fsoc/trabajo-social-2012.json")),
@@ -103,7 +103,7 @@ export const CARRERAS: UserType.Carrera[] = [
     },
   },
   {
-    id: "relaciones-del-trabajo-1985",
+    id: "fsoc-relaciones-del-trabajo-1985",
     link: "https://relacionesdeltrabajo.sociales.uba.ar/plan-estudios/",
     ano: 1985,
     graph: plan(require("./data/fsoc/relaciones-del-trabajo-1985.json")),
@@ -113,7 +113,7 @@ export const CARRERAS: UserType.Carrera[] = [
     },
   },
   {
-    id: "sociologia-1988",
+    id: "fsoc-sociologia-1988",
     link: "https://sociologia.sociales.uba.ar/plan-de-estudios/",
     ano: 1988,
     graph: plan(require("./data/fsoc/sociologia-1988.json")),
@@ -123,7 +123,7 @@ export const CARRERAS: UserType.Carrera[] = [
     },
   },
   {
-    id: "diseno-grafico-2018",
+    id: "fadu-diseno-grafico-2018",
     link: "https://www.fadu.uba.ar/diseno-grafico/",
     ano: 2018,
     graph: plan(require("./data/fadu/diseno-grafico-2018.json")),
@@ -133,7 +133,7 @@ export const CARRERAS: UserType.Carrera[] = [
     },
   },
   {
-    id: "diseno-de-indumentaria-2017",
+    id: "fadu-diseno-de-indumentaria-2017",
     link: "https://www.fadu.uba.ar/diseno-de-indumentaria/",
     ano: 2017,
     graph: plan(require("./data/fadu/diseno-de-indumentaria-2017.json")),
@@ -143,7 +143,7 @@ export const CARRERAS: UserType.Carrera[] = [
     },
   },
   {
-    id: "diseno-textil-2017",
+    id: "fadu-diseno-textil-2017",
     link: "https://www.fadu.uba.ar/diseno-textil/",
     ano: 2017,
     graph: plan(require("./data/fadu/diseno-textil-2017.json")),
@@ -153,7 +153,7 @@ export const CARRERAS: UserType.Carrera[] = [
     },
   },
   {
-    id: "diseno-industrial-2018",
+    id: "fadu-diseno-industrial-2018",
     link: "https://www.fadu.uba.ar/nuevo-plan-de-estudios-de-diseno-industrial/",
     ano: 2018,
     graph: plan(require("./data/fadu/diseno-industrial-2018.json")),
@@ -161,7 +161,7 @@ export const CARRERAS: UserType.Carrera[] = [
     creditos: {},
   },
   {
-    id: "diseno-de-imagen-y-sonido-2017",
+    id: "fadu-diseno-de-imagen-y-sonido-2017",
     link: "https://www.fadu.uba.ar/diseno-de-imagen-y-sonido/",
     ano: 2017,
     graph: plan(require("./data/fadu/diseno-de-imagen-y-sonido-2017.json")),
@@ -171,7 +171,7 @@ export const CARRERAS: UserType.Carrera[] = [
     },
   },
   {
-    id: "odontologia-2021",
+    id: "fouba-odontologia-2021",
     link: "https://odontologia.uba.ar/?page_id=14648",
     ano: 2021,
     graph: plan(require("./data/fouba/odontologia-2021.json")),
@@ -181,7 +181,7 @@ export const CARRERAS: UserType.Carrera[] = [
     },
   },
   {
-    id: "veterinaria-2009",
+    id: "fvet-veterinaria-2009",
     link: "https://www.fvet.uba.ar/ensenanza-carreras-de-grado-veterinaria-plan-de-estudios/",
     ano: 2009,
     graph: plan(require("./data/fvet/veterinaria-2009.json")),
@@ -191,7 +191,7 @@ export const CARRERAS: UserType.Carrera[] = [
     },
   },
   {
-    id: "farmacia-2023",
+    id: "ffyb-farmacia-2023",
     link: "https://www.ffyb.uba.ar/grado-farmacia/",
     ano: 2023,
     graph: plan(require("./data/ffyb/farmacia-2023.json")),
@@ -201,7 +201,7 @@ export const CARRERAS: UserType.Carrera[] = [
     },
   },
   {
-    id: "bioquimica-2023",
+    id: "ffyb-bioquimica-2023",
     link: "https://www.ffyb.uba.ar/grado-bioquimica/",
     ano: 2023,
     graph: plan(require("./data/ffyb/bioquimica-2023.json")),
@@ -211,7 +211,7 @@ export const CARRERAS: UserType.Carrera[] = [
     },
   },
   {
-    id: "agronomia-2017",
+    id: "fauba-agronomia-2017",
     link: "https://www.agro.uba.ar/carreras/agronomia",
     ano: 2017,
     graph: plan(require("./data/fauba/agronomia-2017.json")),
@@ -219,7 +219,7 @@ export const CARRERAS: UserType.Carrera[] = [
     creditos: {},
   },
   {
-    id: "enfermeria-2019",
+    id: "fmed-enfermeria-2019",
     link: "https://www.fmed.uba.ar/carreras/licenciatura-en-enfermeria/plan-de-estudios",
     ano: 2019,
     graph: plan(require("./data/fmed/enfermeria-2019.json")),
@@ -227,7 +227,7 @@ export const CARRERAS: UserType.Carrera[] = [
     creditos: {},
   },
   {
-    id: "nutricion-1986",
+    id: "fmed-nutricion-1986",
     link: "https://www.fmed.uba.ar/carreras/licenciatura-en-nutricion/plan-de-estudios",
     ano: 1986,
     graph: plan(require("./data/fmed/nutricion-1986.json")),
@@ -237,7 +237,7 @@ export const CARRERAS: UserType.Carrera[] = [
     },
   },
   {
-    id: "kinesiologia-2019",
+    id: "fmed-kinesiologia-2019",
     link: "https://www.fmed.uba.ar/index.php/carreras/licenciatura-en-kinesiologia-y-fisiatria/plan-de-estudio",
     ano: 2019,
     graph: plan(require("./data/fmed/kinesiologia-2019.json")),
@@ -245,7 +245,7 @@ export const CARRERAS: UserType.Carrera[] = [
     creditos: {},
   },
   {
-    id: "obstetricia-2011",
+    id: "fmed-obstetricia-2011",
     link: "https://www.fmed.uba.ar/carreras/licenciatura-en-obstetricia/plan-de-estudios",
     ano: 2011,
     graph: plan(require("./data/fmed/obstetricia-2011.json")),
@@ -255,7 +255,7 @@ export const CARRERAS: UserType.Carrera[] = [
     },
   },
   {
-    id: "computacion-2023",
+    id: "fcen-computacion-2023",
     link: "https://exactas.uba.ar/ensenanza/carreras-de-grado/ciencias-de-la-computacion/",
     ano: 2023,
     graph: plan(require("./data/fcen/computacion-2023.json")),
@@ -263,7 +263,7 @@ export const CARRERAS: UserType.Carrera[] = [
     creditos: {},
   },
   {
-    id: "datos-2020",
+    id: "fcen-datos-2020",
     link: "https://exactas.uba.ar/ensenanza/carreras-de-grado/ciencias-de-datos/",
     ano: 2020,
     graph: plan(require("./data/fcen/datos-2020.json")),
@@ -271,7 +271,7 @@ export const CARRERAS: UserType.Carrera[] = [
     creditos: {},
   },
   {
-    id: "biologia-2019",
+    id: "fcen-biologia-2019",
     link: "https://exactas.uba.ar/ensenanza/carreras-de-grado/ciencias-biologicas/",
     ano: 2019,
     graph: plan(require("./data/fcen/biologia-2019.json")),
@@ -279,7 +279,7 @@ export const CARRERAS: UserType.Carrera[] = [
     creditos: {},
   },
   {
-    id: "historia-2024",
+    id: "ffyl-historia-2024",
     link: "https://historia.filo.uba.ar/content/plan-de-estudios",
     ano: 2024,
     graph: plan(require("./data/ffyl/historia-2024.json")),
@@ -290,7 +290,7 @@ export const CARRERAS: UserType.Carrera[] = [
     },
   },
   {
-    id: "traductorado-publico-2008",
+    id: "derecho-traductorado-publico-2008",
     link: "https://www.derecho.uba.ar/academica/carreras_grado/traductorado.php",
     ano: 2008,
     graph: plan(require("./data/derecho/traductorado-publico-2008.json")),
@@ -298,7 +298,7 @@ export const CARRERAS: UserType.Carrera[] = [
     creditos: {},
   },
   {
-    id: "ciencias-ambientales-2017",
+    id: "fauba-ciencias-ambientales-2017",
     link: "https://www.agro.uba.ar/carreras/ambientales",
     ano: 2017,
     graph: plan(require("./data/fauba/ciencias-ambientales-2017.json")),
@@ -306,7 +306,7 @@ export const CARRERAS: UserType.Carrera[] = [
     creditos: {},
   },
   {
-    id: "economia-y-administracion-agrarias-2026",
+    id: "fauba-economia-y-administracion-agrarias-2026",
     link: "https://www.agro.uba.ar/carreras/leaa",
     ano: 2026,
     graph: plan(require("./data/fauba/economia-y-administracion-agrarias-2026.json")),
@@ -314,7 +314,7 @@ export const CARRERAS: UserType.Carrera[] = [
     creditos: {},
   },
   {
-    id: "planificacion-y-diseno-del-paisaje-2005",
+    id: "fadu-planificacion-y-diseno-del-paisaje-2005",
     link: "https://www.fadu.uba.ar/lic-en-planificacion-y-diseno-del-paisaje/",
     ano: 2005,
     graph: plan(require("./data/fadu/planificacion-y-diseno-del-paisaje-2005.json")),
@@ -324,7 +324,7 @@ export const CARRERAS: UserType.Carrera[] = [
     },
   },
   {
-    id: "terapia-ocupacional-1994",
+    id: "psi-terapia-ocupacional-1994",
     link: "https://www.psi.uba.ar/academica.php?var=terapiaocupacional/index.php",
     ano: 1994,
     graph: plan(require("./data/psi/terapia-ocupacional-1994.json")),
@@ -332,7 +332,7 @@ export const CARRERAS: UserType.Carrera[] = [
     creditos: {},
   },
   {
-    id: "musicoterapia-2017",
+    id: "psi-musicoterapia-2017",
     link: "https://www.psi.uba.ar/academica.php?var=musicoterapia/index.php",
     ano: 2017,
     graph: plan(require("./data/psi/musicoterapia-2017.json")),
@@ -351,181 +351,181 @@ export const PLANES: {
   {
     nombre: "Contador Público",
     nombrecorto: "Contador",
-    planes: ["contador-2019"],
+    planes: ["fce-contador-2019"],
   },
   {
     nombre: "Licenciatura en Administración",
     nombrecorto: "Administración",
-    planes: ["administracion-2024"],
+    planes: ["fce-administracion-2024"],
   },
   {
     nombre: "Licenciatura en Psicología",
     nombrecorto: "Psicología",
-    planes: ["psicologia-1985"],
+    planes: ["psi-psicologia-1985"],
   },
   {
     nombre: "Medicina",
     nombrecorto: "Medicina",
-    planes: ["medicina-2024"],
+    planes: ["fmed-medicina-2024"],
   },
   {
     nombre: "Arquitectura",
     nombrecorto: "Arquitectura",
-    planes: ["arquitectura-2014"],
+    planes: ["fadu-arquitectura-2014"],
   },
   {
     nombre: "Abogacía",
     nombrecorto: "Abogacía",
-    planes: ["abogacia-2004"],
+    planes: ["derecho-abogacia-2004"],
   },
   {
     nombre: "Licenciatura en Economía",
     nombrecorto: "Economía",
-    planes: ["economia-2024"],
+    planes: ["fce-economia-2024"],
   },
   {
     nombre: "Licenciatura en Sistemas de Información de las Organizaciones",
     nombrecorto: "Sistemas",
-    planes: ["sistemas-2024"],
+    planes: ["fce-sistemas-2024"],
   },
   {
     nombre: "Actuario",
     nombrecorto: "Actuario",
-    planes: ["actuario-2024"],
+    planes: ["fce-actuario-2024"],
   },
   {
     nombre: "Licenciatura en Trabajo Social",
     nombrecorto: "Trabajo Social",
-    planes: ["trabajo-social-2012"],
+    planes: ["fsoc-trabajo-social-2012"],
   },
   {
     nombre: "Licenciatura en Relaciones del Trabajo",
     nombrecorto: "Relaciones del Trabajo",
-    planes: ["relaciones-del-trabajo-1985"],
+    planes: ["fsoc-relaciones-del-trabajo-1985"],
   },
   {
     nombre: "Licenciatura en Sociología",
     nombrecorto: "Sociología",
-    planes: ["sociologia-1988"],
+    planes: ["fsoc-sociologia-1988"],
   },
   {
     nombre: "Diseño Gráfico",
     nombrecorto: "Diseño Gráfico",
-    planes: ["diseno-grafico-2018"],
+    planes: ["fadu-diseno-grafico-2018"],
   },
   {
     nombre: "Diseño de Indumentaria",
     nombrecorto: "Indumentaria",
-    planes: ["diseno-de-indumentaria-2017"],
+    planes: ["fadu-diseno-de-indumentaria-2017"],
   },
   {
     nombre: "Diseño Textil",
     nombrecorto: "Textil",
-    planes: ["diseno-textil-2017"],
+    planes: ["fadu-diseno-textil-2017"],
   },
   {
     nombre: "Diseño Industrial",
     nombrecorto: "Industrial",
-    planes: ["diseno-industrial-2018"],
+    planes: ["fadu-diseno-industrial-2018"],
   },
   {
     nombre: "Diseño de Imagen y Sonido",
     nombrecorto: "Imagen y Sonido",
-    planes: ["diseno-de-imagen-y-sonido-2017"],
+    planes: ["fadu-diseno-de-imagen-y-sonido-2017"],
   },
   {
     nombre: "Odontología",
     nombrecorto: "Odontología",
-    planes: ["odontologia-2021"],
+    planes: ["fouba-odontologia-2021"],
   },
   {
     nombre: "Veterinaria",
     nombrecorto: "Veterinaria",
-    planes: ["veterinaria-2009"],
+    planes: ["fvet-veterinaria-2009"],
   },
   {
     nombre: "Farmacia",
     nombrecorto: "Farmacia",
-    planes: ["farmacia-2023"],
+    planes: ["ffyb-farmacia-2023"],
   },
   {
     nombre: "Bioquímica",
     nombrecorto: "Bioquímica",
-    planes: ["bioquimica-2023"],
+    planes: ["ffyb-bioquimica-2023"],
   },
   {
     nombre: "Agronomía",
     nombrecorto: "Agronomía",
-    planes: ["agronomia-2017"],
+    planes: ["fauba-agronomia-2017"],
   },
   {
     nombre: "Licenciatura en Enfermería",
     nombrecorto: "Enfermería",
-    planes: ["enfermeria-2019"],
+    planes: ["fmed-enfermeria-2019"],
   },
   {
     nombre: "Licenciatura en Nutrición",
     nombrecorto: "Nutrición",
-    planes: ["nutricion-1986"],
+    planes: ["fmed-nutricion-1986"],
   },
   {
     nombre: "Licenciatura en Kinesiología y Fisiatría",
     nombrecorto: "Kinesiología",
-    planes: ["kinesiologia-2019"],
+    planes: ["fmed-kinesiologia-2019"],
   },
   {
     nombre: "Licenciatura en Obstetricia",
     nombrecorto: "Obstetricia",
-    planes: ["obstetricia-2011"],
+    planes: ["fmed-obstetricia-2011"],
   },
   {
     nombre: "Licenciatura en Ciencias de la Computación",
     nombrecorto: "Computación",
-    planes: ["computacion-2023"],
+    planes: ["fcen-computacion-2023"],
   },
   {
     nombre: "Licenciatura en Ciencias de Datos",
     nombrecorto: "Ciencias de Datos",
-    planes: ["datos-2020"],
+    planes: ["fcen-datos-2020"],
   },
   {
     nombre: "Licenciatura en Ciencias Biológicas",
     nombrecorto: "Biología",
-    planes: ["biologia-2019"],
+    planes: ["fcen-biologia-2019"],
   },
   {
     nombre: "Licenciatura en Historia",
     nombrecorto: "Historia",
-    planes: ["historia-2024"],
+    planes: ["ffyl-historia-2024"],
   },
   {
     nombre: "Traductorado Público",
     nombrecorto: "Traductorado",
-    planes: ["traductorado-publico-2008"],
+    planes: ["derecho-traductorado-publico-2008"],
   },
   {
     nombre: "Licenciatura en Ciencias Ambientales",
     nombrecorto: "Ciencias Ambientales",
-    planes: ["ciencias-ambientales-2017"],
+    planes: ["fauba-ciencias-ambientales-2017"],
   },
   {
     nombre: "Licenciatura en Economía y Administración Agrarias",
     nombrecorto: "Economía y Adm. Agrarias",
-    planes: ["economia-y-administracion-agrarias-2026"],
+    planes: ["fauba-economia-y-administracion-agrarias-2026"],
   },
   {
     nombre: "Licenciatura en Planificación y Diseño del Paisaje",
     nombrecorto: "Diseño del Paisaje",
-    planes: ["planificacion-y-diseno-del-paisaje-2005"],
+    planes: ["fadu-planificacion-y-diseno-del-paisaje-2005"],
   },
   {
     nombre: "Licenciatura en Terapia Ocupacional",
     nombrecorto: "Terapia Ocupacional",
-    planes: ["terapia-ocupacional-1994"],
+    planes: ["psi-terapia-ocupacional-1994"],
   },
   {
     nombre: "Licenciatura en Musicoterapia",
     nombrecorto: "Musicoterapia",
-    planes: ["musicoterapia-2017"],
+    planes: ["psi-musicoterapia-2017"],
   },
 ];
