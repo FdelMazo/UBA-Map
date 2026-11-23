@@ -3,20 +3,17 @@ import { ChevronDownIcon } from "@chakra-ui/icons";
 import {
   Button,
   Icon,
+  Input,
   Link,
-  Menu,
-  MenuButton,
-  MenuList,
   Tooltip,
   Box,
+  Flex,
   Text,
   Badge,
-  MenuItem,
-  MenuGroup,
-  MenuDivider,
   useColorModeValue,
   BadgeProps,
 } from "@chakra-ui/react";
+import { useCombobox } from "downshift";
 import { CARRERAS } from "../../carreras";
 import { FACULTADES, Plan, TODOS_LOS_PLANES } from "../../facultades";
 import { GraphContext, UserContext } from "../../MapContext";
@@ -43,54 +40,18 @@ const AnoBadge = ({
   );
 };
 
-// Una carrera del dropdown, con un badge por cada plan
-const CarreraItem = ({
-  plan,
-  active = false,
-}: {
-  plan: Plan;
-  active?: boolean;
-}) => {
-  const { user } = React.useContext(UserContext);
-  const { changeCarrera } = React.useContext(GraphContext);
-
-  return (
-    <MenuItem
-      fontSize="md"
-      display="flex"
-      justifyContent="space-between"
-      gap={4}
-      {...(plan.planes.length === 1
-        ? { onClick: () => changeCarrera(plan.planes[0]!) }
-        : { cursor: "default", closeOnSelect: false })}
-    >
-      <Text fontWeight={active ? "bold" : "normal"}>{plan.nombre}</Text>
-      <Box ml={4} flexShrink={0}>
-        {plan.planes.map((c) => {
-          const p = CARRERAS.find((carrera) => carrera.id === c);
-          if (!p) return null;
-          const isActive = user.carrera.id === c;
-          return (
-            <AnoBadge
-              key={c}
-              ano={p.ano}
-              active={isActive}
-              cursor="pointer"
-              onClick={() => changeCarrera(c)}
-              _hover={
-                !isActive && plan.planes.length > 1 ? { border: "1px" } : {}
-              }
-            />
-          );
-        })}
-      </Box>
-    </MenuItem>
-  );
-};
+const normalizar = (s: string) =>
+  s
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase();
 
 // Componente para elegir carrera
 const DropdownCarreras = () => {
   const { user } = React.useContext(UserContext);
+  const { changeCarrera } = React.useContext(GraphContext);
+  const [busqueda, setBusqueda] = React.useState("");
+  const inputRef = React.useRef<HTMLInputElement>(null);
 
   const carrera = React.useMemo(() => {
     const plan = TODOS_LOS_PLANES.find((p) =>
@@ -115,6 +76,46 @@ const DropdownCarreras = () => {
     );
   }, [carrera.plan]);
 
+  const filtradas = facultades
+    .map((f) => ({
+      nombre: f.nombre,
+      planes: f.planes.flatMap((p) =>
+        normalizar(`${f.nombre} ${f.nombrecorto} ${p.nombre}`).includes(
+          normalizar(busqueda),
+        )
+          ? p.planes.map((id) => ({ id, nombre: p.nombre }))
+          : [],
+      ),
+    }))
+    .filter((f) => f.planes.length);
+  const items = filtradas.flatMap((f) => f.planes);
+
+  // Downshift maneja el teclado (flechas, Enter, Escape) y abrir/cerrar
+  const {
+    isOpen,
+    getToggleButtonProps,
+    getMenuProps,
+    getInputProps,
+    getItemProps,
+    highlightedIndex,
+    setInputValue,
+  } = useCombobox({
+    items,
+    selectedItem: null,
+    itemToString: () => "",
+    defaultHighlightedIndex: 0,
+    onInputValueChange: ({ inputValue }) => setBusqueda(inputValue ?? ""),
+    onSelectedItemChange: ({ selectedItem }) =>
+      selectedItem && changeCarrera(selectedItem.id),
+  });
+
+  React.useEffect(() => {
+    if (isOpen) inputRef.current?.focus();
+    else setInputValue("");
+  }, [isOpen, setInputValue]);
+  const menuBg = useColorModeValue("white", "gray.700");
+  const highlightBg = useColorModeValue("gray.100", "whiteAlpha.200");
+
   const groupTitleProps = {
     textTransform: "uppercase" as const,
     letterSpacing: "wider",
@@ -131,7 +132,7 @@ const DropdownCarreras = () => {
       display="flex"
       alignItems="center"
     >
-      <Menu placement="bottom" isLazy>
+      <Box position="relative">
         <Tooltip
           placement="bottom"
           label={
@@ -149,12 +150,12 @@ const DropdownCarreras = () => {
             )
           }
         >
-          <MenuButton
+          <Button
+            {...getToggleButtonProps()}
             colorScheme="whiteAlpha"
             variant="outline"
             color="white"
             borderRadius="md"
-            as={Button}
             size={{ base: "sm", md: "md" }}
             mr={2}
             rightIcon={<ChevronDownIcon />}
@@ -171,25 +172,69 @@ const DropdownCarreras = () => {
               {carrera.nombre}
             </Box>
             <AnoBadge ano={user.carrera.ano} active={true} />
-          </MenuButton>
+          </Button>
         </Tooltip>
-        <MenuList overflowY="auto" maxHeight="70vh" py={1}>
-          {facultades.map((f, i) => (
-            <React.Fragment key={f.nombrecorto}>
-              {i > 0 && <MenuDivider />}
-              <MenuGroup title={f.nombre} {...groupTitleProps}>
-                {f.planes.map((p) => (
-                  <CarreraItem
-                    key={p.nombrecorto}
-                    plan={p}
-                    active={p === carrera.plan}
-                  />
-                ))}
-              </MenuGroup>
-            </React.Fragment>
-          ))}
-        </MenuList>
-      </Menu>
+        <Box
+          display={isOpen ? "block" : "none"}
+          position="absolute"
+          right={0}
+          mt={1}
+          zIndex="dropdown"
+          w="28rem"
+          maxW="95vw"
+          py={2}
+          bg={menuBg}
+          borderRadius="md"
+          borderWidth={1}
+          boxShadow="lg"
+        >
+          <Box px={3} pb={2}>
+            <Input
+              {...getInputProps({ ref: inputRef })}
+              size="sm"
+              placeholder="Buscar carrera o facultad"
+            />
+          </Box>
+          <Box {...getMenuProps()} as="ul" maxH="70vh" overflowY="auto">
+            {filtradas.map((f) => (
+              <Box as="li" key={f.nombre} listStyleType="none">
+                <Text {...groupTitleProps} px={3} pt={2}>
+                  {f.nombre}
+                </Text>
+                {f.planes.map((item) => {
+                  const index = items.indexOf(item);
+                  const active = item.id === user.carrera.id;
+                  return (
+                    <Flex
+                      {...getItemProps({ item, index })}
+                      key={item.id}
+                      align="center"
+                      justify="space-between"
+                      gap={4}
+                      px={3}
+                      py={1.5}
+                      cursor="pointer"
+                      bg={highlightedIndex === index ? highlightBg : undefined}
+                    >
+                      <Text
+                        fontWeight={active ? "bold" : "normal"}
+                        noOfLines={1}
+                      >
+                        {item.nombre}
+                      </Text>
+                      <AnoBadge
+                        flexShrink={0}
+                        active={active}
+                        ano={CARRERAS.find((c) => c.id === item.id)?.ano ?? 0}
+                      />
+                    </Flex>
+                  );
+                })}
+              </Box>
+            ))}
+          </Box>
+        </Box>
+      </Box>
       <Tooltip
         closeOnClick
         hasArrow
