@@ -126,13 +126,8 @@ const DropdownCarreras = () => {
   };
 
   return (
-    <Box
-      key={user.carrera.id}
-      flexShrink={0}
-      display="flex"
-      alignItems="center"
-    >
-      <Box position="relative">
+    <Box minW={0} display="flex" alignItems="center">
+      <Box minW={0} position="relative">
         <Tooltip
           placement="bottom"
           label={
@@ -157,7 +152,8 @@ const DropdownCarreras = () => {
             color="white"
             borderRadius="md"
             size={{ base: "sm", md: "md" }}
-            mr={2}
+            mr={{ base: 0, md: 2 }}
+            maxW="100%"
             rightIcon={<ChevronDownIcon />}
           >
             {user.carrera.beta && (
@@ -165,10 +161,20 @@ const DropdownCarreras = () => {
                 BETA
               </Badge>
             )}
-            <Box as="span" display={{ base: "inline", md: "none" }}>
+            <Box
+              as="span"
+              overflow="hidden"
+              textOverflow="ellipsis"
+              display={{ base: "inline", md: "none" }}
+            >
               {carrera.nombrecorto}
             </Box>
-            <Box as="span" display={{ base: "none", md: "inline" }}>
+            <Box
+              as="span"
+              overflow="hidden"
+              textOverflow="ellipsis"
+              display={{ base: "none", md: "inline" }}
+            >
               {carrera.nombre}
             </Box>
             <AnoBadge ano={user.carrera.ano} active={true} />
@@ -195,7 +201,12 @@ const DropdownCarreras = () => {
               placeholder="Buscar carrera o facultad"
             />
           </Box>
-          <Box {...getMenuProps()} as="ul" maxH="70vh" overflowY="auto">
+          <Box
+            {...getMenuProps()}
+            as="ul"
+            maxH={{ base: "50vh", md: "70vh" }}
+            overflowY="auto"
+          >
             {filtradas.map((f) => (
               <Box as="li" key={f.nombre} listStyleType="none">
                 <Text {...groupTitleProps} px={3} pt={2}>
@@ -241,7 +252,12 @@ const DropdownCarreras = () => {
         label="Plan de Estudios"
         placement="bottom"
       >
-        <Link color="white" href={user.carrera.link} isExternal>
+        <Link
+          display={{ base: "none", md: "inline" }}
+          color="white"
+          href={user.carrera.link}
+          isExternal
+        >
           <Icon boxSize={{ base: 5, md: 6 }} viewBox="0 0 512 512">
             <path
               fill="currentColor"
